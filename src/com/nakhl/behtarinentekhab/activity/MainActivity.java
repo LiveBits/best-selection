@@ -43,7 +43,6 @@ import com.nakhl.behtarinentekhab.R;
  * 
  */
 
-//test commit
 public class MainActivity extends FullScreenActivity {
 
 	/** Start button. */

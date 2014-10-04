@@ -1,0 +1,664 @@
+<quiz>
+    <levels>
+	    <level id="1" name="Europe" maxAnswer="4">
+			<scorings>
+				<scoring minVal="0" maxVal="30">type one</scoring>
+				<scoring minVal="31" maxVal="60">type two</scoring>
+				<scoring minVal="61" maxVal="100">type three</scoring>
+			</scorings>
+			<score>0</score>
+		    <exercises>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>1. Which country is the flagCountry in central Europe...Country in central Europe...Country in central Europe...</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10"># "build.properties", and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15"># "build.properties", and override values to adapt the script to your</answer>
+			            <answer score="34" unValid="true">Russia</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>2. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>3. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		<level id="2" name="Europe" maxAnswer="4">
+			<scorings>
+				<scoring minVal="0" maxVal="30">type one</scoring>
+				<scoring minVal="31" maxVal="60">type two</scoring>
+				<scoring minVal="61" maxVal="100">type three</scoring>
+			</scorings>
+			<score>0</score>
+		    <exercises>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>1. Which country is the flagCountry in central Europe...Country in central Europe...Country in central Europe...</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10"># "build.properties", and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15"># "build.properties", and override values to adapt the script to your</answer>
+			            <answer score="34" unValid="true">Russia</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>2. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>3. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		<level id="3" name="Europe" maxAnswer="4">
+			<scorings>
+				<scoring minVal="0" maxVal="30">type one</scoring>
+				<scoring minVal="31" maxVal="60">type two</scoring>
+				<scoring minVal="61" maxVal="100">type three</scoring>
+			</scorings>
+			<score>0</score>
+		    <exercises>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>1. Which country is the flagCountry in central Europe...Country in central Europe...Country in central Europe...</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10"># "build.properties", and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15"># "build.properties", and override values to adapt the script to your</answer>
+			            <answer score="34" unValid="true">Russia</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>2. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>3. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		<level id="4" name="Europe" maxAnswer="4">
+			<scorings>
+				<scoring minVal="0" maxVal="30">type one</scoring>
+				<scoring minVal="31" maxVal="60">type two</scoring>
+				<scoring minVal="61" maxVal="100">type three</scoring>
+			</scorings>
+			<score>0</score>
+		    <exercises>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>1. Which country is the flagCountry in central Europe...Country in central Europe...Country in central Europe...</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10"># "build.properties", and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15"># "build.properties", and override values to adapt the script to your</answer>
+			            <answer score="34" unValid="true">Russia</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>2. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>3. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		<level id="5" name="Europe" maxAnswer="4">
+			<scorings>
+				<scoring minVal="0" maxVal="30">type one</scoring>
+				<scoring minVal="31" maxVal="60">type two</scoring>
+				<scoring minVal="61" maxVal="100">type three</scoring>
+			</scorings>
+			<score>0</score>
+		    <exercises>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>1. Which country is the flagCountry in central Europe...Country in central Europe...Country in central Europe...</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10"># "build.properties", and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15"># "build.properties", and override values to adapt the script to your</answer>
+			            <answer score="34" unValid="true">Russia</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>2. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>3. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		<level id="6" name="Europe" maxAnswer="4">
+			<scorings>
+				<scoring minVal="0" maxVal="30">type one</scoring>
+				<scoring minVal="31" maxVal="60">type two</scoring>
+				<scoring minVal="61" maxVal="100">type three</scoring>
+			</scorings>
+			<score>0</score>
+		    <exercises>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>1. Which country is the flagCountry in central Europe...Country in central Europe...Country in central Europe...</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10"># "build.properties", and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15"># "build.properties", and override values to adapt the script to your</answer>
+			            <answer score="34" unValid="true">Russia</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>2. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>3. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		<level id="7" name="Europe" maxAnswer="4">
+			<scorings>
+				<scoring minVal="0" maxVal="30">type one</scoring>
+				<scoring minVal="31" maxVal="60">type two</scoring>
+				<scoring minVal="61" maxVal="100">type three</scoring>
+			</scorings>
+			<score>0</score>
+		    <exercises>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>1. Which country is the flagCountry in central Europe...Country in central Europe...Country in central Europe...</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10"># "build.properties", and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15"># "build.properties", and override values to adapt the script to your</answer>
+			            <answer score="34" unValid="true">Russia</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>2. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>3. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		<level id="8" name="Europe" maxAnswer="4">
+			<scorings>
+				<scoring minVal="0" maxVal="30">type one</scoring>
+				<scoring minVal="31" maxVal="60">type two</scoring>
+				<scoring minVal="61" maxVal="100">type three</scoring>
+			</scorings>
+			<score>0</score>
+		    <exercises>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>1. Which country is the flagCountry in central Europe...Country in central Europe...Country in central Europe...</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10"># "build.properties", and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15"># "build.properties", and override values to adapt the script to your</answer>
+			            <answer score="34" unValid="true">Russia</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>2. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>3. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		<level id="9" name="Europe" maxAnswer="4">
+			<scorings>
+				<scoring minVal="0" maxVal="30">type one</scoring>
+				<scoring minVal="31" maxVal="60">type two</scoring>
+				<scoring minVal="61" maxVal="100">type three</scoring>
+			</scorings>
+			<score>0</score>
+		    <exercises>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>1. Which country is the flagCountry in central Europe...Country in central Europe...Country in central Europe...</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10"># "build.properties", and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15"># "build.properties", and override values to adapt the script to your</answer>
+			            <answer score="34" unValid="true">Russia</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>2. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>3. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		<level id="10" name="Europe" maxAnswer="4">
+			<scorings>
+				<scoring minVal="0" maxVal="30">type one</scoring>
+				<scoring minVal="31" maxVal="60">type two</scoring>
+				<scoring minVal="61" maxVal="100">type three</scoring>
+			</scorings>
+			<score>0</score>
+		    <exercises>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>1. Which country is the flagCountry in central Europe...Country in central Europe...Country in central Europe...</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10"># "build.properties", and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15"># "build.properties", and override values to adapt the script to your</answer>
+			            <answer score="34" unValid="true">Russia</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>2. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>3. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		<level id="11" name="Europe" maxAnswer="4">
+			<scorings>
+				<scoring minVal="0" maxVal="30">type one</scoring>
+				<scoring minVal="31" maxVal="60">type two</scoring>
+				<scoring minVal="61" maxVal="100">type three</scoring>
+			</scorings>
+			<score>0</score>
+		    <exercises>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>1. Which country is the flagCountry in central Europe...Country in central Europe...Country in central Europe...</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10"># "build.properties", and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15"># "build.properties", and override values to adapt the script to your</answer>
+			            <answer score="34" unValid="true">Russia</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>2. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>3. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		<level id="12" name="Europe" maxAnswer="4">
+			<scorings>
+				<scoring minVal="0" maxVal="30">type one</scoring>
+				<scoring minVal="31" maxVal="60">type two</scoring>
+				<scoring minVal="61" maxVal="100">type three</scoring>
+			</scorings>
+			<score>0</score>
+		    <exercises>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>1. Which country is the flagCountry in central Europe...Country in central Europe...Country in central Europe...</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10"># "build.properties", and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your,
+											and override values to adapt the script to your</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15"># "build.properties", and override values to adapt the script to your</answer>
+			            <answer score="34" unValid="true">Russia</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>2. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			        <question>
+						<image>poland</image>
+						<text>3. Which country is the flag</text>
+					</question>
+			        <tip>Country in central Europe...</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="10">Poland</answer>
+			            <answer score="20">England</answer>
+			            <answer score="15">Germany</answer>
+			            <answer score="34">Russia</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+	</levels>
+</quiz>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="button_margin">10dp</dimen>
+    <dimen name="button_radius">5dp</dimen>
+    <dimen name="score_font_size">34sp</dimen>
+
+    <item name="exercise_question_image_scale_factor" format="float" type="dimen">0.0000017</item>
+    <item name="exercise_answer_image_scale_factor" format="float" type="dimen">0.0000017</item>
+    
+</resources>

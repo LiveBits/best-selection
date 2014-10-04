@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:shape="rectangle" >
+
+    <solid android:color="@color/button_ans_pressed" />
+
+    <gradient
+        android:angle="270"
+        android:endColor="#bb6008"
+        android:startColor="#f3ae1b" />
+
+    <corners
+        android:bottomLeftRadius="@dimen/button_radius"
+        android:bottomRightRadius="@dimen/button_radius"
+        android:topLeftRadius="@dimen/button_radius"
+        android:topRightRadius="@dimen/button_radius" />
+
+</shape>

@@ -1,0 +1,56 @@
+/*
+ * Copyright (c) 2013, Maciej Laskowski. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License version 2 only, as
+ * published by the Free Software Foundation.  
+ * 
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+ * version 2 for more details (a copy is included in the LICENSE file that
+ * accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License version
+ * 2 along with this work; if not, write to the Free Software Foundation,
+ * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ *
+ * Please contact mlaskowsk@gmail.com if you need additional information
+ * or have any questions.
+ */
+
+package com.nakhl.behtarinentekhab.model.entity;
+
+import java.util.List;
+
+import org.simpleframework.xml.ElementList;
+import org.simpleframework.xml.Root;
+
+/**
+ * Root element of Quiz structure. Main XML element.
+ * 
+ * @author Maciej Laskowski
+ * 
+ */
+@Root
+public class Quiz {
+
+	/** List of levels. */
+	@ElementList
+	private List<Level> levels;
+
+	public List<Level> getLevels() {
+		return levels;
+	}
+
+	public void setLevels(List<Level> levels) {
+		this.levels = levels;
+	}
+
+	@Override
+	public String toString() {
+		return "Quiz [levels=" + levels + "]";
+	}
+
+}

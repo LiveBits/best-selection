@@ -22,7 +22,7 @@
 
 package com.nakhl.behtarinentekhab.activity;
 
-import info.hoang8f.widget.FButton;
+
 import roboguice.inject.InjectView;
 import android.app.AlertDialog;
 import android.app.Dialog;

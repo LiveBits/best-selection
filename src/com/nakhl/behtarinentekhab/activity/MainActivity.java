@@ -22,7 +22,6 @@
 
 package com.nakhl.behtarinentekhab.activity;
 
-
 import roboguice.inject.InjectView;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -42,7 +41,7 @@ import com.nakhl.behtarinentekhab.R;
  * @author Maciej Laskowski
  * 
  */
-
+//test comment
 public class MainActivity extends FullScreenActivity {
 
 	/** Start button. */

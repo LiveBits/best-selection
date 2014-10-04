@@ -42,6 +42,8 @@ import com.nakhl.behtarinentekhab.R;
  * @author Maciej Laskowski
  * 
  */
+
+//test commit
 public class MainActivity extends FullScreenActivity {
 
 	/** Start button. */

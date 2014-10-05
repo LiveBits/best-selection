@@ -73,6 +73,7 @@ import com.nakhl.behtarinentekhab.utility.ImageUtility;
  * @author Maciej Laskowski
  * 
  */
+//test comment
 public class ExerciseActivity extends FullScreenActivity {
 
 	/** Exercise's level. */

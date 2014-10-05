@@ -34,7 +34,11 @@
     <string name="positive_ans">Yes</string>
     <string name="negative_ans">No</string>
     <string name="logoText">گروه برنامه نویسی نخل</string>
-
+    <string name="pref_font">تنظیمات قلم</string>
+    <string name="pref_font_name">نام قلم</string>
+    <string name="pref_font_size">اندازه ی قلم</string>
+    <string name="pref_wallpaper">تنظیمات پس زمینه</string>
+    <string name="pref_wallpaper_name">پس زمینه</string>
     <!-- Do not change during translation -->
     <string name="exercise_answers_buttons_weight">6</string>
 

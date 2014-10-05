@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_font" >
+        <ListPreference
+            android:entries="@array/fontNames"
+            android:entryValues="@array/fontNames"
+            android:key="pref_font_name"
+            android:summary="@string/pref_font_name"
+            android:title="@string/pref_font_name" />
+        <ListPreference
+            android:entries="@array/fontSizes"
+            android:entryValues="@array/fontSizes"
+            android:key="pref_font_size"
+            android:summary="@string/pref_font_size"
+            android:title="@string/pref_font_size" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_wallpaper" >
+        <ListPreference
+            android:entries="@array/wallpapers"
+            android:entryValues="@array/wallpapers"
+            android:key="pref_wallpaper"
+            android:summary="@string/pref_wallpaper"
+            android:title="@string/pref_wallpaper_name" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

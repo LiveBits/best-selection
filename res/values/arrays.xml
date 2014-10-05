@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="fontNames">
+        <item name="Nazazin">نازنین</item>
+        <item name="Zar">زر</item>
+        <item name="Morvarid">مروارید</item>
+    </string-array>
+    <string-array name="fontSizes">
+        <item name="20">20dp</item>
+        <item name="22">22dp</item>
+        <item name="24">24dp</item>
+        <item name="26">26dp</item>
+        <item name="28">28dp</item>
+        <item name="30">30dp</item>
+    </string-array>
+    <string-array name="wallpapers">
+        <item name="mah">ماه</item>
+        <item name="khorshid">خورشید</item>
+        <item name="falak">فلک</item>
+    </string-array>
+
+</resources>

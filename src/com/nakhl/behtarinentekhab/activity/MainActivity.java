@@ -29,6 +29,9 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -74,6 +77,24 @@ public class MainActivity extends FullScreenActivity {
 		initButtons();
 
 		// twitterBtn = (FButton) findViewById(R.id.f_twitter_button);
+	}
+
+	/* Menu */
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.main, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		if (item.getItemId() == R.id.action_settings) {
+			Intent intent = new Intent(MainActivity.this,
+					UserSettingsActivity.class);
+			startActivity(intent);
+		}
+		return super.onOptionsItemSelected(item);
 	}
 
 	/**

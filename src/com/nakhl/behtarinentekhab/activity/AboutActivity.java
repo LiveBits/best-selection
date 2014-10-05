@@ -11,6 +11,6 @@ public class AboutActivity extends FullScreenActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_about);
-		
+		//another test comment
 	}
 }

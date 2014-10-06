@@ -41,7 +41,7 @@ import com.nakhl.behtarinentekhab.R;
  * @author Maciej Laskowski
  * 
  */
-//test comment
+// test comment
 public class MainActivity extends FullScreenActivity {
 
 	/** Start button. */
@@ -52,13 +52,19 @@ public class MainActivity extends FullScreenActivity {
 	@InjectView(R.id.buttonMoreGames)
 	private Button buttonMoreGames;
 
+	/** About button. */
+	@InjectView(R.id.buttonAbout)
+	private Button buttonAbout;
+
 	/** Exit button */
 	@InjectView(R.id.buttonExit)
 	private Button buttonExit;
-	
-	//private FButton twitterBtn;
 
-	/* (non-Javadoc)
+	// private FButton twitterBtn;
+
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see android.app.Activity#onCreate(android.os.Bundle)
 	 */
 	@Override
@@ -66,20 +72,32 @@ public class MainActivity extends FullScreenActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		initButtons();
-		
-		//twitterBtn = (FButton) findViewById(R.id.f_twitter_button);
+
+		// twitterBtn = (FButton) findViewById(R.id.f_twitter_button);
 	}
 
 	/**
 	 * Initialize buttons.
 	 */
 	private void initButtons() {
-		// Start game
+		// Start quiz
 		buttonStart.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(getApplicationContext(), LevelsActivity.class);
+				Intent intent = new Intent(getApplicationContext(),
+						LevelsActivity.class);
+				startActivity(intent);
+			}
+		});
+
+		// About
+		buttonAbout.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(getApplicationContext(),
+						AboutActivity.class);
 				startActivity(intent);
 			}
 		});
@@ -107,12 +125,14 @@ public class MainActivity extends FullScreenActivity {
 
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see android.app.Activity#onBackPressed()
 	 */
 	@Override
 	public void onBackPressed() {
-		//finish();
+		// finish();
 		createExitDialog().show();
 	}
 
@@ -122,22 +142,28 @@ public class MainActivity extends FullScreenActivity {
 	 * @return exit dialog element
 	 */
 	private Dialog createExitDialog() {
-		return new AlertDialog.Builder(this).setTitle(getString(R.string.exit_dialog_header))
+		return new AlertDialog.Builder(this)
+				.setTitle(getString(R.string.exit_dialog_header))
 				.setMessage(getString(R.string.exit_dialog_text))
-				.setPositiveButton(getString(R.string.positive_ans), new DialogInterface.OnClickListener() {
-					@Override
-					public void onClick(DialogInterface dialog, int which) {
-						// Exit application
-						finish();
-					}
-				}).setNegativeButton(getString(R.string.negative_ans), new DialogInterface.OnClickListener() {
-					@Override
-					public void onClick(DialogInterface dialog, int which) {
-						// Do nothing
-						return;
+				.setPositiveButton(getString(R.string.positive_ans),
+						new DialogInterface.OnClickListener() {
+							@Override
+							public void onClick(DialogInterface dialog,
+									int which) {
+								// Exit application
+								finish();
+							}
+						})
+				.setNegativeButton(getString(R.string.negative_ans),
+						new DialogInterface.OnClickListener() {
+							@Override
+							public void onClick(DialogInterface dialog,
+									int which) {
+								// Do nothing
+								return;
 
-					}
-				}).create();
+							}
+						}).create();
 	}
 
 }

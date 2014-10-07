@@ -146,7 +146,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="44"
                     android:background="@drawable/button_ans_main"
-                    android:text="@string/answer" />
+                    android:text="@string/answer"
+                    android:visibility="gone" />
 
                 <RelativeLayout
                     android:layout_width="0dp"
@@ -176,7 +177,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="44"
                     android:background="@drawable/button_ans_main"
-                    android:text="@string/answer" />
+                    android:text="@string/answer"
+                    android:visibility="gone" />
 
                 <RelativeLayout
                     android:layout_width="0dp"
@@ -206,7 +208,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="44"
                     android:background="@drawable/button_ans_main"
-                    android:text="@string/answer" />
+                    android:text="@string/answer"
+                    android:visibility="gone" />
 
                 <RelativeLayout
                     android:layout_width="0dp"

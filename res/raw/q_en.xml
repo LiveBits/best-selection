@@ -1,61 +1,252 @@
 <quiz>
     <levels>
-	    <level id="1" name="Europe" maxAnswer="4">
+	    <level id="1" name="با چه کسی ازدواج کنیم؟" maxAnswer="4">
 			<scorings>
-				<scoring minVal="0" maxVal="30">type one</scoring>
-				<scoring minVal="31" maxVal="60">type two</scoring>
-				<scoring minVal="61" maxVal="100">type three</scoring>
+				<scoring minVal="5" maxVal="8">ابتدا باید به این سؤال پاسخ دهید که آیا معنا و مفهوم واقعی زندگی مشترك و ارتباط دوجانبه را به درستی درك كرده‌اید؟ اگر پاسخ‌تان به این سؤال منفی است (كه حتما همین‌طور است، چون امتیازات شما نمایانگر آن است) قبل از تصمیم‌گیری برای ازدواج، باید به زندگی مشترك آرام و پر از تفاهم زوج‌های اطراف‌تان دقیق شوید و راهكارهای مدبرانه آنها را فرابگیرید. متأسفانه از قدرت تصمیم‌گیری بالایی برخوردار نیستید و حرف‌های دیگران به سرعت و به سهولت روی‌تان اثر می‌كنند، بدون اینكه پیرامون آنها بیندیشید و بعد از كمی جرح و تعدیل در آنها، اقدام كنید. زندگی مشترك مانند خیابانی دوطرفه است كه باید حق و حقوق طرفین در آن به طور یكسان و مساوی رعایت شود وگرنه مشكلات و موانعی بر سر راه‌تان قد علم می‌كنند كه حل و رفع آنها غیر ممكن است. شما اصلا آمادگی برای ازدواج ندارید و راه درازی برای شناخت خود در پیش دارید که این موضوع را جدی بگیرید.</scoring>
+				<scoring minVal="9" maxVal="12">شما فردی سرسخت و خودرأی هستید و بر اعتقادات و باورهای ریشه‌دار و عمیق‌تان به‌شدت اصرار می‌ورزید و مایلید آنها را در زندگی مشترك‌تان اعمال كنید. این به شرطی خوب است كه ابتدا، بتوانید به تفاهمی با همسرتان در این زمینه دست یابید و بعد از گذشت چند سال از زندگی مشترك‌تان و شناخت هرچه بیشتر یكدیگر، با هم فكری همسرتان آنها را با در نظر گرفتن وضعیت ارتباط‌تان، به كار گیرید. متأسفانه هنگام مواجهه با مشكلات و موانع به سرعت دست و پای‌تان را گم می‌كنید و قادر نیستید بدون گرفتن كمك فكری از اطرافیان‌تان به رفع و حل آنها بپردازید. شما کاملا برای ازدواج و تشکیل یک زندگی مشترک آماده نیستید و بهتر است بیشتر روی نقاط ضعف خود کار کنید.</scoring>
+				<scoring minVal="13" maxVal="16">شما از روحیه‌ای فداكار و ایثارگر برخوردارید ولی مایلید همسرتان نیز به موقع شما را درك كند و از خودگذشتگی نشان دهد. ممكن است، هنگام مواجهه با مشكلات، ابتدا كمی خودتان را ببازید و دچار حالت سردرگمی و بلاتكلیفی شوید، ولی خیلی زود به خودتان می‌آیید و اوضاع را به بهترین نحو، سروسامان می‌دهید. متأسفانه در هنگام پذیرفتن اشتباه‌ها و خطاهای‌تان، كمی سرسخت و لجوجانه عمل می‌كنید ولی با كمی تأمل، سبك و سنگین كردن جوانب امر، قادرید به راهكارهایی مناسب دست یابید و بر موانع و مشكلات فایق آیید. بهتر است در تصمیم برای ازدواج عجله نکنید اما در فکرش باشید.</scoring>
+				<scoring minVal="17" maxVal="20">به شما تبریك می‌گوییم! شما به خوبی از نقاط ضعف و قوت شخصیت خودتان آگاهید و معنا و مفهوم واقعی زندگی مشترك و همسرداری را كاملا و به خوبی درك كرده‌اید. شما می‌دانید هر ارتباط مشتركی از فراز و نشیب‌های خاصی برخوردار است و قادرید خودتان را با آنها هماهنگ و سازگار كنید و مشكلات و موانع را از سر راه بردارید. هنگام مواجهه با یك اختلاف نظر یا اختلاف سلیقه با همسرتان، ابتدا خود را به جای او می‌گذارید و از دریچه دید او به مسائل می‌نگرید، اشتباه‌های خود را به‌راحتی می‌پذیرید و در صورت لزوم حاضرید مصالحه و گذشت كنید. قطعا با این روحیه ایثار و همدلی كه شما دارید، حتی قادرید كوه را از جای خود بلند كنید و از یك زندگی مشترك پر از صلح و صفا و آرامش برخوردار باشید و این نشان می‌دهد که شما آمادگی لازم و کامل را برای ازدواج دارید.</scoring>
 			</scorings>
 			<score>0</score>
 			<intros>
-				<intro>introduction part 1</intro>
-				<intro>introduction part 2</intro>
-				<intro>introduction part 3</intro>
+				<intro>دو تست روانشناسی که نشان می‌دهد چه زمانی برای ازدواج شما مناسب است و با چه جور آدمی؟!</intro>
+				<intro>ازدواج کردن فقط به این دلیل که فکر کنیم زمانش رسیده، ایده کاملا اشتباهی است. هرکس باید زمانی ازدواج کند که از نظر عقلی و احساسی آمادگی پذیرش زندگی جدید را داشته باشد. در هیچ کشوری و با هیچ فرهنگی، یک سن مناسب جادویی و خاص برای ازدواج وجود ندارد.</intro>
+				<intro>در سال‌های اخیر در تمام کشورها با فرهنگ‌های مختلف، متوسط سن ازدواج نسبت به سالیان گذشته تفاوت کرده و افزایش را نشان می‌دهد. در بین ما افرادی وجود دارند که مجردند و ترجیح می‌دهند هرچه زودتر تشکیل خانواده بدهند اما در این بین هستند اشخاصی که دوست دارند همچنان مجرد بمانند یا دیرتر ازدواج کنند. باید اشاره داشت در بیشتر افرادی که تشکیل خانواده می‌دهند میل به ازدواج احساس می‌شود، یعنی زمانی که این احساس در آنها به وجود آمد، تشکیل خانواده می‌دهند… .</intro>
+				<intro>شاید شما بپرسید، این نیاز را چگونه باید در وجود خودمان بشناسیم تا ازدواج کنیم و آیا اصلا چنین احساسی در ما به وجود می‌آید یا نه؟ تست‌های زیر را پاسخ دهید تا متوجه شوید که در وجودتان چنین میلی دارید یا خیر؟</intro>
 			</intros>
 		    <exercises>
-			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			    <exercise questionType="TEXT" answerType="TEXT">
 			        <question>
-						<image>poland</image>
-						<text>1. Which country is the flagCountry in central Europe...Country in central Europe...Country in central Europe...</text>
+						<text> آیا زمانی که مادر و پدری را به همراه فرزند کوچک‌شان می‌بینید، غبطه می‌خورید؟</text>
 					</question>
-			        <tip>Country in central Europe...</tip>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
 					<score>0</score>
 			        <answers>
-			            <answer score="10"># "build.properties", and override values to adapt the script to your,
-											and override values to adapt the script to your,
-											and override values to adapt the script to your,
-											and override values to adapt the script to your</answer>
-			            <answer score="20">England</answer>
-			            <answer score="15"># "build.properties", and override values to adapt the script to your</answer>
-			            <answer score="34" unValid="true">Russia</answer>
+			            <answer score="2">بله</answer>
+			            <answer score="0">خیر</answer>
+			            <answer score="1">گاهی اوقات</answer>
+			            <answer score="0" unValid="true">a</answer>
 			        </answers>
 			    </exercise>
-			    <exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+			    <exercise questionType="TEXT" answerType="TEXT">
 			        <question>
-						<image>poland</image>
-						<text>2. Which country is the flag</text>
+						<text>به نظر شما، بهترین شیوه برای اینكه اطمینان یابید كه طرف مقابل‌تان كاملا برازنده و مناسب حال شما است، چیست؟</text>
 					</question>
-			        <tip>Country in central Europe...</tip>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
 					<score>0</score>
 			        <answers>
-			            <answer score="10">Poland</answer>
-			            <answer score="20">England</answer>
-			            <answer score="15">Germany</answer>
-			            <answer score="34">Russia</answer>
+			            <answer score="3">اینكه خواسته‌‌ها و سلایق‌تان در زندگی، عینا مثل هم هستند.</answer>
+			            <answer score="2"> اینكه شما در این ارتباط، همیشه شاد و راضی هستید و هیچ اختلاف نظر و مشكلی بین‌تان وجود ندارد.</answer>
+			            <answer score="4">اینكه به اتفاق هم با مشكلات مواجه می‌شوید و مبارزه می‌كنید و روز به روز بیشتر به یكدیگر نزدیك می‌شوید.</answer>
+			            <answer score="1">اینكه والدین و خانواده‌تان، او را تایید می‌كنند.</answer>
 			        </answers>
 			    </exercise>
-				<exercise questionType="TEXT_AND_IMAGE" answerType="TEXT">
+				<exercise questionType="TEXT" answerType="TEXT">
 			        <question>
-						<image>poland</image>
-						<text>3. Which country is the flag</text>
+						<text> آیا زمانی که یک زوج جوان را در حال خنده می‌بینید، افسوس می‌خورید؟</text>
 					</question>
-			        <tip>Country in central Europe...</tip>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
 					<score>0</score>
 			        <answers>
-			            <answer score="10">Poland</answer>
-			            <answer score="20">England</answer>
-			            <answer score="15">Germany</answer>
-			            <answer score="34">Russia</answer>
+			            <answer score="2">بله</answer>
+			            <answer score="0">خیر</answer>
+			            <answer score="1">گاهی اوقات</answer>
+			            <answer score="0" unValid="true">a</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text> به نظر شما زوج‌‌ها از چه طریقی قادرند به بهترین نحو، مشكلات و مسائل مهم زندگی مشترك‌شان را حل و برطرف كنند؟</text>
+					</question>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="3"> اینكه ابتدا مشخص كنند كه چه كسی در اشتباه است و حق با كدام‌یك است.</answer>
+			            <answer score="2">حتی در صورت ناراحتی و نارضایتی شدید، باید مدام و همواره در مورد آنها با یكدیگر صحبت و تبادل نظر كنند.</answer>
+			            <answer score="4">آنها را به حال خود رها كنند و منتظر بمانند تا اوضاع خود به خود بهبود یابد.</answer>
+			            <answer score="1">تمام حواس و توجه خود را روی آنها متمركز كنند و گوش دل و جان به حرف‌‌ها و پیشنهادهای یكدیگر بدهند.</answer>
+			        </answers>
+			    </exercise>				
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text> آیا همچون گذشته از اوقات تنهایی‌تان لذت می‌برید؟</text>
+					</question>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">بله</answer>
+			            <answer score="0">خیر</answer>
+			            <answer score="1">گاهی اوقات</answer>
+			            <answer score="0" unValid="true">a</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text> در زندگی مشترك زوج‌ها، ممكن است تفاوت‌ها، اختلاف‌نظرها و مشكلاتی قد علم كنند. اینها:</text>
+					</question>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2"> نمایانگر و علامتی دال بر این حقیقت است كه لازم است تغییر و تحولاتی در همسرتان به وجود آورید.</answer>
+			            <answer score="4">دلایل و عللی است كه باعث می‌شود گذشت و سازش خود را به یكدیگر نشان دهید و در جهت بهبود ارتباط‌تان بیشتر بكوشید.</answer>
+			            <answer score="1">به منزله علائم هشداردهنده‌ای است كه ثابت می‌كند همسرتان مناسب حال و برازنده شما نیست و به دردتان نمی‌خورد.</answer>
+			            <answer score="3">به منزله علائم و نشانه‌هایی است كه به ما می‌گوید زمان آن فرارسیده است كه چیزهای جدیدی یاد بگیریم و به مرحله رشد و شكوفایی دست پیدا كنیم.</answer>
+			        </answers>
+			    </exercise>	
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text> زمانی که در جمع دوستان متاهل هستید، به خود می‌گویید ای کاش من هم متاهل بودم؟</text>
+					</question>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">بله</answer>
+			            <answer score="0">خیر</answer>
+			            <answer score="1">گاهی اوقات</answer>
+			            <answer score="0" unValid="true">a</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text> آیا شده تا به حال حضور شخصی از جنس مخالف، شما را دگرگون کند؟</text>
+					</question>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">بله</answer>
+			            <answer score="0">خیر</answer>
+			            <answer score="1">گاهی اوقات</answer>
+			            <answer score="0" unValid="true">a</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>زوج‌هایی كه همیشه رضایت خاطر، خرسندی، خشنودی و شادمانی‌شان را با یكدیگر تقسیم می‌كنند با زوج‌هایی متفاوت هستند كه دائما ابراز نارضایتی و ناراحتی می‌كنند و دل‌شان با یكدیگر نیست. به نظر شما، تفاوت اصلی آنها در چیست؟</text>
+					</question>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">زوج‌های گروه اول، هرگز عصبانی نمی‌شوند، جرو بحث راه نمی‌اندازند و دعوا و مرافعه نمی‌كنند و همواره خونسردی و آرامش خود را حفظ می‌كنند و خویشتن‌دار هستند.</answer>
+			            <answer score="3">زوج های گروه اول به خراب شدن اوضاع دامن نمی‌زنند و در واقع در زندگی‌شان، موش نمی‌دوانند.</answer>
+			            <answer score="1">زوج‌های گروه اول مسائل و مشكلات، تفاوت‌‌ها و اختلاف‌نظرهای كمتری دارند، در نتیجه بیشتر فرصت پیدا می‌كنند كه به یكدیگر برسند و از زندگی‌شان لذت واقعی ببرند.</answer>
+			            <answer score="4">زوج‌های گروه اول، برای حل و رفع مسائل و مشكلات موجود در زندگی مشترك‌شان از ابزار، تجهیزات، شگردها، راهكارها و تدابیر زیركانه‌تر و بهتری برخوردارند.</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text> آیا تاکنون به این موضوع فکر کرده‌اید که تنهایی دیگر بس است؟</text>
+					</question>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">بله</answer>
+			            <answer score="0">خیر</answer>
+			            <answer score="1">گاهی اوقات</answer>
+			            <answer score="0" unValid="true">a</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>آیا تاکنون برای تان پیش آمده که شادی‌تان را بخواهید به کسی از جنس مخالف، انتقال دهید؟</text>
+					</question>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">بله</answer>
+			            <answer score="0">خیر</answer>
+			            <answer score="1">گاهی اوقات</answer>
+			            <answer score="0" unValid="true">a</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text> آیا شما موسیقی‌های آرام گوش می‌دهید؟</text>
+					</question>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">بله</answer>
+			            <answer score="0">خیر</answer>
+			            <answer score="1">گاهی اوقات</answer>
+			            <answer score="0" unValid="true">a</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text> آیا شده زمانی که پشت ویترین یک فروشگاه هستید، احساس‌تان به شما بگوید برای کسی هدیه‌ای بخرید؟</text>
+					</question>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">بله</answer>
+			            <answer score="0">خیر</answer>
+			            <answer score="1">گاهی اوقات</answer>
+			            <answer score="0" unValid="true">a</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text> آیا رنگ زندگی برای شما تغییر کرده است؟</text>
+					</question>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">بله</answer>
+			            <answer score="0">خیر</answer>
+			            <answer score="1">گاهی اوقات</answer>
+			            <answer score="0" unValid="true">a</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>آیا شده در چند ماه اخیر، لبخند فردی، امید را در دل‌تان زنده کند و نگاه شما به زندگی تغییر کند؟</text>
+					</question>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">بله</answer>
+			            <answer score="0">خیر</answer>
+			            <answer score="1">گاهی اوقات</answer>
+			            <answer score="0" unValid="true">a</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>زمانی که پدرو مادرتان می‌گویند، دیگر زمان ازدواج فرارسیده است، اخم نمی‌کنید؟</text>
+					</question>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">بله</answer>
+			            <answer score="0">خیر</answer>
+			            <answer score="1">گاهی اوقات</answer>
+			            <answer score="0" unValid="true">a</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>آیا به‌تازگی در خیال‌تان مراسم خواستگاری را مرور می‌کنید؟</text>
+					</question>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">بله</answer>
+			            <answer score="0">خیر</answer>
+			            <answer score="1">گاهی اوقات</answer>
+			            <answer score="0" unValid="true">a</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>آیا اخیرا برای‌تان پیش آمده عاشق کسی شده باشید اما حجب و حیا اجازه ندهد، آن را با او در میان بگذارید؟</text>
+					</question>
+			        <tip>با چه کسی ازدواج کنیم؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">بله</answer>
+			            <answer score="0">خیر</answer>
+			            <answer score="1">گاهی اوقات</answer>
+			            <answer score="0" unValid="true">a</answer>
 			        </answers>
 			    </exercise>
 		    </exercises>

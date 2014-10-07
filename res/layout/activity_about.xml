@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="Nakhl logo"
-            android:src="@drawable/logo" />
+            android:src="@drawable/nakhl_logo" />
 
         <TextView
             android:id="@+id/tvGroupLogo"
@@ -39,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:background="@drawable/hadis_textview"
+            android:background="@drawable/entekhab_textview"
             android:clickable="true"
             android:layoutDirection="rtl"
             android:shadowColor="#00ff88"

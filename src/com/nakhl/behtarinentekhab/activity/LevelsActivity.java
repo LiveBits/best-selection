@@ -65,35 +65,10 @@ public class LevelsActivity extends FullScreenActivity {
 		LevelsAdapter adapter = new LevelsAdapter(this, R.layout.list_item_row,
 				levels);
 		listContainer = (LinearLayout) findViewById(R.id.listLevelsContainer);
-		//satContainer = (LinearLayout) findViewById(R.id.satContainer);
 		
 		ListView listView = (ListView) listContainer
 				.findViewById(R.id.listLevels);
 		listView.setAdapter(adapter);
-
-//		SatelliteMenu menu = (SatelliteMenu) satContainer.findViewById(R.id.menu);
-//
-//		// Set from XML, possible to programmatically set
-//		float distance = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
-//				90, getResources().getDisplayMetrics());
-//		menu.setSatelliteDistance((int) distance);
-//		menu.setExpandDuration(500);
-//		menu.setCloseItemsOnClick(true);
-//		menu.setTotalSpacingDegree(120);
-//
-//		List<SatelliteMenuItem> items = new ArrayList<SatelliteMenuItem>();
-//		items.add(new SatelliteMenuItem(4, R.drawable.ic_1));
-//		items.add(new SatelliteMenuItem(4, R.drawable.ic_3));
-//		items.add(new SatelliteMenuItem(4, R.drawable.ic_4));
-//		// items.add(new SatelliteMenuItem(5, R.drawable.sat_item));
-//		menu.addItems(items);
-//
-//		menu.setOnItemClickedListener(new SateliteClickedListener() {
-//
-//			public void eventOccured(int id) {
-//				Log.i("sat", "Clicked on " + id);
-//			}
-//		});
 	}
 
 	/*

@@ -41,6 +41,7 @@ import android.widget.TextView;
 import com.google.inject.Inject;
 import com.nakhl.behtarinentekhab.R;
 import com.nakhl.behtarinentekhab.activity.ExerciseActivity;
+import com.nakhl.behtarinentekhab.activity.IntroActivity;
 import com.nakhl.behtarinentekhab.model.dao.LevelDao;
 import com.nakhl.behtarinentekhab.model.entity.Level;
 
@@ -208,7 +209,7 @@ public class LevelsAdapter extends ArrayAdapter<Level> {
 		@Override
 		public void onClick(View v) {
 			if (unlocked) {
-				Intent intent = new Intent(getContext(), ExerciseActivity.class);
+				Intent intent = new Intent(getContext(), IntroActivity.class);
 				intent.putExtras(b);
 				getContext().startActivity(intent);
 			}

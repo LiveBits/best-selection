@@ -86,7 +86,7 @@ public class ScoreActivity extends FullScreenActivity {
 		}
 		
 		tv.setText(value);
-		tv.setText(tv.getText() + "\n" + score);		
+		tv.setText(tv.getText() + "\n" + score);
 	}
 
 	@Override

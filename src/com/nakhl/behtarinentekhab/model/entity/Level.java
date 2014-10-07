@@ -78,6 +78,11 @@ public class Level {
 	@ForeignCollectionField
 	private Collection<Scoring> scorings;
 
+	/** Intro list */
+	@ElementList
+	@ForeignCollectionField
+	private Collection<Intro> intros;
+	
 	/** Exercises list. */
 	@ElementList
 	@ForeignCollectionField
@@ -147,6 +152,14 @@ public class Level {
 	public void setScorings(Collection<Scoring> scorings) {
 		this.scorings = scorings;
 	}
+	
+	public Collection<Intro> getIntros() {
+		return intros;
+	}
+
+	public void setIntros(Collection<Intro> intros) {
+		this.intros = intros;
+	}
 
 	/**
 	 * Returns next unsolved exercise in cycle for specified
@@ -211,7 +224,7 @@ public class Level {
 
 	@Override
 	public String toString() {
-		return "Level [id=" + id + ", name=" + name + ", maxAnswer=" + maxAnswer + ", scorings=" + scorings + ", exercises=" + exercises
+		return "Level [id=" + id + ", name=" + name + ", maxAnswer=" + maxAnswer + ", scorings=" + scorings + ", intros=" + intros + ", exercises=" + exercises
 				+ ", unlocked=" + unlocked + "]";
 	}
 

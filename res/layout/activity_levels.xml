@@ -8,23 +8,6 @@
     android:orientation="horizontal"
     tools:context=".LevelsActivity" >
 
-<!--     <LinearLayout -->
-<!--         android:id="@+id/satContainer" -->
-<!--         android:layout_width="0px" -->
-<!--         android:layout_height="wrap_content" -->
-<!--         android:layout_gravity="bottom" -->
-<!--         android:layout_weight="1" -->
-<!--         android:gravity="bottom"                     -->
-<!--         android:layout_marginRight="20dp" > -->
-
-<!--         <android.view.ext.SatelliteMenu -->
-<!--             android:id="@+id/menu" -->
-<!--             android:layout_width="wrap_content" -->
-<!--             android:layout_height="wrap_content" -->
-<!--             android:layout_gravity="bottom" -->
-<!--             android:layout_margin="8dp" /> -->
-<!--     </LinearLayout> -->
-
 	<FrameLayout
         android:id="@+id/placeholder_left"
 		android:layout_width="0px"

@@ -86,18 +86,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int tip_button=0x7f020013;
     }
     public static final class id {
-        public static final int action_about=0x7f0b0029;
-        public static final int action_settings=0x7f0b0028;
-        public static final int buttonAbout=0x7f0b001e;
+        public static final int action_about=0x7f0b002a;
+        public static final int action_settings=0x7f0b0029;
+        public static final int buttonAbout=0x7f0b001f;
         public static final int buttonBack=0x7f0b0015;
-        public static final int buttonExit=0x7f0b0021;
-        public static final int buttonMoreGames=0x7f0b0020;
+        public static final int buttonExit=0x7f0b0022;
+        public static final int buttonMoreGames=0x7f0b0021;
         public static final int buttonNext=0x7f0b0017;
         public static final int buttonProgress=0x7f0b0016;
-        public static final int buttonReset=0x7f0b0023;
-        public static final int buttonSetting=0x7f0b001f;
-        public static final int buttonStart=0x7f0b001d;
-        public static final int imageLevelLock=0x7f0b0026;
+        public static final int buttonReset=0x7f0b0024;
+        public static final int buttonSetting=0x7f0b0020;
+        public static final int buttonStart=0x7f0b001e;
+        public static final int imageLevelLock=0x7f0b0027;
         public static final int imageQuestion=0x7f0b0003;
         public static final int imageView1=0x7f0b0000;
         public static final int imgButtonAns0=0x7f0b0010;
@@ -105,23 +105,24 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int imgButtonAns2=0x7f0b0013;
         public static final int imgButtonAns3=0x7f0b0014;
         public static final int imgButtonTip=0x7f0b0005;
-        public static final int imgLogo=0x7f0b0024;
+        public static final int imgLogo=0x7f0b0025;
         public static final int inputAnswer=0x7f0b0007;
         public static final int layoutInputAnswer=0x7f0b0006;
-        public static final int listLevels=0x7f0b001a;
-        public static final int listLevelsContainer=0x7f0b0019;
+        public static final int listLevels=0x7f0b001b;
+        public static final int listLevelsContainer=0x7f0b001a;
         public static final int placeholder1=0x7f0b000a;
-        public static final int placeholder_left=0x7f0b0018;
-        public static final int placeholder_right=0x7f0b001b;
-        public static final int progressBarLevel=0x7f0b0027;
-        public static final int scoreText=0x7f0b0022;
+        public static final int placeholder_left=0x7f0b0019;
+        public static final int placeholder_right=0x7f0b001c;
+        public static final int progressBarLevel=0x7f0b0028;
+        public static final int scoreText=0x7f0b0023;
         public static final int tableAnswerImageB=0x7f0b000e;
         public static final int tableAnswerTextB=0x7f0b0008;
         public static final int tableRow1=0x7f0b000f;
         public static final int tableRow2=0x7f0b0012;
-        public static final int textLevel=0x7f0b0025;
+        public static final int textIntro=0x7f0b0018;
+        public static final int textLevel=0x7f0b0026;
         public static final int textQuestion=0x7f0b0004;
-        public static final int textView1=0x7f0b001c;
+        public static final int textView1=0x7f0b001d;
         public static final int tvAbout=0x7f0b0002;
         public static final int tvGroupLogo=0x7f0b0001;
         public static final int txtButtonAns0=0x7f0b0009;
@@ -138,11 +139,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     public static final class layout {
         public static final int activity_about=0x7f030000;
         public static final int activity_exercise=0x7f030001;
-        public static final int activity_levels=0x7f030002;
-        public static final int activity_main=0x7f030003;
-        public static final int activity_score=0x7f030004;
-        public static final int activity_splash=0x7f030005;
-        public static final int list_item_row=0x7f030006;
+        public static final int activity_intro=0x7f030002;
+        public static final int activity_levels=0x7f030003;
+        public static final int activity_main=0x7f030004;
+        public static final int activity_score=0x7f030005;
+        public static final int activity_splash=0x7f030006;
+        public static final int list_item_row=0x7f030007;
     }
     public static final class menu {
         public static final int levels=0x7f0a0000;
@@ -153,12 +155,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class string {
         public static final int about_app=0x7f080006;
-        public static final int action_about=0x7f08000e;
-        public static final int action_settings=0x7f08000d;
-        public static final int answer=0x7f080015;
+        public static final int action_about=0x7f08000f;
+        public static final int action_settings=0x7f08000e;
+        public static final int answer=0x7f080017;
         public static final int app_name=0x7f080000;
         public static final int app_setting=0x7f080007;
-        public static final int back=0x7f080011;
+        public static final int back=0x7f080013;
         public static final int check_more_games=0x7f080008;
         public static final int check_more_games_url=0x7f080009;
         public static final int default_language=0x7f080003;
@@ -166,25 +168,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /**  Do not change during translation 
  Do not change during translation 
          */
-        public static final int exercise_answers_buttons_weight=0x7f08001e;
+        public static final int exercise_answers_buttons_weight=0x7f080020;
         public static final int exit=0x7f080001;
-        public static final int exit_dialog_header=0x7f08001a;
-        public static final int exit_dialog_text=0x7f08001b;
-        public static final int lock=0x7f080014;
-        public static final int negative_ans=0x7f08001d;
-        public static final int next=0x7f080012;
-        public static final int positive_ans=0x7f08001c;
-        public static final int question=0x7f08000f;
-        public static final int question_image=0x7f080016;
+        public static final int exit_dialog_header=0x7f08001c;
+        public static final int exit_dialog_text=0x7f08001d;
+        public static final int intro=0x7f080011;
+        public static final int lock=0x7f080016;
+        public static final int negative_ans=0x7f08001f;
+        public static final int next=0x7f080014;
+        public static final int positive_ans=0x7f08001e;
+        public static final int question=0x7f080010;
+        public static final int question_image=0x7f080018;
         public static final int rate_game=0x7f08000a;
-        public static final int reset_level=0x7f080019;
-        public static final int score=0x7f080010;
+        public static final int reset_level=0x7f08001b;
+        public static final int score=0x7f080012;
         public static final int start_quiz=0x7f080005;
-        public static final int tip=0x7f080013;
+        public static final int tip=0x7f080015;
+        public static final int title_activity_intro=0x7f08000d;
         public static final int title_activity_levels=0x7f08000c;
         public static final int title_activity_question=0x7f08000b;
-        public static final int title_activity_score=0x7f080017;
-        public static final int wrong_answer=0x7f080018;
+        public static final int title_activity_score=0x7f080019;
+        public static final int wrong_answer=0x7f08001a;
         public static final int xml_prefix=0x7f080004;
     }
     public static final class style {

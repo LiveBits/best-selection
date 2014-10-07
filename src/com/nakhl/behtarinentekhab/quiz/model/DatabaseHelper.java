@@ -47,11 +47,13 @@ import com.nakhl.behtarinentekhab.QuizApplication;
 import com.nakhl.behtarinentekhab.R;
 import com.nakhl.behtarinentekhab.model.dao.AnswerDao;
 import com.nakhl.behtarinentekhab.model.dao.ExerciseDao;
+import com.nakhl.behtarinentekhab.model.dao.IntroDao;
 import com.nakhl.behtarinentekhab.model.dao.LevelDao;
 import com.nakhl.behtarinentekhab.model.dao.QuestionDao;
 import com.nakhl.behtarinentekhab.model.dao.ScoringDao;
 import com.nakhl.behtarinentekhab.model.entity.Answer;
 import com.nakhl.behtarinentekhab.model.entity.Exercise;
+import com.nakhl.behtarinentekhab.model.entity.Intro;
 import com.nakhl.behtarinentekhab.model.entity.Level;
 import com.nakhl.behtarinentekhab.model.entity.Question;
 import com.nakhl.behtarinentekhab.model.entity.Quiz;
@@ -93,6 +95,9 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 
 	@Inject
 	private ScoringDao scoringDao;
+	
+	@Inject
+	private IntroDao introDao;
 
 	@InjectResource(R.string.app_name)
 	private String applicationName;
@@ -131,6 +136,11 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 				scoringDao.create(scoring);
 			}
 			
+			for (Intro intro : level.getIntros()) {
+				intro.setLevel(level);				
+				introDao.create(intro);
+			}
+			
 			for (Exercise exercise : level.getExercises()) {
 				exercise.setLevel(level);
 				questionDao.create(exercise.getQuestion());
@@ -152,6 +162,7 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 		TableUtils.createTable(cs, Question.class);
 		TableUtils.createTable(cs, Answer.class);
 		TableUtils.createTable(cs, Scoring.class);
+		TableUtils.createTable(cs, Intro.class);
 	}
 
 	@Override

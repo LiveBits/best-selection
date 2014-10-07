@@ -35,6 +35,7 @@ import roboguice.inject.InjectView;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.Display;
@@ -118,6 +119,10 @@ public class ExerciseActivity extends FullScreenActivity {
 	/** Answer input field. */
 	@InjectView(R.id.inputAnswer)
 	private EditText inputAnswer;
+	
+	/** question textview field. */
+	@InjectView(R.id.textQuestion)
+	private TextView tvQuestion;
 
 	/** Tip button */
 	@InjectView(R.id.imgButtonTip)
@@ -178,6 +183,8 @@ public class ExerciseActivity extends FullScreenActivity {
 		score = level.getScore();
 		
 		buttonProgress.setText(exercise.getId()+ " / " + level.getExercises().size());
+		
+		tvQuestion.setMovementMethod(new ScrollingMovementMethod());
 		
 		displayExercise(exercise);				
 		
@@ -257,9 +264,8 @@ public class ExerciseActivity extends FullScreenActivity {
 	 *            question text content
 	 */
 	private void displayQuestionText(String text) {
-		TextView tv = (TextView) findViewById(R.id.textQuestion);
-		tv.setVisibility(View.VISIBLE);
-		tv.setText(text);
+		tvQuestion.setVisibility(View.VISIBLE);
+		tvQuestion.setText(text);
 	}
 
 	/**

@@ -8,6 +8,9 @@
 package com.nakhl.behtarinentekhab;
 
 public final class R {
+    public static final class anim {
+        public static final int splash_fading=0x7f040000;
+    }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -19,36 +22,36 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int buttonBarStyle=0x7f010000;
     }
     public static final class color {
-        public static final int app_background=0x7f050001;
-        public static final int black=0x7f05000d;
-        public static final int black_overlay=0x7f050000;
-        public static final int blue=0x7f05000c;
+        public static final int app_background=0x7f060001;
+        public static final int black=0x7f06000d;
+        public static final int black_overlay=0x7f060000;
+        public static final int blue=0x7f06000c;
         /**  #a1e86d 
          */
-        public static final int button_ans_border=0x7f050009;
+        public static final int button_ans_border=0x7f060009;
         /**  #d1d6da 
          */
-        public static final int button_ans_image_pressed=0x7f050008;
+        public static final int button_ans_image_pressed=0x7f060008;
         /**  #ABABAB 
          */
-        public static final int button_ans_normal=0x7f050006;
+        public static final int button_ans_normal=0x7f060006;
         /**  #ABABAB 
          */
-        public static final int button_ans_pressed=0x7f050007;
+        public static final int button_ans_pressed=0x7f060007;
         /**  #a1e86d 
          */
-        public static final int button_border=0x7f050005;
+        public static final int button_border=0x7f060005;
         /**  #d1d6da 
          */
-        public static final int button_image_pressed=0x7f050004;
-        public static final int button_normal=0x7f050002;
+        public static final int button_image_pressed=0x7f060004;
+        public static final int button_normal=0x7f060002;
         /**  #ABABAB 
          */
-        public static final int button_pressed=0x7f050003;
-        public static final int green=0x7f05000b;
+        public static final int button_pressed=0x7f060003;
+        public static final int green=0x7f06000b;
         /**  #ABABAB 
          */
-        public static final int red=0x7f05000a;
+        public static final int red=0x7f06000a;
     }
     public static final class dimen {
         /** 
@@ -56,12 +59,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f060005;
-        public static final int button_margin=0x7f060000;
-        public static final int button_radius=0x7f060001;
-        public static final int exercise_answer_image_scale_factor=0x7f060004;
-        public static final int exercise_question_image_scale_factor=0x7f060003;
-        public static final int score_font_size=0x7f060002;
+        public static final int activity_horizontal_margin=0x7f070005;
+        public static final int button_margin=0x7f070000;
+        public static final int button_radius=0x7f070001;
+        public static final int exercise_answer_image_scale_factor=0x7f070004;
+        public static final int exercise_question_image_scale_factor=0x7f070003;
+        public static final int score_font_size=0x7f070002;
     }
     public static final class drawable {
         public static final int background=0x7f020000;
@@ -86,55 +89,55 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int tip_button=0x7f020013;
     }
     public static final class id {
-        public static final int action_about=0x7f0b002a;
-        public static final int action_settings=0x7f0b0029;
-        public static final int buttonAbout=0x7f0b001f;
-        public static final int buttonBack=0x7f0b0015;
-        public static final int buttonExit=0x7f0b0022;
-        public static final int buttonMoreGames=0x7f0b0021;
-        public static final int buttonNext=0x7f0b0017;
-        public static final int buttonProgress=0x7f0b0016;
-        public static final int buttonReset=0x7f0b0024;
-        public static final int buttonSetting=0x7f0b0020;
-        public static final int buttonStart=0x7f0b001e;
-        public static final int imageLevelLock=0x7f0b0027;
-        public static final int imageQuestion=0x7f0b0003;
-        public static final int imageView1=0x7f0b0000;
-        public static final int imgButtonAns0=0x7f0b0010;
-        public static final int imgButtonAns1=0x7f0b0011;
-        public static final int imgButtonAns2=0x7f0b0013;
-        public static final int imgButtonAns3=0x7f0b0014;
-        public static final int imgButtonTip=0x7f0b0005;
-        public static final int imgLogo=0x7f0b0025;
-        public static final int inputAnswer=0x7f0b0007;
-        public static final int layoutInputAnswer=0x7f0b0006;
-        public static final int listLevels=0x7f0b001b;
-        public static final int listLevelsContainer=0x7f0b001a;
-        public static final int placeholder1=0x7f0b000a;
-        public static final int placeholder_left=0x7f0b0019;
-        public static final int placeholder_right=0x7f0b001c;
-        public static final int progressBarLevel=0x7f0b0028;
-        public static final int scoreText=0x7f0b0023;
-        public static final int tableAnswerImageB=0x7f0b000e;
-        public static final int tableAnswerTextB=0x7f0b0008;
-        public static final int tableRow1=0x7f0b000f;
-        public static final int tableRow2=0x7f0b0012;
-        public static final int textIntro=0x7f0b0018;
-        public static final int textLevel=0x7f0b0026;
-        public static final int textQuestion=0x7f0b0004;
-        public static final int textView1=0x7f0b001d;
-        public static final int tvAbout=0x7f0b0002;
-        public static final int tvGroupLogo=0x7f0b0001;
-        public static final int txtButtonAns0=0x7f0b0009;
-        public static final int txtButtonAns1=0x7f0b000b;
-        public static final int txtButtonAns2=0x7f0b000c;
-        public static final int txtButtonAns3=0x7f0b000d;
+        public static final int action_about=0x7f0c002a;
+        public static final int action_settings=0x7f0c0029;
+        public static final int buttonAbout=0x7f0c001f;
+        public static final int buttonBack=0x7f0c0015;
+        public static final int buttonExit=0x7f0c0022;
+        public static final int buttonMoreGames=0x7f0c0021;
+        public static final int buttonNext=0x7f0c0017;
+        public static final int buttonProgress=0x7f0c0016;
+        public static final int buttonReset=0x7f0c0024;
+        public static final int buttonSetting=0x7f0c0020;
+        public static final int buttonStart=0x7f0c001e;
+        public static final int imageLevelLock=0x7f0c0027;
+        public static final int imageQuestion=0x7f0c0003;
+        public static final int imageView1=0x7f0c0000;
+        public static final int imgButtonAns0=0x7f0c0010;
+        public static final int imgButtonAns1=0x7f0c0011;
+        public static final int imgButtonAns2=0x7f0c0013;
+        public static final int imgButtonAns3=0x7f0c0014;
+        public static final int imgButtonTip=0x7f0c0005;
+        public static final int imgLogo=0x7f0c0025;
+        public static final int inputAnswer=0x7f0c0007;
+        public static final int layoutInputAnswer=0x7f0c0006;
+        public static final int listLevels=0x7f0c001b;
+        public static final int listLevelsContainer=0x7f0c001a;
+        public static final int placeholder1=0x7f0c000a;
+        public static final int placeholder_left=0x7f0c0019;
+        public static final int placeholder_right=0x7f0c001c;
+        public static final int progressBarLevel=0x7f0c0028;
+        public static final int scoreText=0x7f0c0023;
+        public static final int tableAnswerImageB=0x7f0c000e;
+        public static final int tableAnswerTextB=0x7f0c0008;
+        public static final int tableRow1=0x7f0c000f;
+        public static final int tableRow2=0x7f0c0012;
+        public static final int textIntro=0x7f0c0018;
+        public static final int textLevel=0x7f0c0026;
+        public static final int textQuestion=0x7f0c0004;
+        public static final int textView1=0x7f0c001d;
+        public static final int tvAbout=0x7f0c0002;
+        public static final int tvGroupLogo=0x7f0c0001;
+        public static final int txtButtonAns0=0x7f0c0009;
+        public static final int txtButtonAns1=0x7f0c000b;
+        public static final int txtButtonAns2=0x7f0c000c;
+        public static final int txtButtonAns3=0x7f0c000d;
     }
     public static final class integer {
         /**  ORM configuration max eager level 
  DO NOT TOUCH! 
          */
-        public static final int max_eager_level=0x7f070000;
+        public static final int max_eager_level=0x7f080000;
     }
     public static final class layout {
         public static final int activity_about=0x7f030000;
@@ -147,49 +150,50 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int list_item_row=0x7f030007;
     }
     public static final class menu {
-        public static final int levels=0x7f0a0000;
-        public static final int main=0x7f0a0001;
+        public static final int levels=0x7f0b0000;
+        public static final int main=0x7f0b0001;
     }
     public static final class raw {
-        public static final int q_en=0x7f040000;
+        public static final int q_en=0x7f050000;
     }
     public static final class string {
-        public static final int about_app=0x7f080006;
-        public static final int action_about=0x7f08000f;
-        public static final int action_settings=0x7f08000e;
-        public static final int answer=0x7f080017;
-        public static final int app_name=0x7f080000;
-        public static final int app_setting=0x7f080007;
-        public static final int back=0x7f080013;
-        public static final int check_more_games=0x7f080008;
-        public static final int check_more_games_url=0x7f080009;
-        public static final int default_language=0x7f080003;
-        public static final int error=0x7f080002;
+        public static final int about_app=0x7f090006;
+        public static final int action_about=0x7f09000f;
+        public static final int action_settings=0x7f09000e;
+        public static final int answer=0x7f090017;
+        public static final int app_name=0x7f090000;
+        public static final int app_setting=0x7f090007;
+        public static final int back=0x7f090013;
+        public static final int check_more_games=0x7f090008;
+        public static final int check_more_games_url=0x7f090009;
+        public static final int default_language=0x7f090003;
+        public static final int error=0x7f090002;
         /**  Do not change during translation 
  Do not change during translation 
          */
-        public static final int exercise_answers_buttons_weight=0x7f080020;
-        public static final int exit=0x7f080001;
-        public static final int exit_dialog_header=0x7f08001c;
-        public static final int exit_dialog_text=0x7f08001d;
-        public static final int intro=0x7f080011;
-        public static final int lock=0x7f080016;
-        public static final int negative_ans=0x7f08001f;
-        public static final int next=0x7f080014;
-        public static final int positive_ans=0x7f08001e;
-        public static final int question=0x7f080010;
-        public static final int question_image=0x7f080018;
-        public static final int rate_game=0x7f08000a;
-        public static final int reset_level=0x7f08001b;
-        public static final int score=0x7f080012;
-        public static final int start_quiz=0x7f080005;
-        public static final int tip=0x7f080015;
-        public static final int title_activity_intro=0x7f08000d;
-        public static final int title_activity_levels=0x7f08000c;
-        public static final int title_activity_question=0x7f08000b;
-        public static final int title_activity_score=0x7f080019;
-        public static final int wrong_answer=0x7f08001a;
-        public static final int xml_prefix=0x7f080004;
+        public static final int exercise_answers_buttons_weight=0x7f090021;
+        public static final int exit=0x7f090001;
+        public static final int exit_dialog_header=0x7f09001c;
+        public static final int exit_dialog_text=0x7f09001d;
+        public static final int intro=0x7f090011;
+        public static final int lock=0x7f090016;
+        public static final int logoText=0x7f090020;
+        public static final int negative_ans=0x7f09001f;
+        public static final int next=0x7f090014;
+        public static final int positive_ans=0x7f09001e;
+        public static final int question=0x7f090010;
+        public static final int question_image=0x7f090018;
+        public static final int rate_game=0x7f09000a;
+        public static final int reset_level=0x7f09001b;
+        public static final int score=0x7f090012;
+        public static final int start_quiz=0x7f090005;
+        public static final int tip=0x7f090015;
+        public static final int title_activity_intro=0x7f09000d;
+        public static final int title_activity_levels=0x7f09000c;
+        public static final int title_activity_question=0x7f09000b;
+        public static final int title_activity_score=0x7f090019;
+        public static final int wrong_answer=0x7f09001a;
+        public static final int xml_prefix=0x7f090004;
     }
     public static final class style {
         /** 
@@ -208,12 +212,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f090000;
+        public static final int AppBaseTheme=0x7f0a0000;
         /**  Application theme. 
          */
-        public static final int AppTheme=0x7f090001;
-        public static final int FullscreenActionBarStyle=0x7f090003;
-        public static final int FullscreenTheme=0x7f090002;
+        public static final int AppTheme=0x7f0a0001;
+        public static final int FullscreenActionBarStyle=0x7f0a0003;
+        public static final int FullscreenTheme=0x7f0a0002;
     }
     public static final class styleable {
         /** 

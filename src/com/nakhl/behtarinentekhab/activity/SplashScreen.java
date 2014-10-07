@@ -29,7 +29,7 @@ import com.nakhl.behtarinentekhab.R;
 public class SplashScreen extends FullScreenActivity {
 
 	/** Intro textview. */
-	//@InjectView(R.id.imgLogo)
+	@InjectView(R.id.imgLogo)
 	private ImageView ivLogo;
 	
 	/* (non-Javadoc)

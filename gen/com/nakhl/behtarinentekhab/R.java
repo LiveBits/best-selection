@@ -76,10 +76,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int button_pressed=0x7f020009;
         public static final int button_tip=0x7f02000a;
         public static final int closed=0x7f02000b;
-        public static final int hadis_textview=0x7f02000c;
+        public static final int entekhab_textview=0x7f02000c;
         public static final int ic_launcher=0x7f02000d;
-        public static final int logo=0x7f02000e;
-        public static final int main=0x7f02000f;
+        public static final int main=0x7f02000e;
+        public static final int nakhl_logo=0x7f02000f;
         public static final int open=0x7f020010;
         public static final int poland=0x7f020011;
         public static final int tip=0x7f020012;

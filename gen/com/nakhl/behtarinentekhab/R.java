@@ -155,7 +155,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int main=0x7f0b0001;
     }
     public static final class raw {
-        public static final int q_en=0x7f050000;
+        public static final int q_fa=0x7f050000;
     }
     public static final class string {
         public static final int about_app=0x7f090006;

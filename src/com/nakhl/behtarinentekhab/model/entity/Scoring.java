@@ -35,7 +35,7 @@ import com.nakhl.behtarinentekhab.model.dao.ScoringDao;
  * element and DB entity in one.
  * 
  * @author Maciej Laskowski
- * 
+ *  
  */
 @Root
 @DatabaseTable(daoClass = ScoringDao.class)

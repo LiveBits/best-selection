@@ -49,7 +49,7 @@ import com.nakhl.behtarinentekhab.model.entity.Level;
  * Levels list adapter.
  * 
  * @author Maciej Laskowski
- * 
+ *  
  */
 public class LevelsAdapter extends ArrayAdapter<Level> {
 

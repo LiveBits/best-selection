@@ -43,7 +43,7 @@ import com.nakhl.behtarinentekhab.model.dao.LevelDao;
 
 /**
  * Quiz level. It is XML element and DB entity in one.
- * 
+ *  
  * @author Maciej Laskowski
  * 
  */

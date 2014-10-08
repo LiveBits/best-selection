@@ -48,7 +48,7 @@ import com.nakhl.behtarinentekhab.model.entity.Scoring;
  * 
  * @author Maciej Laskowski
  * 
- */
+ */ 
 public class ScoreActivity extends FullScreenActivity {
 
 	@InjectView(R.id.buttonReset)

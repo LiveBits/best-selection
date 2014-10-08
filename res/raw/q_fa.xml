@@ -704,8 +704,7 @@
 			        </answers>
 			    </exercise>
 		    </exercises>
-		</level>
-	
+		</level>	
 		<level id="4" name="هوش احساسی عشق شما چقدر است؟" maxAnswer="4" mostSelected="true">
 			<scorings>
 				<scoring minVal="0" maxVal="0" selectedAnswer="1">EQنامزد شما عالی است.

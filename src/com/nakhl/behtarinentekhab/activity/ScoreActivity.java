@@ -22,7 +22,10 @@
 
 package com.nakhl.behtarinentekhab.activity;
 
+import java.util.Locale;
+
 import roboguice.inject.InjectView;
+import android.R.integer;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -59,6 +62,8 @@ public class ScoreActivity extends FullScreenActivity {
 
 	private Level level;
 
+	private int ans1 = 0, ans2 = 0, ans3 = 0, ans4 = 0, ans5 = 0;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -71,27 +76,114 @@ public class ScoreActivity extends FullScreenActivity {
 		Bundle b = getIntent().getExtras();
 		int score = b.getInt("score");
 		level = levelDao.queryForId(b.getInt("level_id"));
-		
+
 		String value = "";
 		TextView tv = (TextView) findViewById(R.id.scoreText);
-		
-		for (Scoring myScore : level.getScorings()) {
-			int min = myScore.getMinVal();
-			int max = myScore.getMaxVal();
-			if(score >= min && score <= max)
-			{
-				value = myScore.getResult();
-				break;
+
+		if (level.getMostSelected()) {
+			if (level.getMaxAnswer() == 4) {
+				
+				for (Exercise exercise : level.getExercises()) {
+					switch (exercise.getScore()) {
+					case 1:
+						ans1++;
+						break;
+					case 2:
+						ans2++;
+						break;
+					case 3:
+						ans3++;
+						break;
+					case 4:
+						ans4++;
+						break;
+					default:
+						break;
+					}
+				}
+				int max = Math.max(Math.max(ans1, ans2), Math.max(ans3, ans4));
+				int tmp = 0;
+
+				if (max == ans1)
+					tmp = 1;
+				else if (max == ans2)
+					tmp = 2;
+				else if (max == ans3)
+					tmp = 3;
+				else
+					tmp = 4;
+
+				for (Scoring myScore : level.getScorings()) {
+					int sel = myScore.getSelectedAnswer();
+					if (tmp == sel) {
+						value = myScore.getResult();
+						break;
+					}
+				}
+			}else if (level.getMaxAnswer() == 4) {
+				
+				for (Exercise exercise : level.getExercises()) {
+					switch (exercise.getScore()) {
+					case 1:
+						ans1++;
+						break;
+					case 2:
+						ans2++;
+						break;
+					case 3:
+						ans3++;
+						break;
+					case 4:
+						ans4++;
+						break;
+					case 5:
+						ans5++;
+						break;
+					default:
+						break;
+					}
+				}
+				int max = Math.max(Math.max(Math.max(ans1, ans2), Math.max(ans3, ans4)), ans5);
+				int tmp = 0;
+
+				if (max == ans1)
+					tmp = 1;
+				else if (max == ans2)
+					tmp = 2;
+				else if (max == ans3)
+					tmp = 3;
+				else if (max == ans4)
+					tmp = 4;
+				else
+					tmp = 5;
+
+				for (Scoring myScore : level.getScorings()) {
+					int sel = myScore.getSelectedAnswer();
+					if (tmp == sel) {
+						value = myScore.getResult();
+						break;
+					}
+				}
+			}
+		} else {
+
+			for (Scoring myScore : level.getScorings()) {
+				int min = myScore.getMinVal();
+				int max = myScore.getMaxVal();
+				if (score >= min && score <= max) {
+					value = myScore.getResult();
+					break;
+				}
 			}
 		}
-		
+
 		tv.setText(value);
-		tv.setText(tv.getText() + "\n" + score);
 	}
 
 	@Override
 	public void onBackPressed() {
-		Intent intent = new Intent(getApplicationContext(), LevelsActivity.class);
+		Intent intent = new Intent(getApplicationContext(),
+				LevelsActivity.class);
 		intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		startActivity(intent);
 	}
@@ -99,7 +191,7 @@ public class ScoreActivity extends FullScreenActivity {
 	private void initButtons() {
 		// Reset level
 		levelResetButton.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				level.setScore(0);
@@ -111,7 +203,8 @@ public class ScoreActivity extends FullScreenActivity {
 				levelDao.update(level);
 				Bundle bundle = new Bundle();
 				bundle.putInt("level_id", level.getId());
-				Intent intent = new Intent(getApplicationContext(), ExerciseActivity.class);
+				Intent intent = new Intent(getApplicationContext(),
+						ExerciseActivity.class);
 				intent.putExtras(bundle);
 				startActivity(intent);
 			}

@@ -68,6 +68,11 @@ public class Level {
 	@DatabaseField(canBeNull = false)
 	private int maxAnswer;
 
+	/** Level most selected answer. */
+	@Attribute
+	@DatabaseField(canBeNull = true)
+	private boolean mostSelected;
+	
 	/** Scoring element. */
 //	@Element
 //	@DatabaseField(foreign = true, canBeNull = false, foreignAutoRefresh = true, columnName = SCORING_ID_FIELD_NAME)
@@ -119,6 +124,14 @@ public class Level {
 
 	public void setMaxAnswer(int maxAnswer) {
 		this.maxAnswer = maxAnswer;
+	}
+	
+	public boolean getMostSelected() {
+		return mostSelected;
+	}
+
+	public void setMostSelected(Boolean mostSelected) {
+		this.mostSelected = mostSelected;
 	}
 	
 	public Collection<Exercise> getExercises() {
@@ -224,7 +237,7 @@ public class Level {
 
 	@Override
 	public String toString() {
-		return "Level [id=" + id + ", name=" + name + ", maxAnswer=" + maxAnswer + ", scorings=" + scorings + ", intros=" + intros + ", exercises=" + exercises
+		return "Level [id=" + id + ", name=" + name + ", maxAnswer=" + maxAnswer + ", mostSelected=" + mostSelected + ", scorings=" + scorings + ", intros=" + intros + ", exercises=" + exercises
 				+ ", unlocked=" + unlocked + "]";
 	}
 

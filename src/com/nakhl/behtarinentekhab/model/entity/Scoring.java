@@ -53,12 +53,16 @@ public class Scoring {
 	private String result;
 
 	@Attribute
-	@DatabaseField
+	@DatabaseField(canBeNull = true)
 	private int minVal;
 
 	@Attribute
-	@DatabaseField
+	@DatabaseField(canBeNull = true)
 	private int maxVal;
+	
+	@Attribute
+	@DatabaseField(canBeNull = true)
+	private int selectedAnswer;
 
 	/** The level to which exercise belongs. */
 	@DatabaseField(foreign = true, foreignAutoRefresh = true, columnName = LEVEL_ID_FIELD_NAME)
@@ -95,6 +99,14 @@ public class Scoring {
 	public void setMaxVal(int maxVal) {
 		this.maxVal = maxVal;
 	}
+	
+	public int getSelectedAnswer() {
+		return selectedAnswer;
+	}
+
+	public void setSelectedAnswer(int selectedAnswer) {
+		this.selectedAnswer = selectedAnswer;
+	}
 
 	public Level getLevel() {
 		return level;
@@ -107,7 +119,7 @@ public class Scoring {
 	@Override
 	public String toString() {
 		return "Scoring [id=" + id + ", result=" + result + ", minVal=" + minVal + ", maxVal="
-				+ maxVal + "]";
+				+ maxVal + ", selectedAnswer=" + selectedAnswer + "]";
 	}
 
 }

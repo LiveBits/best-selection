@@ -208,11 +208,11 @@ public class LevelsAdapter extends ArrayAdapter<Level> {
 		 */
 		@Override
 		public void onClick(View v) {
-			if (unlocked) {
+			//if (unlocked) {
 				Intent intent = new Intent(getContext(), IntroActivity.class);
 				intent.putExtras(b);
 				getContext().startActivity(intent);
-			}
+			//}
 		}
 
 	}

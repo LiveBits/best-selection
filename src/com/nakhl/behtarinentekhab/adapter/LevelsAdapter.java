@@ -49,7 +49,7 @@ import com.nakhl.behtarinentekhab.model.entity.Level;
  * Levels list adapter.
  * 
  * @author Maciej Laskowski
- *  
+ * 
  */
 public class LevelsAdapter extends ArrayAdapter<Level> {
 
@@ -81,13 +81,17 @@ public class LevelsAdapter extends ArrayAdapter<Level> {
 		this.context = context;
 		this.levels = levels;
 		this.resource = resource;
-		/* Inject manually since only RoboActivity can
-		do it by itself. */
+		/*
+		 * Inject manually since only RoboActivity can do it by itself.
+		 */
 		RoboGuice.injectMembers(context, this);
 	}
 
-	/* (non-Javadoc)
-	 * @see android.widget.ArrayAdapter#getView(int, android.view.View, android.view.ViewGroup)
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see android.widget.ArrayAdapter#getView(int, android.view.View,
+	 * android.view.ViewGroup)
 	 */
 	@SuppressWarnings("deprecation")
 	@Override
@@ -113,18 +117,22 @@ public class LevelsAdapter extends ArrayAdapter<Level> {
 			LayoutInflater inflater = ((Activity) context).getLayoutInflater();
 			row = inflater.inflate(resource, parent, false);
 			holder = new LevelHolder();
-			holder.setProgressBar((ProgressBar) row.findViewById(R.id.progressBarLevel));
+			holder.setProgressBar((ProgressBar) row
+					.findViewById(R.id.progressBarLevel));
 			holder.setTxtTitle((TextView) row.findViewById(R.id.textLevel));
 			holder.setLocked((ImageView) row.findViewById(R.id.imageLevelLock));
 			row.setTag(holder);
 			// Set custom background for row
-			row.setBackgroundDrawable((getContext().getResources().getDrawable(R.drawable.button_main)));
+			row.setBackgroundDrawable((getContext().getResources()
+					.getDrawable(R.drawable.button_main)));
 			// Set listener
-			row.setOnClickListener(new OnClickRow(position + 1, levels.get(position).isUnlocked()));
+			row.setOnClickListener(new OnClickRow(levels.get(position).getId(),
+					levels.get(position).getType(), levels.get(position)
+							.getSub(), levels.get(position).isUnlocked()));
 		} else {
 			holder = (LevelHolder) row.getTag();
 		}
-		
+
 		// Set level info
 		Level level = levels.get(position);
 		holder.getTxtTitle().setText(level.getName());
@@ -177,13 +185,14 @@ public class LevelsAdapter extends ArrayAdapter<Level> {
 	}
 
 	/**
-	 * {@link OnClickListener} binded to level item on
-	 * levels list. Should start {@link ExerciseActivity}.
+	 * {@link OnClickListener} binded to level item on levels list. Should start
+	 * {@link ExerciseActivity}.
 	 */
 	private class OnClickRow implements View.OnClickListener {
 
 		/** Bundle to start new {@link ExerciseActivity}. */
 		private Bundle b;
+		int type;
 
 		/** Determines if level is unlocked. */
 		private boolean unlocked;
@@ -192,8 +201,7 @@ public class LevelsAdapter extends ArrayAdapter<Level> {
 		 * OnClickRow constructor.
 		 * 
 		 * @param levelId
-		 *            id of level which question must
-		 *            displayed.
+		 *            id of level which question must displayed.
 		 * @param unlocked
 		 *            is level unlocked
 		 */
@@ -203,16 +211,36 @@ public class LevelsAdapter extends ArrayAdapter<Level> {
 			this.unlocked = unlocked;
 		}
 
-		/* (non-Javadoc)
+		public OnClickRow(int levelId, int type, int sub, boolean unlocked) {
+
+			this.type = type;
+
+			b = new Bundle();
+			b.putInt("level_id", levelId);
+			b.putInt("level_type", type);
+			b.putInt("level_sub", sub);
+			this.unlocked = unlocked;
+		}
+
+		/*
+		 * (non-Javadoc)
+		 * 
 		 * @see android.view.View.OnClickListener#onClick(android.view.View)
 		 */
 		@Override
 		public void onClick(View v) {
-			//if (unlocked) {
+			// if (unlocked) {
+			//if (this.type == 1 || this.type == 2) {
 				Intent intent = new Intent(getContext(), IntroActivity.class);
 				intent.putExtras(b);
 				getContext().startActivity(intent);
-			//}
+//			}
+//			else if (this.type == 3 || this.type == 4) {
+//				Intent intent = new Intent(getContext(), ExerciseActivity.class);
+//				intent.putExtras(b);
+//				getContext().startActivity(intent);
+//			}
+			// }
 		}
 
 	}

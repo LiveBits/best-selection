@@ -1,6 +1,1292 @@
 <quiz>
     <levels>
-	    <level id="1" name="با چه کسی ازدواج کنیم؟" maxAnswer="4" mostSelected="false">
+	
+		<level id="1" name="ذهن آرام یا نگران؟" maxAnswer="5" mostSelected="false" type="1" sub="0" >
+			<scorings>
+				<scoring minVal="0" maxVal="64" selectedAnswer="1">اگر چه هر از گاهی دچار نگرانی و استرس می شوید اما بیشتر اوقات با خونسردی کامل با رخدادها روبرو می شوید. به طور کلی استرس مشکل اصلی شما در زندگی نیست. این ویژگی نه تنها باعث ایجاد آرامش در زندگی شخصی تان می شود؛ بلکه به دیگران نیز کمک می کند تا از عهده شرایط بحرانی و استرس زا برآیند. البته گاهی این بی خیالی بیش از حد نیز خوب نیست و مانع از این می شود که برای مقابله با مشکلات از پیش برنامه ریزی کنید.</scoring>
+				<scoring minVal="65" maxVal="89" selectedAnswer="1">به طور کلی فرد متعادلی هستید که می توانید بدون اینکه دچار نگرانی های بیش از حد شوید از پس مشکلات زندگی برآیید. شما دوست ندارید بیش از حد نیاز به مشکلات فکر کنید و اتفاق ها را همانطور که رخ داده اند می پذیرید. شما این قابلیت را دارید که شرایط بحرانی را قبل از وقوع پیش بینی کنید و مانع از رخ دادن آن شوید و یا برای مقابله با آن آماده شوید.</scoring>
+				<scoring minVal="90" maxVal="125" selectedAnswer="1">شما طبیعتی بسیار نگران دارید و به سختی به آرامش دست پیدا می کنید. شما معمولا بسیار بی قرارید و دائما فکر می کنید قرار است اتفاق بدی برایتان بیفتد. به همین دلیل هم بیشتر اوقات از کاه کوه می سازید و زندگی را حسابی برای خود و دیگران سخت می کنید. اگرچه نگرانی در خون تان است اما برای داشتن زندگی سالم تر باید خودتان را مجبور کنید تا روش های رسیدن به آرامش را یاد بگیرید. آموختن مهارت های جدید و سعی در مثبت اندیشی و ... روش های مناسبی برای کنترل اضطراب تان هستند.</scoring>
+			</scorings>
+			<score>0</score>
+			<intros>
+				<intro>حرف تان یادتان می رود. برای اینکه از خانه بیرون بروید، مردد هستید و وقتی هم تصمیم می گیرید از خانه بیرون بروید، چند قدم آنطرف تر دلتان می خواهد به خانه برگردید. دلتان می خواهد گریه کنید یا اگر گریه نکنید و به خودتان مسلط باشید، نسبت به هیچ کس احساس خوبی ندارید.</intro>
+				<intro>در این شرایط بسیاری از کارهای ضروری یادتان می رود و همین شما را بیشتر کلافه و عصبی می کند. شب با کابوس های مختلف از خواب می پرید و نکته اینجاست که بیشتر کابوس های فرد ناشی از درگیری های روزانه اوست. زمانی که از خواب می پرید، ساعت ها در رختخوابتان از این دنده به آن دنده می شوید و حتی گاهی با خوردن قرص های آرامبخش زیاد یا یک داروی آرامبخش با دوز بالا هم نمی توانید پلک بزنید. اینها همگی نشان می دهد ذهن شما درگیر و مشوش است. اگر هنوز نمی دانید ذهنی آرام دارید یا نگران؛ این تست مخصوص شماست.</intro>
+				<intro>وقتی ذهن مشوش است امکان تصمیم گیری درست به کمتر از نصف کاهش پیدا می کند. در این حالت فرد ممکن است دست به انجام هرگونه کار اشتباه بزند. معمولا تصمیم گیری های نادرست در همین زمان اتفاق می افتد و نکته مهم اینجاست که معمولا زمانی ما دچار درگیری ذهنی می شویم که باید مهمترین تصمیم های زندگی مان را اتخاذ کنیم. در این شرایط فرد موقعیت های درست و نادرست را به خوبی تشخیص نمی دهد. نسبت به دیگران دچار سوءظن می شود و تا زمانی که شک و سوءظن او برطرف نشود، ذهن او آرام نخواهد گرفت. معمولا توصیه می شود در این شرایط فرد دست به انجام هیچ کاری نزده و برای آنکه بتواند درست تصمیم بگیرد از فردی که در ماجرای پیش آمده ذی نفع نبوده یا از نظر روانی به خودش مسلط تر است، کمک بگیرد.</intro>
+				<intro>از سوی دیگر روانشناسان پیشنهاد می کنند اطرافیان فرد باید شرایطی را فراهم کنند تا اطمینان فرد دوباره بازگشته و بتواند شرایط را کنترل کند. در این شرایط فرد ممکن است با خودش هم لج کند و دست به کارهایی بزند که به ضررش باشد.</intro>
+				<intro>رفتار شخص متزلزل شده و در این شرایط اطرافیان نباید این رفتار او را ناشی از ضعف شخصیتی او بدانند. این شرایط تنها با گذر از حالت بحرانی و بیشتر اوقات با کمک گرفتن از دوستانی که فرد به آنها مطمئن است یا اعضای خانواده امکانپذیر است.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>بیشتر اوقات باید سخت تر از دیگران کار کنم تا کارها را به موقع تحویل دهم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>معمولا صداهای بلنداعصابم را حسابی خرد می کنند.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>وقتی جایی از بدنم درد می کند، تصور می کنم مسئله ای بسیار جدی پیش آمده است.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>بیشتر اوقات آنقدر فکر و خیال در سر دارم که نمی توانم خوب بخوابم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>برایم سخت است که همه اتفاق های پیش آمده را فراموش کنم و آرامش داشته باشم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>هر وقت کاری را اشتباه انجام می دهم از دست خودم حسابی عصبانی می شوم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>همیشه در انجام هر کاری عجله دارم</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>احساس می کنم هیچ وقت زمان کافی در اختیار ندارم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>معمولا خیلی سریع و بریده بریده حرف می زنم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>هر وقت در ترافیک گیر می کنم یا در صف می ایستم خیلی عصبانی می شوم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>بیشتر اوقات از دیگران انتقاد می کنم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>حماقت دیگران خیلی عصبانی ام می کند.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>خیلی به خودم فشار می آورم تا کارها خوب پیش بروند.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>فرد بسیار جدی هستم و با کسی شوخی ندارم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>موقع حرف زدن زیاد از دست هایم استفاده می کنم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>بسیار وقت شناس هستم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>بیشتر اوقات برای چند روز روی یک موضوع متمرکز می شوم تا آن را کاملا حل کنم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>برنده شدن و موفقیت، هدف اصلی من در زندگی است.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>بیشتر اوقات از عصبانیت سرخ می شوم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>روحیه بسیار رقابت طلب و جنگنده ای دارم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>معمولا درباره آینده خیلی خوش بین نیستم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>همیشه نگران مسائل مالی هستم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>به طور کلی فرد صبوری نیستم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>دوست دارم همه من را یک فرد موفق بدانند و درباره اش صحبت کنند.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>بیشتر اوقات در اثر فکر و خیال، صبح زود با نگرانی از خواب بیدار می شوم.</text>
+					</question>
+			        <tip>ذهن آرام یا نگران؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">كاملا موافق</answer>
+			            <answer score="4">موافق</answer>
+			            <answer score="3">بي‌تفاوت</answer>
+			            <answer score="2">مخالف</answer>
+						<answer score="1">كاملا مخالف</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+	
+		<level id="2" name="چقدر زندگی را سخت می گیرید؟" maxAnswer="2" mostSelected="false" type="1" sub="0">
+			<scorings>
+				<scoring minVal="0" maxVal="40" selectedAnswer="1">تبريك مي‌گوييم. شما زندگي را به کام خودتان تلخ نمي‌کنيد و به‌موقع در مقابل ناکامی‌ها و شکست‌ها مي‌ايستيد و از آنها گذر می‌کنید. زیبایی‌های زندگی را می‌شناسید و به طرف مقابل‌تان هم آنها را نشان می‌دهید. می‌توانید از زندگی در کنار تمام مشکلات لذت ببرید.</scoring>
+				<scoring minVal="40" maxVal="50" selectedAnswer="1">لازم است تاحدي در رفتار خود تجديدنظر کنيد و جنبه‌های مثبت زندگي و اتفاقات آن را هم درنظر بگیرید تا بتوانید با دید بهتر و انرژی بیشتری زندگی خود را زیبا سازید.</scoring>
+				<scoring minVal="50" maxVal="200" selectedAnswer="1">بايد واقعا به فکر باشيد و براي تغيير اين افکار کاري کنيد. درمورد عباراتي که به آنها پاسخ مثبت داده‌ايد با دقت فکر کنید و از خود بپرسيد: «چرا من اینگونه فکر می‌کنم؟» سپس براي تغيير آن برنامه‌ريزي کنيد و با همسر يا نامزد يا بهترين دوست‌تان در اين مورد صحبت کنید. اگر این افکار بیش از حد شما را ناراحت می‌کند، می‌توانید از متخصصان در این زمینه کمک بگیرید.</scoring>
+			</scorings>
+			<score>0</score>
+			<intros>
+				<intro>برای پی بردن به اینکه تا چه حد آدم راحتي هستيد يا برعكس بيش از حد به خودتان و زندگي‌تان گير مي‌دهيد و زندگی را به کام خود و ديگران تلخ مي‌كنيد و اینکه آیا همسر يا نامزدتان هم فردی است که زندگی را بيش از حد سخت می‌گیرد یا خیر، می‌توانید این تست را با هم انجام دهید و درمورد نتیجه به‌دست آمده با یکدیگر گفت‌و‌گو کنید.</intro>
+				<intro>به همه مسائل دید مثبت داشته باشید</intro>
+				<intro>شادکام بودن کار سختی نیست؛ اگرچه در جامعه متمدن کنونی، انسان‌ها ارزش زیادی برای تفکر وتعقل قائل هستند و کمتر به عواطف اهمیت می‌دهند. انسان بدون عاطفه احساس پوچی می‌کند چرا که بسیاری از مفاهیم زیباشناختی از عواطف بشر سرچشمه می‌گیرد. برای شادکام بودن فقط کافی است دید مثبتی نسبت به همه مسائل زندگی داشته باشیم. اینگونه می‌توانیم حتی در سختی‌های اجتناب‌ناپذیر زندگی شاد باشیم و امیدوار باشیم سختی‌ها زود می‌گذرند. ما باید به توانایی خود برای به‌دست آوردن شادکامی ایمان داشته باشیم. اگر در برابر ناکامی‌ها کمر خم کرده و خود را ناتوان بپنداریم مطمئنا شادکامی از زندگی ما پرخواهد کشید.</intro>
+				<intro>با انجام این تست می‌توانید متوجه شوید چقدر زندگی را به کام خود و شریک زندگی‌تان تلخ می‌کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>هميشه بدون تعمق کافي چيزهايي مي‌گويم که بعدا باعث کدورت و سوء‌تفاهم بين من و ديگران مي‌شود.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>هميشه با نگراني به آينده نگاه مي‌کنم و انتظار پيشامدهاي ناگواری را دارم.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>اکثرا در گذشته زندگي مي‌کنم. خاطرات و اتفاقات گذشته را در ذهنم مرور مي‌کنم و وقتي حالم را با گذشته مقايسه مي‌کنم به گذشته‌ام حسرت مي‌خورم.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>همیشه کارهاي امروز را به فردا موکول مي‌کنم.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>اگر کسي به من كوچك‌ترين اهانتي کند، تمام روزم خراب مي‌شود.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>اگر با کسي برخورد کنم که خلق عصبي و تندي دارد به‌شدت تحت‌تاثير او قرار مي‌گيرم.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>وقتي درست به زندگي‌ام نگاه مي‌کنم مي‌بينم که هميشه تمايل داشته‌ام از کاه کوه بسازم.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>وقتي با کسي روبه‌رو مي‌شوم که در نگاه اول به دلم نمي‌چسبد، مي‌دانم که هرگز نمي‌توانم با وي رابطه‌اي داشته باشم.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>براي اينکه جلوي ناراحتي‌هاي بعدي را بگيرم تنهایی همه کار‌ها را انجام مي‌دهم و از کسي کمکي نمي‌خواهم.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>هميشه در درونم پراز فشار است و براي خودم ساعاتی برای آرامش فراهم نمي‌کنم.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>اگر آنطور که تصور کرده‌ام در کارم موفق نشوم به‌شدت خود را به محاکمه مي‌کشم.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>اصلا حساب و کتاب پولم را ندارم يا آنقدر حساب و کتاب مي‌کنم تا هيچ پولی را بيخودي خرج نکنم، در نتیجه اين‌کار وقتم را مي‌گيرد و برايم مشکل به‌وجود می‌آورد.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>وقتي مي‌بينم طرف مقابلم به کاري که انجام مي‌دهم توجه لازم را نمي‌کند دلم از او می‌گیرد.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>وقتي کسي از من انتقاد مي‌کند يا به جانم نق مي‌زند با خودم فکر مي‌کنم که او به من علاقه ندارد.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>اگر کاري را که مي‌خواهم پيش نرود دنيا پيش رويم تيره و تار مي‌شود.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>هميشه آدم‌ها را مقصر مي‌دانم مگر اينکه خلاف آن ثابت شود.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>وقتي در کاري موفقيتي به‌دست مي‌آورم، موفقيتم آنچنان که بايد و شايد به‌نظرم نمي‌آيد.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>فکر مي‌کنم نبايد به آدم‌هاي ديگر اعتماد کرد چراکه همه بد مرا مي‌خواهند.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>هيچ‌وقت احتياج به کمک ديگران نداشته‌ام و ندارم.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>رفتاری را که هر روز انجام مي‌دهم دوست ندارم و اصلا بيهوده دارم زندگي‌ام را خراب مي‌کنم.</text>
+					</question>
+			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="5">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="3" name="شخصیت شناسی مالی" maxAnswer="5" mostSelected="true" type="1" sub="0">
+			<scorings>
+				<scoring minVal="0" maxVal="0" selectedAnswer="1">شما شخصیتی هزینه کننده هستید. از مصرف کردن پول لذت می برید. خرج کردن باعث سرخوش شدن شما می شود. می توان گفت که شما نسبت به خرید کردن اعتیاد دارند؛ بنابراین از پس انداز کردن متنفر هستید و به آن به شکل تکلیفی غیر قابل تحقق نگاه می کنید؛ بنابراین عموما نمی توانید برای آینده ملی خود برنامه ریزی های بلندمدت داشته باشید.</scoring>
+				<scoring minVal="0" maxVal="0" selectedAnswer="2">شما جمع کننده هستید. اگر شما در این تیپ شخصیتی قرار دارید، بسیار مشتاق جمع کردن پول هستید و ترجیح می دهید پول خود را با کارهایی مانند سرمایه گذاری به خطر نیندازید. عموما این افراد هستند که دارایی ها و پس اندازهای خود را در بانک می گذارند. سود تدریجی و مشخص پول برای این گروه از افراد، بسیار آرامش بخش تر از خطر و فشار روانی سرمایه گذاری ای است که نتیجه اش مشخص نیست. محافظه کاری صفت بارز افراد این گروه است.</scoring>
+				<scoring minVal="0" maxVal="0" selectedAnswer="3">شما دوری کننده از پول هستید. اگر شما در این تیپ شخصیتی قرار دارید، در متعادل کردن دخل و خرج هایتان عمدتا با مشکل مواجه می شوید. عموما قبض هایتان به موقع پرداخت نمی شود. شما برنامه ریزی مالی ندارید یا اگر دارید، اصلا بدان عمل نمی کنید. دقیقا نمی دانید که در حال حاضر چقدر پول دارید و روزانه چقدر خرج هزینه های جاری شما می شود. عموما از چک کردن حساب های مالی تان اجتناب می کنید، چون از این کار وحشت دارید. حوصله نشستن و حساب کردن برای هزینه هایتان را ندارید؛ بنابراین نمی توانید تعیین کنید که در آمد شما صرف چه اموری می شود. برخی از افرادی که در این دسته قرار دارند، از مواجهه با مسائل مالی اجتناب می کنند، جون این کار برای آنها بسیار استرس زا و پرفشار است. این گروه با گروه افراد بی تفاوت به پول مشابهت هایی دارند؛ اما فرق عمده ای با آنها دارند. افراد بی تفاوت نسبت به پول، سروکله زدن با مسائل مالی را کاری عبث، بیهوده و حتی کثیف می دانند، اما این گروه چنین نیستند.</scoring>
+				<scoring minVal="0" maxVal="0" selectedAnswer="4">تیپ شخصیتی شما، پس انداز کننده است. اگر شما در این تیپ مالی قرار دارید، می توان گفت که ترجیح می دهید که پول خود را پس انداز کرده یا سرمایه گذاری کنید تا بتوانید حجم دارایی هایتان را چند برابر کنید. اگر شما پس انداز نکرده و سرمایه گذاری نکنید، احساس بدی خواهید داشت. پس انداز کردن شما را خوشحال می کند. برای شما داشتن پول به معنی داشتن قدرت، نفوذ، اعتبار و احترام بیشتر است. اعتمادبه نفس شما تا اندازه زیادی بسته به پس انداز مالی تان است. شما با دیگران بسیار درباره نحوه سرمایه گذاری و مصرف پولتان مشورت می کنید.</scoring>
+				<scoring minVal="0" maxVal="0" selectedAnswer="5">شما نسبت به پول بی تفاوت هستید. افرادی که در این گروه قرار دارند، پول را چیز کثیفی می دانند که انسان تا آنجا که می تواند باید خود را از آلوده شدن بدان حفظ کند. پول انسان ها را فاسد می کند. این افراد وقتی پول زیادی در دستشان دارند، می خواهند به هر نحو ممکن که شده از شر پول رها شوند.</scoring>
+			</scorings>
+			<score>0</score>
+			<intros>
+				<intro>افراد دارای پنج نوع شخصیت مالی متفاوت هستند: جمع کننده پول، مصرف کننده پول، بی تفاوت نسبت به پول، دوری گزیننده از پول و پس انداز کننده پول. این تقسیم بندی البته تقریبی است و نمی توان فردی را یافت که دقیقا در یکی از این طبقه بندی ها قرار بگیرد.</intro>
+				<intro>تست جالب شخصیت شناسی مالی</intro>
+				<intro>افراد آمیخته ای از این انواع هستند، اما می توان تشخیص داد که در هر فرد کدام یک از این انواع شخصیت شناسی غالب است. هر کدام از این انواع شخصیت، محاسن و معایبی دارند.</intro>
+				<intro>نمی توان گفت که یک تیپ مالی به کلی مفید است و تیپ مالی دیگر به کلی مضر؛ اما باید اولا تشخیص دهیم که در کدام یک از این انواع قرار می گیریم و ثانیا بفهمیم که نقاط قوت و ضعف تیپ شخصیتی مالی مان کدام است تا در گام سوم بتوانیم نقطه ضعف های خود را برطرف کرده و حتی آنها را به نقطه قوت بدل کنیم.</intro>
+				<intro>سوالات آزمون به این منظور طراحی شده اند که بتوانند به شما کمک کنند که تیپ مالی خود را تشخیص دهید. توجه کنید که در پرسش نامه زیر هیچ پاسخ درستی وجود ندارد؛ بنابراین به پاسخ درست فکر نکنید، بلکه اولین پاسخی را که به محض دیدن سوال به ذهنتان می آید انتخاب کنید. پرسش ها را با صداقت و بدون تأمل و فکر جواب بدهید و گزینه های پاسخ داده خود را یادداشت کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>اگر به طور غیر منتظره ای ۵۰ میلیون تومان به دست شما برسد، با آن چه می کنید؟</text>
+					</question>
+			        <tip>شخصیت شناسی مالی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">آن را خرج نمی کنم، بلکه با آن برای بقیه هدیه می خرم.</answer>
+			            <answer score="1">فورا آن را در بانک می گذارم تا از دست نرود.</answer>
+			            <answer score="1">هیچ تصمیمی نخواهم گرفت و تا آنجا که امکان دارد درباره نحوه استفاده از آن فکر خواهم کرد.</answer>
+			            <answer score="1">آن را در تجارت پر سودی سرمایه گذاری می کنم. ه آن را صرف امور خیریه می کنم.</answer>
+						<answer score="1" unValid="true">NAN</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نظر شما درباره پول چیست؟</text>
+					</question>
+			        <tip>شخصیت شناسی مالی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">پول لذت بخش ترین چیز در زندگی من است و از هر فرصتی برای خرید و هدیه دادن به دیگران استفاده می کنم.</answer>
+			            <answer score="1">ترجیح می دهم پولم را در جایی امن نگاه دارم تا احساس امنیت داشته باشم.</answer>
+			            <answer score="1">ترجیح می دهم به پول فکر نکنم و می دانم که مسائل مالی در اکثر موارد خود به خود حل خواهند شد.</answer>
+			            <answer score="1">من بسیار درباره پول فکر می کنم و مدام در حال سبک و سنگین کردن راه های افزایش پولم هستم.</answer>
+						<answer score="1">مطمئن هستم که پول هیچ گاه تصمیم گیری های اصلی زندگی مرا تحت الشعاع قرار نخواهد داد.</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>هدف اصلی مالی شما کدام یک از موارد زیر است؟</text>
+					</question>
+			        <tip>شخصیت شناسی مالی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">این است که به اندازه کافی پول داشته باشم تا بتوانم هر چیزی را که می خواهم با آن بخرم.</answer>
+			            <answer score="1">به اندازه کافی پول پس انداز کنم، بنابراین هیچ گاه درباره پول و بحران مالی احساس نگرانی نخواهم داشت.</answer>
+			            <answer score="1">دقیقا نمی دانم که هدف من از به دست آوردن پول چیست؟</answer>
+			            <answer score="1">تا بتوانم به سرعت حجم دارایی ها و سرمایه های خود را چند برابر کنم.</answer>
+						<answer score="1">می خواهم تا آن اندازه پول به دست بیاورم که بتوانم به نیازهای اساسی و اصلی خود پاسخ گویم، همین و بس.</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نظر شما درباره برنامه ریزی مالی چیست؟</text>
+					</question>
+			        <tip>شخصیت شناسی مالی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">برنامه ریزی؟ چنین چیزی در زندگی من وجود ندارد. من برای پولی که به دست می آورم برنامه ای ندارم.</answer>
+			            <answer score="1">من بسیار به برنامه ریزی مالی خود پایبند هستم و به هیچ عنوان از سرفصل های آن تخطی نمی کنم.</answer>
+			            <answer score="1">من برنامه ریزی مالی ندارم و نمی دانم چگونه باید شروع به تدوین یک برنامه مالی کنم. من مطمئن هستم که پول به خودی خود مدیریت می شود و بدون برنامه ریزی هم من به مشکلی برنخواهم خورد.</answer>
+			            <answer score="1">من برنامه مفصلی برای پول های خود دارم و مدام در حال محاسبه دخل و خرجم هستم.</answer>
+						<answer score="1">من بسیار ساده زندگی می کنم و از اینکه با زندگی آسوده و ساده خود نیازی به برنامه ریزی های مالی پیدا نمی کنم، بسیار خوشحال هستم.</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نظر شما درباره پس انداز چیست؟</text>
+					</question>
+			        <tip>شخصیت شناسی مالی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">من با پس انداز کردن مشکل دارم. پس انداز کردن برای من همیشه امری دشوار است. احساس می کنم پس انداز کردن هیچ فایده ای ندارد.</answer>
+			            <answer score="1">پس انداز کردن برای من امری کاملا طبیعی است. من به صورت خودکار پس انداز می کنم و اصلا به پس انداز کردن فکر نمی کنم. این امری طبیعی برای من است.</answer>
+			            <answer score="1">من می دانم که باید پس انداز کنم، اما هیچ گاه نمی توانم دست به عملی کردن افکارم درباره پس انداز کردن بزنم.</answer>
+			            <answer score="1">من بسیار از پس انداز کردن لذت می برم و اغلب درباره این فکر می کنم که چطور در زندگی روزمره خود می توانم جلوی خرج های اضافی را بگیرم.</answer>
+						<answer score="1">اگر من آن اندازه پول داشته باشم که بتوانم آن را پس انداز کنم، هیچ گاه چنین کاری نمی کنم، بلکه آن را خرج خودم و زندگی ام می کنم.</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نظر شما درباره قرض گرفتن چیست؟</text>
+					</question>
+			        <tip>شخصیت شناسی مالی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">من اغلب پول قرض می گیرم، اما نمی توانم بگویم که همواره از پس بازپرداخت قرض هایم برمی آیم.</answer>
+			            <answer score="1">من به ندرت از کسی پول قرض می گیرم، زیرا من همواره برای شرایط ضروری به مقدار کافی پول پس انداز کرده ام.</answer>
+			            <answer score="1">من سعی می کنم و ترجیح می دهم که از بقیه پول قرض نگیرم، زیرا به ندرت می توانم قرض های خود را بازپرداخت کنم.</answer>
+			            <answer score="1">من دوست دارم از بقیه پول قرض کنم تا بدان وسیله بتوانم پول بیشتری برای سرمایه گذاری داشته باشم، اما در عین حال از اینکه انسان مقروضی باشم، متنفر هستم.</answer>
+						<answer score="1">من از قرض گرفتن متنفر هستم و فقط در مواردی که هیچ چاره دیگری نداشته باشم و موقعیتم بسیار ضروری باشد، از دیگران قرض می کنم.</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نظر شما درباره قرض دادن پول چیست؟</text>
+					</question>
+			        <tip>شخصیت شناسی مالی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">من بسیار در قرض دادن به دیگران گشاده دستم و درباره بازپرداخت پولم، نگرانی ندارم.</answer>
+			            <answer score="1">من تا آنجا که ممکن باشد، سعی می کنم هیچ گاه به دیگران پول قرض ندهم.</answer>
+			            <answer score="1">من هیچ ایده ای درباره اینکه می توانم از پس قرض دادن به دیگران بربیایم ندارم.</answer>
+			            <answer score="1">من تنها زمانی به دیگران پول قرض می دهم که این پول قرض دادن به نحوی بتواند در نهایت به سود من باشد.</answer>
+						<answer score="1">معمولا مردم از من پول قرض نمی خواهند؛ زیرا آنها به خوبی می دانند که من عموما پول اضافی برای قرض دادن به آنها ندارم.</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>شما در شرایط بحران و نیاز مالی شدید چه می کنید؟</text>
+					</question>
+			        <tip>شخصیت شناسی مالی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">من عموما در شرایط بحران مالی پولی پس انداز نکرده ام تا با آن بتوانم اوضاع را کنترل و مدیریت کنم.</answer>
+			            <answer score="1">من برای روز مبادا پول فراوانی کنار گذاشته ام، اما امیدوارم که هیچ گاه زمان مصرف آنها نرسد.</answer>
+			            <answer score="1">من نمی دانم که پول به انداز کافی دارم یا نه. به همین خاطر تنها آرزو می کنم که هیچ گاه شرایط اضطراری برای من پیش نیاید.</answer>
+			            <answer score="1">من پول به اندازه کافی پس انداز کرده ام، اما مطمئن نیستم که این پول بتواند در شرایط ضروری کفاف هزینه های مرا بدهد.</answer>
+						<answer score="1">من امیدوارم که در این شرایط دوستان بتوانند به من برای حل موقعیت اضطراری کمک کنند.</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="4" name="کدام نیم کره مغزتان فعال تر است؟" maxAnswer="3" mostSelected="false" type="1" sub="0">
+			<scorings>
+				<scoring minVal="0" maxVal="15" selectedAnswer="1">شما جزئی نگر هستید
+این امتیاز نشان می‌دهد شما عمدتا یك ‌شخص‌ چپ‌ مغز هستید. نیمكره‌ چپ‌ مغز، تحلیل‌گراست‌ و میل دارد به‌ شیوه‌ای‌ خطی‌ و جزء جزء اطلاعات را بررسی کند. به‌ عبارت‌ دیگر، از بخش‌های‌ كوچك‌ شروع‌ كرده‌ و به‌ بالا می‌رود، درحالی‌ كه‌ شخص‌ راست‌‌مغز برعكس‌ عمل‌ کرده و ابتدا تصویر اصلی‌ و بزرگ‌ را مجسم‌ می‌کند. شما می‌توانید حسابدار و برنامه‌دهنده خوبی باشید.</scoring>
+				<scoring minVal="16" maxVal="34" selectedAnswer="1">لهمیشه تعارض دارید
+امتیاز شما نشان​دهنده این‌ است‌ كه‌ از تعادلی‌متناسب‌ بین‌ 2 نیمكره‌ چپ‌ و راست‌ مغزتان ‌برخوردارید؛ یعنی هیچ‌ نیمكره‌ای‌ بردیگری‌ غلبه‌ و سلطه‌ ندارد.این نشان‌دهنده این است که شما بیشتراز یك‌ شخص‌ راست‌ مغز یا چپ‌ مغز، از كشمكش‌ها وتضادهای‌ درونی‌ رنج‌ می‌برید. همچنین درمواجهه‌ با مشكلات‌، تعبیر و تفسیر اطلاعات‌ باموانعی‌ روبه‌رو می‌شوید. یعنی گاهی‌، جزئیاتی‌ كه‌ برای ‌نیمكره‌ راست‌ مغز، مهم‌ هستند، به‌ واسطه‌ نیمكره‌چپ‌ نادیده‌ گرفته‌ می‌شوند و برعكس‌. از جنبه‌ مثبت‌، نقطه‌ قوت‌ این‌ اشخاص‌ در این ‌است‌ كه‌ آنها هنگام‌ حل‌ یك‌ مشكل می‌توانند همزمان‌ تصویر اصلی‌ و جزئیات ‌ضروری‌ را ادراك‌ كنند.</scoring>
+				<scoring minVal="17" maxVal="50" selectedAnswer="1">شما كل‌نگر هستید
+این‌ امتیاز نشان می‌دهد شما یك‌ شخص‌راست‌ مغز هستید، یعنی دوست دارید مسیر‌ را به‌ طور كلی‌ مجسم‌ و ادراك‌ كنید. به‌ عبارت دیگر، به‌ جای‌ مشاهده‌ جزییات‌ سازنده‌ و تشكیل‌ دهنده‌، می‌خواهید تصویر اصلی‌ و بزرگ‌ را ببینید.</scoring>
+			</scorings>
+			<score>0</score>
+			<intros>
+				<intro>شخصیت ما در واقع تحت تاثیر میزان اثر متقابل نیمكره‌های مغز بر هم است. در افراد مختلف این تاثیر متفاوت است، چون بعضی نیمكره چپ مغزشان بهتر كار می‌كند و بعضی دیگر نیمكره راستشان و با توجه به همین برتری توانایی‌های مختلفی شكل می‌گیرد.</intro>
+				<intro>مغز از وسط به 2 نیمكره تقسیم شده است كه هر كدام مجموعه‌ای نسبتا مجزایی از عملیات را انجام می‌دهند. البته 2 نیمكره مغز اطلاعاتی مانند مشاهدات حسی را از طریق رابطی ضخیم به نام جسم پینه‌ای كه آنها را به هم متصل می‌كند با هم مبادله می‌كند. نیمكره راست مغز عضلات سمت چپ بدن را كنترل می‌كند، در حالی كه نیمكره چپ، عضلات سمت راست بدن را كنترل می‌كند.</intro>
+				<intro>به دلیل این نحوه ارتباط عصبی است كه آسیب به یك طرف مغز بر نیمه مخالف بدن اثر می‌گذارد. پروفسور استفن ویلسون از یونیورسیتی كالج لندن می‌گوید: عدم تقارن مغز برای كاركرد درست مغز ضروری است. این عدم تقارن به 2 طرف مغز امكان می‌دهد كه تخصصی شوند، ظرفیت پردازش‌شان را افزایش دهند و از موقعیت‌هایی كه باعث تعارض 2 طرف مغز هنگام تلاش برای بر عهده گرفتن كنترل كاری می‌شود، پرهیز كنند.</intro>
+				<intro>اما از طرف دیگر برحسب اینكه كدام نیمكره مغزتان فعال‌تر باشد نوع توانمندی‌ها، علایق و رفتارهایتان متفاوت است و می‌توانید كارهای خاصی را بهتر انجام دهید. از سویی دیگر، اگر به نیمكره‌های مغزتان در طول زمان فرصت پیشرفت ندهید امكان دارد از قابلیت‌های فوق‌العاده آنها كاسته شود. موضوع بررسی وظایف نیمكره‌های مغز و چگونگی تقویت و پرورش قابلیت‌های آنها یكی از آن مسائلی است كه سال‌هاست از سوی پژوهشگران مورد مطالعه قرار گرفته است.</intro>
+				<intro>این تست به شما نشان می‌دهد کدام نیمکره از مغزتان فعالیت بیشتری دارد و در نتیجه آن شخصیت شما متمایل به كدام سمت است تا با توجه به آن بتوانید انتخاب‌های بهتری در زندگی داشته‌باشید. چون مثلا اگر شخصیت تحلیلگر داشته‌باشید احتمالا هنرمند موفقی نخواهید شد، پس بهتر است خیلی تلاش نکنید. یا اگر شخصیتی کل‌گرا داشته‌باشید بهتر است خیلی سراغ کارهای مدیریتی نروید چون چندان ثمری نخواهد داشت.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>آیا خودتان‌ را متخصص‌ تلقی‌ می‌كنید؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">بله</answer>
+			            <answer score="0">خیر</answer>
+						<answer score="1">در برخی‌ از زمینه‌ها</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>یادآوری‌ اسم‌ اشخاص‌ برایتان‌ راحت‌تر است‌ یاچهره‌ آنها؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">چهره‌ اشخاص‌</answer>
+			            <answer score="0">اسم‌ اشخاص‌</answer>
+						<answer score="1">هر دو به‌ یك‌ اندازه‌</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>در مواجهه‌ با شكست‌، كدام‌ یك‌ از گزینه‌های ‌زیر، طرز برخوردتان‌ را بهتر نشان‌ می‌دهد؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">ناامید شدن‌، دست‌ كشیدن‌ از آن‌ كار و امتحان‌كردن‌ چیزی‌ جدید</answer>
+			            <answer score="0">سعی‌، تلاش‌ و كوشش‌ دوباره‌ و دوباره‌</answer>
+						<answer score="1">شكست؛‌ نابود كننده‌ روح‌ و روان‌ است‌</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كدام‌ یك‌ از صفات‌ زیر، بیشتر از بقیه‌ وصف‌حالتان‌ است؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">شهودی‌ و درونی هستم</answer>
+			            <answer score="0">اهل‌ مطالعه‌ و سنجیده‌ هستم</answer>
+						<answer score="1">دقیق‌ هستم</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كدام‌ یك‌ از گزینه‌های‌ زیر، بیشتر با شماهمخوانی‌ دارد؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">دوست دارم‌ قوانین‌ و مقررات‌ خاص‌ خودم‌ را رعایت‌كنم‌</answer>
+			            <answer score="0">از عمل كردن‌ به‌ قوانین‌ و مقررات‌ راضی‌ و شاد هستم‌</answer>
+						<answer score="1">گاهی‌ اوقات‌، قوانین‌ و مقررات‌ دست‌ و پاگیرمی‌شود و عصبانی​ام‌ می‌كند</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>زمانی‌ كه‌ در یك‌ جلسه‌ گفت‌وگو یا سخنرانی‌حضور دارید، كدام‌ یك‌ از گزینه‌های‌ زیر بیشتر برای شما صدق‌ می‌كند؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">بیشتر اوقات‌ حواسم‌ پرت‌ می‌شود و به‌موضوعات‌ دیگری‌ فكر می‌كنم‌</answer>
+			            <answer score="0">به‌ راحتی‌ حواسم‌ را روی‌ مسئله سخنرانی‌ متمركز کنم‌</answer>
+						<answer score="1">فقط اگر موضوع‌ را جالب‌ تلقی‌ كنم‌، می‌توانم‌حواسم‌ را روی‌ آن‌ متمركز كنم‌</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>آ یا خودتان‌ را شخص‌ منظمی‌تلقی‌ می‌كنید؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">به‌ هیچ‌ وجه‌</answer>
+			            <answer score="0">بله‌، كاملا</answer>
+						<answer score="1">بله، نسبتا</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>هرچند وقت‌ یك‌‌بار‌ به‌ دنبال‌ حدس‌ وگمان‌های‌ شخصی‌ خود می‌روید؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">هر وقت‌ كه‌ بتوانم‌</answer>
+			            <answer score="0">به‌ ندرت‌</answer>
+						<answer score="1">گاهی‌ اوقات‌</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>اگر یك‌ دفعه‌، هوس‌ امتحان‌ كردن‌ یك‌ كار و سرگرمی‌ خلاقانه‌ جدید، مثل‌ نقاشی‌ یاسفالگری‌ به‌سرتان‌ بزند، چه‌ می‌كنید؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">آن‌ را امتحان‌ می‌كنم‌ و بعد آن‌ رابه‌ عنوان‌ یكی‌ از سرگرمی‌های‌ بی‌شمار دیگرم‌ توسعه می‌دهم‌</answer>
+			            <answer score="0">به‌ احتمال‌ زیاد، فقط به‌ آن‌ فكر می‌كنم‌ و فراتر نمی‌روم‌</answer>
+						<answer score="1">چند‌ مرتبه‌ آن‌ را امتحان‌ می‌كنم‌ و بعد ‌سراغ‌ سرگرمی‌ دیگری‌ می‌روم‌</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>در مدرسه‌ و دوران‌ تحصیل‌، سركلاس‌ كدام‌ یك‌ از درس‌های‌ زیر، بیشتراحساس ‌راحتی ‌می‌كردید؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">هنر</answer>
+			            <answer score="0">ریاضیات‌</answer>
+						<answer score="1">جغرافی‌ </answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>هر چند وقت‌ یك‌ بار، دوست دارید مبلمان‌ وتزیینات‌ منزلتان‌ را عوض‌ كنید؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">بیش‌ از 3‌ مرتبه ‌ ظرف‌ 5 سال‌</answer>
+			            <answer score="0">هر 5 سال‌، یك‌ مرتبه‌</answer>
+						<answer score="1">ظرف‌ هر 5سال‌، 2 تا 3‌ مرتبه‌</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>وقتی‌ مشغول‌ شنیدن‌ اخبار از تلویزیون‌هستید، كدام‌ یك‌ از موضوعات‌ زیر، بیشتر از همه ‌توجه‌ شما را به‌ خود جلب‌ می‌كند؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">مسیر‌ و موضوعات‌ مربوط به‌ طبیعت و محیط زیست</answer>
+			            <answer score="0">سیاسی‌</answer>
+						<answer score="1">ورزشی</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كدام‌ یك‌ از گروه‌های‌ زیر بیشتر با روحیات‌شما سازگار هستند؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">شخصی‌ كه‌ از قوه‌ تخیل‌ زنده‌ و پرشوری‌برخوردار است‌</answer>
+			            <answer score="0">شخصی‌ كه‌ بلند پرواز و جاه‌‌طلب‌ است‌</answer>
+						<answer score="1">شخصی‌ كه‌ از عقل‌ سلیم‌ و شعور خوبی‌برخوردار است‌</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نظرتان‌ در مورد هنر مدرن‌ چیست‌؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">آن‌ را جالب‌ و مهیج‌ تلقی‌ می‌كنم‌</answer>
+			            <answer score="0">اهمیت‌ زیادی‌ به آن نمی‌دهم</answer>
+						<answer score="1">گاهی‌ می‌توانم‌ آن‌ را جدی‌ تلقی‌ كنم‌ و گاهی‌بی‌اعتنا از كنارش‌ می‌گذرم‌</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>هر چند وقت‌ یك‌بار، به‌ افكار و اندیشه‌های‌خصوصی‌ خودتان‌ پناه‌ می‌برید؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">به‌ وفور</answer>
+			            <answer score="0">خیلی‌ به‌ ندرت‌</answer>
+						<answer score="1">گاه‌ و بیگاه‌</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>زمانی‌ كه‌ وارد یك‌ سالن‌ یا تالار می‌شوید،در حالی‌ كه‌ بلیت رزرو شده‌ ندارید، ترجیح می‌دهید روی‌ صندلی‌ كدام‌ سمت‌ بنشینید؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">سمت‌ چپ‌</answer>
+			            <answer score="0">سمت‌ راست‌</answer>
+						<answer score="1">فرقی‌ نمی‌كند</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>به‌ نظر شما، مزیت‌ بازنشسته‌ شدن‌ چیست‌؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">برخورداری‌ از وقت‌ بیشتر برای‌ آغاز فعالیت‌های‌ جدید بی‌شمار دیگر</answer>
+			            <answer score="0">برخورداری‌ از وقت‌ بیشتر برای‌ همنشینی‌ بااقوام‌ و دوستان‌</answer>
+						<answer score="1">راهی برای خروج‌ از برنامه‌ یكنواخت‌، منظم‌ و كسل‌كننده‌ كاری‌</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كدام‌ یك‌ از صفات‌ زیر، بیشتر از بقیه‌ با شماسازگار است‌؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">پیچیده‌</answer>
+			            <answer score="0">واقع‌ بین‌</answer>
+						<answer score="1">عادی‌ و گاهی‌ منحصربه‌ فرد</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>در حال‌ حاضر، كدام‌ یك‌ از حالات‌ زیر بیشتربا روحیه‌ شما سازگار است؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">متفكر، جدی‌ و دقیق‌</answer>
+			            <answer score="0">تحت‌ فشار روحی</answer>
+						<answer score="1">پركار، پر مشغله‌ و پرجنب‌ و جوش‌</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>آیا قادرید به‌ طور تقریبی‌ بگویید كه‌ چندروز را بدون‌ نگاه‌ كردن‌ به‌ ساعت‌ پشت‌ سرگذاشته‌‌اید؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">راستش‌ درست‌ نمی‌دانم‌، چون‌ گاهی‌ زمان‌ رابه‌ كلی‌ فراموش‌ می‌كنم‌</answer>
+			            <answer score="0">بله‌، به‌ راحتی‌</answer>
+						<answer score="1">گاهی‌ اوقات‌</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>در صورت‌ مواجهه‌ با كدام‌ یك‌ از موارد زیر، به‌ شدت‌ سر خورده‌، ناامید و عصبانی‌ می‌شوید؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">زمانی‌ كه‌ وقت‌ كافی‌ برای‌ انجام‌ كارهایی‌ كه‌دوست‌ دارم‌، نداشته‌ باشم‌</answer>
+			            <answer score="0">زمانی‌ كه‌ در رأس‌ امور مربوط به‌ حرفه‌ام‌ قرارنداشته‌ باشم‌</answer>
+						<answer score="1">زمانی‌ كه‌ پیشرفت‌ها، موفقیت‌ها، دستاوردها و كوشش‌هایم نادیده‌ گرفته‌ شود</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>در مورد این‌ جمله‌: «بزرگ‌ترین‌ معلم‌ و راهنما، تجربه‌ است»، نظرتان‌ چیست‌؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">كاملا با آن‌ موافق‌ هستم‌</answer>
+			            <answer score="0">اصلا موافق‌ نیستم‌</answer>
+						<answer score="1">موافقم‌</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>در شریط مطلوب‌، كدام‌ یك‌ از گزینه‌های‌زیر را ترجیح‌ می‌دهید؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">حرفه‌ای‌ كه‌ كاملا غیرقابل‌ پیش‌‌بینی‌ و توأم‌ باتجربیات‌ بی‌ شمار و جدید باشد</answer>
+			            <answer score="0">داشتن‌ یك‌ حرفه‌ مشخص‌ و یكنواخت‌</answer>
+						<answer score="1">حرفه‌ای‌ كه‌ فرصت‌ یادگیری‌ چیزی‌ جدید را دراختیارتان‌ قرار دهد</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>آیا تصور می‌كنید توضیح‌‌دهنده‌ خوبی‌ هستید؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">بله</answer>
+			            <answer score="0">خیر</answer>
+						<answer score="1">در حد متوسط</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>هنگام‌ انجام‌ كدام‌ یك‌ از موارد زیر،بیشتر احساس‌ راحتی‌ به‌ شما دست‌ می‌دهد؟</text>
+					</question>
+			        <tip>کدام نیم کره مغزتان فعال تر است؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">حین‌ انجام‌ یك‌ كار تخصصی‌تر مثل‌ كاركردن‌ با موتور ماشین‌تان‌ به‌ منظور تعمیر آن‌</answer>
+			            <answer score="0">حین‌ نوشتن‌ یك‌ نامه‌ یا گزارش‌‌</answer>
+						<answer score="1">حین‌ انجام‌ یك‌ كار دستی‌ مثل‌ نقاشی‌</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="5" name="روانشناسی شخصیت" maxAnswer="5" mostSelected="false" type="1" sub="0">
+			<scorings>
+				<scoring minVal="1" maxVal="20" selectedAnswer="1">ظاهرا دارای اعتماد به نفس کافی هستید. بدین معنی است كه شما سوسن سفید هستید. مردم شما را به خاطر پشتكارتان، از جــــان و دل مــــایــــه گــــذاشــتــــن‌تــــان و مـوفـقـیـت‌هـایـتـان تقدیر می‌كنند. اهداف مشخصی دارید و فكرتان بر كارتان متمركز است. احتمالا فرزند اول خانواده هستید. احساستان را بسختی ابراز می‌كنید. یكی از مهم‌ترین نگرانی‌های شما این است كه چگونه در برابر افراد مختلف ظاهر شوید. اندیشه‌هایتان كمی متمایل به بدبینی است.ظاهرا دارای اعتماد به نفس کافی هستید ولی در باطن گاهی به خود اعتماد ندارید. قادر هستید كه هدفی تعیین كنید و به آن برسید. بعضی مواقع دنیا را با دیدی باریك‌بین می‌نگرید. احساس می‌كنید كه وقت كمی برای رسیدن به آرزوهایتان دارید. مواظب باشید جدی بودنتان شما را از دنیای اطراف دور نكند. خونسرد باشید و از زندگیتان لذت ببرید. كارهایی انجام دهید كـه از آنـهـا لـذت مـی‌برید. با انجام این دستورات قوه خلاقیت‌تان شكوفا می‌شود. سعی كنید كه بیشتر بخندید و با دیگران در تماس باشید.</scoring>
+				<scoring minVal="21" maxVal="54" selectedAnswer="1">دوست دارید خودتان باشید. بدین معنی است كه شما یك گل رز هستید. كمی تیغ دارید ولی زیبایی‌های بسیاری دارید. حس شوخ‌طبعی دارید ولی از شنیدن جوك لذت می‌برید. احتمالا فرزند وسط خانواده هستید. مردم دوست دارند دوروبر شما باشند. خونگرم هستید. دوستان صمیمی بسیاری دارید. زندگی را بـا دیـد واقـع‌بـیـنـانـه می‌نگرید. آگاهید كه زندگی از خوبی‌ها و بدی‌ها تشكیل شده است. قادرید شانس خودتان را با توجه به سـرمـایـه‌هـایـی كـه داریـد، امـتـحـان كـنید. سختكوش هستید و به اهدافتان پایبندید.دوست دارید خودتان باشید و این مساله به شما اعتماد به نفس می‌دهد. مشكل‌ترین مساله در زندگیتان یكنواخت بودن مسائل است. یكنواختی در هر مساله‌ای شما را آزار می‌دهد و باعث كسل شدن روحیه شما می‌شود. به شما پیشنهاد می‌گردد كه افق دیدتان را وسیع‌تر كنید. مسائل جدیدی را تجربه و كشف كنید. آن‌گاه متعجب خواهید شد كه چه نتایج زیبایی به دست آورده‌اید و مهم‌تر از همه این‌كه فراموش نكنید كه در همه چیز دنبال زیبایی بگردید مخصوصا در خودتان.</scoring>
+				<scoring minVal="55" maxVal="75" selectedAnswer="1">در همه چیز به دنبال خوبی‌ها هستید. بـدیـن مـعـنـی اسـت كه شما یك گل آفتابگردان هستید در بستری از گل‌های رز. یك ویژگی بارز در شما وجود دارد كه باعث گرمادهی به دیگران و جلوه‌گری شــمـــا مـــی‌شـــود. مــمــكـــن اســـت شــمــا كوچك‌ترین فرزند خانواده یا تنها فرزند باشید. در وقت لازم جدی هستید، ولی دوستانتان شما را به عنوان یك شخص شوخ‌طبع می‌شناسند. از گفتن جوك لذت می‌برید. گاهی شیطنت می‌كنید. مایلید كه با افراد جدید و جالبی در زندگیتان آشنا شوید. با افرادی كه هیچ وقت نمی‌خندند، راحت نیستید. دید مثبتی به زندگی دارید. در همه چیز به دنبال خوبی‌ها هستید.بیدی نـیـسـتـیـد كـه بـا هـر بـادی بـلـرزید. گرم، دوست‌داشتنی، باوفا و اجتماعی هستید و هر كدام از این صفات می‌تواند دلیلی برای خوب بودن شما باشد. انرژی نامحدودی دارید ولی انگیزه‌تان كم است. برای شما مشكل است كه فقط روی یك كار متمركز شوید. به شما پیشنهاد می‌گردد كه اجازه دهید مردم روی جدی شما را هم ببینند. همان‌طور كه چهره شاد شما را می‌بینند. در این صورت می‌خواهند كه همیشه با شما بـاشـنـد.بـه احـسـاسـات دیـگـران احـتـرام بگذارید. از این شاخه به آن شاخه نپرید و كاری را كه دوست دارید، انتخاب كنید و تا پایان آن را انجام دهید.</scoring>
+			</scorings>
+			<score>0</score>
+			<intros>
+				<intro>با پاسخ دادن به این پرسشها، درخواهید یافت که اعتقادات و باورهای بنیادی تان در رابطه با یک ارتباط عمیق و ریشه دار چیست.</intro>
+				<intro>هنگام پاسخ دادن به این پرسشها، اولین فکری که به ذهن تان می رسد، در نظر بگیرید و براساس آن به این سؤالات پاسخ دهید</intro>				
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>فرض كنید شما مشخصه صورت كسی هستید، كدام قسمت از صورت او هستید؟</text>
+					</question>
+			        <tip>روانشناسی شخصیت</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">چین و چروك</answer>
+			            <answer score="2">لکه</answer>
+			            <answer score="3">خال زیبایی</answer>
+			            <answer score="4">کک و مک</answer>
+						<answer score="5">لبخند</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>دوست دارید چه نوع پرنده‌ای باشید؟</text>
+					</question>
+			        <tip>روانشناسی شخصیت</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">شباهنگ</answer>
+			            <answer score="2">جغد</answer>
+			            <answer score="3">عقاب</answer>
+			            <answer score="4">فلامینگو</answer>
+						<answer score="5">پنگوئن</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كدام یك از آلات موسیقی را دوست دارید؟</text>
+					</question>
+			        <tip>روانشناسی شخصیت</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">پیانو</answer>
+			            <answer score="2">ویولن</answer>
+			            <answer score="3">ساز دهنی</answer>
+			            <answer score="4">گیتار</answer>
+						<answer score="5">دف</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كدام یك از برنامه‌های تلویزیونی برای شما جالب‌تر است؟</text>
+					</question>
+			        <tip>روانشناسی شخصیت</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">اخبار و برنامه‌های مستند</answer>
+			            <answer score="2">فیلم‌های درام و زندگینامه</answer>
+			            <answer score="3">هیجانی و پلیسی</answer>
+			            <answer score="4">عشقی و ماجرایی</answer>
+						<answer score="5">كمدی و كارتون</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كدام یك از بازی های شهر بازی را بیشتر دوست دارید؟</text>
+					</question>
+			        <tip>روانشناسی شخصیت</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">ترن‌های هوایی سریع‌السیر</answer>
+			            <answer score="2">قطار یا قایق</answer>
+			            <answer score="3"> نمایش و اجرای كمدی</answer>
+			            <answer score="4">چرخ و فلك و وسایلی كه سریع می‌چرخند</answer>
+						<answer score="5">هیچ كدام، من از شهربازی متنفرم</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>آیـا شـمـا بـه اشـتـبـاهـات خـودتـان می‌خندید؟</text>
+					</question>
+			        <tip>روانشناسی شخصیت</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">هرگز</answer>
+			            <answer score="2">بندرت</answer>
+			            <answer score="3">برخی مواقع</answer>
+			            <answer score="4">معمولا</answer>
+						<answer score="5">همیشه</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>اگـر دوسـت شـمـا سـر بـه سرتان گذاشت، چه عكس‌العملی نشان می‌دهید؟</text>
+					</question>
+			        <tip>روانشناسی شخصیت</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">عصبانی می‌شوید</answer>
+			            <answer score="2">ناراحت می‌شوید</answer>
+			            <answer score="3">برایتان جالب است</answer>
+			            <answer score="4">تلافی می‌كنید</answer>
+						<answer score="5">چندین برابر تلافی می‌كنید</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>اولین چیزی كه صبح موقع بیدار شدن به فكرتان خطور می‌كند، چیست؟</text>
+					</question>
+			        <tip>روانشناسی شخصیت</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">كار یا تحصیل</answer>
+			            <answer score="2">مشکلات زندگی</answer>
+			            <answer score="3">صبحانه</answer>
+			            <answer score="4">روزی که در پیش دارید</answer>
+						<answer score="5">كاری كه تا شب انجام خواهید داد</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>در زندگیتان چه شعاری دارید؟</text>
+					</question>
+			        <tip>روانشناسی شخصیت</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">وقت طلاست</answer>
+			            <answer score="2">سحرخیز باش تا كامروا باشی</answer>
+			            <answer score="3">آنچه برای خود می‌پسندی، برای دیگران هم بپسند</answer>
+			            <answer score="4">زندگی كن و به دیگران هم اجازه زندگی كردن بده</answer>
+						<answer score="5">بی‌خیال باش، هرچه باداباد</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>آیا به حیوانات علاقه‌مندید؟</text>
+					</question>
+			        <tip>روانشناسی شخصیت</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">اصلا</answer>
+			            <answer score="2">تعداد کمی از حیوانات</answer>
+			            <answer score="3">برخی از حیوانات</answer>
+			            <answer score="4">بیشتر حیوانات</answer>
+						<answer score="5">تمام حیوانات</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>شما لبخند می‌زنید؟</text>
+					</question>
+			        <tip>روانشناسی شخصیت</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">هرگز</answer>
+			            <answer score="2">بندرت</answer>
+			            <answer score="3">گاهی اوقات</answer>
+			            <answer score="4">اغلب</answer>
+						<answer score="5">آنقدر زیاد كه برخی فكر می‌كنند دیوانه هستم</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نظر دیگران راجع به شما اغلب كدام مورد است؟</text>
+					</question>
+			        <tip>روانشناسی شخصیت</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بی‌رحم</answer>
+			            <answer score="2">سرد و بی احساس</answer>
+			            <answer score="3">زیبا</answer>
+			            <answer score="4">دوست داشتنی</answer>
+						<answer score="5">خوش گذران</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>شما احساس عشق و قدردانی خود را نشان می‌دهید؟</text>
+					</question>
+			        <tip>روانشناسی شخصیت</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">هرگز</answer>
+			            <answer score="2">بندرت</answer>
+			            <answer score="3">گاهی</answer>
+			            <answer score="4">اغلب</answer>
+						<answer score="5">حداكثر تا جایی كه امكان دارد</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>شما اعتقاد دارید كه برای شاداب بودن باید ساعاتی از روز را منحصرا صرف خودتان كنید؟</text>
+					</question>
+			        <tip>روانشناسی شخصیت</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">اصلا</answer>
+			            <answer score="2">احتمالا نه</answer>
+			            <answer score="3">گاهی</answer>
+			            <answer score="4">بله</answer>
+						<answer score="5">البته، تا جایی كه امكان دارد به خودتان می‌رسید</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>آیا زندگی شما با برنامه‌ریزی پیش می‌رود؟</text>
+					</question>
+			        <tip>روانشناسی شخصیت</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">مــن حـتــی در تـعـطـیــلات هــم برنامه‌ریزی می‌كنم</answer>
+			            <answer score="2">همیشه برنامه‌ریزی می‌كنم</answer>
+			            <answer score="3">بستگی به روز هفته دارد</answer>
+			            <answer score="4">در صورت امكان اجازه می‌دهم كه خودش پیش آید</answer>
+						<answer score="5">همیشه بدون برنامه‌ریزی روزها را طی می‌كنم</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+
+
+		
+	    <level id="20" name="با چه کسی ازدواج کنیم؟" maxAnswer="4" mostSelected="false" type="2" sub="0">
 			<scorings>
 				<scoring minVal="0" maxVal="8" selectedAnswer="1">ابتدا باید به این سؤال پاسخ دهید که آیا معنا و مفهوم واقعی زندگی مشترك و ارتباط دوجانبه را به درستی درك كرده‌اید؟ اگر پاسخ‌تان به این سؤال منفی است (كه حتما همین‌طور است، چون امتیازات شما نمایانگر آن است) قبل از تصمیم‌گیری برای ازدواج، باید به زندگی مشترك آرام و پر از تفاهم زوج‌های اطراف‌تان دقیق شوید و راهكارهای مدبرانه آنها را فرابگیرید. متأسفانه از قدرت تصمیم‌گیری بالایی برخوردار نیستید و حرف‌های دیگران به سرعت و به سهولت روی‌تان اثر می‌كنند، بدون اینكه پیرامون آنها بیندیشید و بعد از كمی جرح و تعدیل در آنها، اقدام كنید. زندگی مشترك مانند خیابانی دوطرفه است كه باید حق و حقوق طرفین در آن به طور یكسان و مساوی رعایت شود وگرنه مشكلات و موانعی بر سر راه‌تان قد علم می‌كنند كه حل و رفع آنها غیر ممكن است. شما اصلا آمادگی برای ازدواج ندارید و راه درازی برای شناخت خود در پیش دارید که این موضوع را جدی بگیرید.</scoring>
 				<scoring minVal="9" maxVal="12" selectedAnswer="1">شما فردی سرسخت و خودرأی هستید و بر اعتقادات و باورهای ریشه‌دار و عمیق‌تان به‌شدت اصرار می‌ورزید و مایلید آنها را در زندگی مشترك‌تان اعمال كنید. این به شرطی خوب است كه ابتدا، بتوانید به تفاهمی با همسرتان در این زمینه دست یابید و بعد از گذشت چند سال از زندگی مشترك‌تان و شناخت هرچه بیشتر یكدیگر، با هم فكری همسرتان آنها را با در نظر گرفتن وضعیت ارتباط‌تان، به كار گیرید. متأسفانه هنگام مواجهه با مشكلات و موانع به سرعت دست و پای‌تان را گم می‌كنید و قادر نیستید بدون گرفتن كمك فكری از اطرافیان‌تان به رفع و حل آنها بپردازید. شما کاملا برای ازدواج و تشکیل یک زندگی مشترک آماده نیستید و بهتر است بیشتر روی نقاط ضعف خود کار کنید.</scoring>
@@ -252,7 +1538,7 @@
 		    </exercises>
 		</level>
 		
-		<level id="2" name="تست انتخاب همسر" maxAnswer="5" mostSelected="false">
+		<level id="21" name="تست انتخاب همسر" maxAnswer="5" mostSelected="false" type="2" sub="0">
 			<scorings>
 				<scoring minVal="12" maxVal="24" selectedAnswer="1">شما آدم درونگرايي هستيد،‌ تنهايي را بيشتر دوست داريد و دوست داريد كارهايتان را بدون حضور ديگران انجام دهيد.</scoring>
 				<scoring minVal="24" maxVal="48" selectedAnswer="1">شما نه كاملا درونگرا هستيد و نه كاملا برونگرا. بعضي وقت‌ها با جمع بودن را ترجيح مي‌دهيد و گاهي تنهايي، هرچه نمره‌تان بالاتر باشد برونگراتر هستيد.</scoring>
@@ -467,245 +1753,9 @@
 			        </answers>
 			    </exercise>				
 		    </exercises>
-		</level>
+		</level>			
 	
-		<level id="3" name="چقدر زندگی را سخت می گیرید؟" maxAnswer="2" mostSelected="false">
-			<scorings>
-				<scoring minVal="0" maxVal="40" selectedAnswer="1">تبريك مي‌گوييم. شما زندگي را به کام خودتان تلخ نمي‌کنيد و به‌موقع در مقابل ناکامی‌ها و شکست‌ها مي‌ايستيد و از آنها گذر می‌کنید. زیبایی‌های زندگی را می‌شناسید و به طرف مقابل‌تان هم آنها را نشان می‌دهید. می‌توانید از زندگی در کنار تمام مشکلات لذت ببرید.</scoring>
-				<scoring minVal="40" maxVal="50" selectedAnswer="1">لازم است تاحدي در رفتار خود تجديدنظر کنيد و جنبه‌های مثبت زندگي و اتفاقات آن را هم درنظر بگیرید تا بتوانید با دید بهتر و انرژی بیشتری زندگی خود را زیبا سازید.</scoring>
-				<scoring minVal="50" maxVal="200" selectedAnswer="1">بايد واقعا به فکر باشيد و براي تغيير اين افکار کاري کنيد. درمورد عباراتي که به آنها پاسخ مثبت داده‌ايد با دقت فکر کنید و از خود بپرسيد: «چرا من اینگونه فکر می‌کنم؟» سپس براي تغيير آن برنامه‌ريزي کنيد و با همسر يا نامزد يا بهترين دوست‌تان در اين مورد صحبت کنید. اگر این افکار بیش از حد شما را ناراحت می‌کند، می‌توانید از متخصصان در این زمینه کمک بگیرید.</scoring>
-			</scorings>
-			<score>0</score>
-			<intros>
-				<intro>برای پی بردن به اینکه تا چه حد آدم راحتي هستيد يا برعكس بيش از حد به خودتان و زندگي‌تان گير مي‌دهيد و زندگی را به کام خود و ديگران تلخ مي‌كنيد و اینکه آیا همسر يا نامزدتان هم فردی است که زندگی را بيش از حد سخت می‌گیرد یا خیر، می‌توانید این تست را با هم انجام دهید و درمورد نتیجه به‌دست آمده با یکدیگر گفت‌و‌گو کنید.</intro>
-				<intro>به همه مسائل دید مثبت داشته باشید</intro>
-				<intro>شادکام بودن کار سختی نیست؛ اگرچه در جامعه متمدن کنونی، انسان‌ها ارزش زیادی برای تفکر وتعقل قائل هستند و کمتر به عواطف اهمیت می‌دهند. انسان بدون عاطفه احساس پوچی می‌کند چرا که بسیاری از مفاهیم زیباشناختی از عواطف بشر سرچشمه می‌گیرد. برای شادکام بودن فقط کافی است دید مثبتی نسبت به همه مسائل زندگی داشته باشیم. اینگونه می‌توانیم حتی در سختی‌های اجتناب‌ناپذیر زندگی شاد باشیم و امیدوار باشیم سختی‌ها زود می‌گذرند. ما باید به توانایی خود برای به‌دست آوردن شادکامی ایمان داشته باشیم. اگر در برابر ناکامی‌ها کمر خم کرده و خود را ناتوان بپنداریم مطمئنا شادکامی از زندگی ما پرخواهد کشید.</intro>
-				<intro>با انجام این تست می‌توانید متوجه شوید چقدر زندگی را به کام خود و شریک زندگی‌تان تلخ می‌کنید.</intro>
-			</intros>
-		    <exercises>
-			    <exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>هميشه بدون تعمق کافي چيزهايي مي‌گويم که بعدا باعث کدورت و سوء‌تفاهم بين من و ديگران مي‌شود.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-			    <exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>هميشه با نگراني به آينده نگاه مي‌کنم و انتظار پيشامدهاي ناگواری را دارم.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>اکثرا در گذشته زندگي مي‌کنم. خاطرات و اتفاقات گذشته را در ذهنم مرور مي‌کنم و وقتي حالم را با گذشته مقايسه مي‌کنم به گذشته‌ام حسرت مي‌خورم.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>همیشه کارهاي امروز را به فردا موکول مي‌کنم.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>اگر کسي به من كوچك‌ترين اهانتي کند، تمام روزم خراب مي‌شود.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>اگر با کسي برخورد کنم که خلق عصبي و تندي دارد به‌شدت تحت‌تاثير او قرار مي‌گيرم.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>وقتي درست به زندگي‌ام نگاه مي‌کنم مي‌بينم که هميشه تمايل داشته‌ام از کاه کوه بسازم.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>وقتي با کسي روبه‌رو مي‌شوم که در نگاه اول به دلم نمي‌چسبد، مي‌دانم که هرگز نمي‌توانم با وي رابطه‌اي داشته باشم.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>براي اينکه جلوي ناراحتي‌هاي بعدي را بگيرم تنهایی همه کار‌ها را انجام مي‌دهم و از کسي کمکي نمي‌خواهم.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>هميشه در درونم پراز فشار است و براي خودم ساعاتی برای آرامش فراهم نمي‌کنم.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>اگر آنطور که تصور کرده‌ام در کارم موفق نشوم به‌شدت خود را به محاکمه مي‌کشم.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>اصلا حساب و کتاب پولم را ندارم يا آنقدر حساب و کتاب مي‌کنم تا هيچ پولی را بيخودي خرج نکنم، در نتیجه اين‌کار وقتم را مي‌گيرد و برايم مشکل به‌وجود می‌آورد.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>وقتي مي‌بينم طرف مقابلم به کاري که انجام مي‌دهم توجه لازم را نمي‌کند دلم از او می‌گیرد.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>وقتي کسي از من انتقاد مي‌کند يا به جانم نق مي‌زند با خودم فکر مي‌کنم که او به من علاقه ندارد.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>اگر کاري را که مي‌خواهم پيش نرود دنيا پيش رويم تيره و تار مي‌شود.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>هميشه آدم‌ها را مقصر مي‌دانم مگر اينکه خلاف آن ثابت شود.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>وقتي در کاري موفقيتي به‌دست مي‌آورم، موفقيتم آنچنان که بايد و شايد به‌نظرم نمي‌آيد.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>فکر مي‌کنم نبايد به آدم‌هاي ديگر اعتماد کرد چراکه همه بد مرا مي‌خواهند.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>هيچ‌وقت احتياج به کمک ديگران نداشته‌ام و ندارم.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-				<exercise questionType="TEXT" answerType="TEXT">
-			        <question>
-						<text>رفتاری را که هر روز انجام مي‌دهم دوست ندارم و اصلا بيهوده دارم زندگي‌ام را خراب مي‌کنم.</text>
-					</question>
-			        <tip>چقدر زندگی را سخت می گیرید؟</tip>
-					<score>0</score>
-			        <answers>
-			            <answer score="5">بله</answer>
-			            <answer score="0">خیر</answer>
-			        </answers>
-			    </exercise>
-		    </exercises>
-		</level>	
-		<level id="4" name="هوش احساسی عشق شما چقدر است؟" maxAnswer="4" mostSelected="true">
+		<level id="22" name="هوش احساسی عشق شما چقدر است؟" maxAnswer="4" mostSelected="true" type="2" sub="0">
 			<scorings>
 				<scoring minVal="0" maxVal="0" selectedAnswer="1">EQنامزد شما عالی است.
 ما به واسطه احساسات، آسیب پذیری، خصلت و منش های خود با دیگران در ارتباط هستیم. هوشمندی احساسی خوب یعنی درک درست از احساسات و نیازهای خود و اطرافیان داشته باشیم. این بهترین روش برای ارتباط برقرار کردن است و در نهایت منجر به رابطه عمیق تر و طولانی تر می شود. نامزد شما مسوولیت پذیر و قابل اعتماد است.</scoring>
@@ -790,5 +1840,3055 @@
 			    </exercise>
 		    </exercises>
 		</level>
+	
+		<level id="23" name="خودآزمایی دوستی با همسر" maxAnswer="2" mostSelected="false" type="2" sub="0">
+			<scorings>
+				<scoring minVal="10" maxVal="12" selectedAnswer="1">به شما تبریک می گویم، در رابطه با دوستیتان با همسر، هیچ مشکلی وجود ندارد، همسر شما دوست خوبی است که ارزش همه نوع تلاش، اهمیت ، سرمایه گذاری و حتی فداکاری را دارد.قدرش را بدانید و خوش به حالتان که همسرتان بهترین دوستتان است.</scoring>
+				<scoring minVal="6" maxVal="9" selectedAnswer="1">گرچه همسرتان نمی تواند نسبت به نیازهای شما حساس تر شود و پتانسیل بیشتری را نشان دهد، اما همین قدر هم خوب است ، درست است که شاید همسر شما بهترین دوستتان نیست، اما بازهم از دوستان خوبتان است، مراقب باشید، بیندیشید و چنانچه همسرتان همه انتظارات شما را بر آورده نکرده، ناامید نشوید. با او در این زمینه صحبت کنید، اصلا این برگه تست را بدهید او هم نسبت به شما انجام دهد، شاید اشکال از خودتان است!</scoring>
+				<scoring minVal="0" maxVal="5" selectedAnswer="1">مطمئنید که درست حساب کرده اید؟ یکبار دیگر تست را با دقت بیشتری انجام دهید، تمام دورانی که با همسرتان نامزد ، عقدکرده و ازدواج کرده اید را به یاد آورید، اگر عصبانی و کلافه هستید، انجام آزمون را به زمان دیگری موکول کنید، آیا واقعا او برای شما وقت نمی گذارد؟ شما چی؟ شما برای او وقت می گذارید؟ این تست را به همسرتان بدهید تا او هم نظرش را در مورد شما بگوید، اگر بازهم این نمره را کسب کردید، مراجعه به مشاور و یا راهنمایی از بزرگان خانواده را فراموش نکنید، مطمئن باشید با کمی وقت گذاری بیشتر، مطالعه و تلاش شاید دفعه دیگر بتوانید نمره حداکثر را کسب کنید.</scoring>
+			</scorings>
+			<score>0</score>
+			<intros>
+				<intro>قدرتمند ترین روابط عاشقانه ریشه در دوستی دارند، زن و شوهر خوشبخت، بهترین دوستان یکدیگرند که از باهم بودن لذت می برند.</intro>
+				<intro>همیشه، حتی از دوران کودکی ، وقتی می دیدم که خیلی ها ادعا می کنند که بهترین دوستشان پدر و مادرشان و یا همسرشان است، به آنها غبطه می خوردم ، آرزو می کردم که ای کاش من هم بتوانم در آینده با همسری ازدواج کنم که بهترین دوستم باشد. یکی از بزرگ ترین لذت ها در زندگی، داشتن دوست خوب است و چه خوشبخت است انسانی که همسرش، دوست خوبش باشد، همسری که بتوان به او اعتماد کرد و افکار خنده دار، مکنونات قلبی، احساسات هر چند کودکانه و سطحی و خلاصه همه چیزها را بدون ترس از قضاوت، سوء تفاهم و ... با او در میان گذاشت.</intro>
+				<intro>این تمرین به شما کمک خواهد کرد که راجع به دوستی با همسرتان بیندیشید.</intro>
+				<intro>قدرتمند ترین روابط عاشقانه ریشه در دوستی دارند، زن و شوهر خوشبخت، بهترین دوستان یکدیگرند که از باهم بودن لذت می برند.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>همسرم می داند چگونه رازداری کند؟</text>
+					</question>
+			        <tip>خودآزمایی دوستی با همسر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">درست</answer>
+			            <answer score="0">غلط</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text> ما ممکن است بر سر مسائل مختلف با یکدیگر اختلاف نظر داشته باشیم ولی بدون ادامه دلخوری آن را حل می کنیم.</text>
+					</question>
+			        <tip>خودآزمایی دوستی با همسر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">درست</answer>
+			            <answer score="0">غلط</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>من و او تقریباً همیشه برای همدیگر وقت داریم.</text>
+					</question>
+			        <tip>خودآزمایی دوستی با همسر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">درست</answer>
+			            <answer score="0">غلط</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>وقتی که او برای من چاره جویی می کند به دیدگاه او احترام می گذارم، زیرا او از مهم ترین مکنونات قلبی من با اطلاع است و احساسات من را از درست و غلط می داند.</text>
+					</question>
+			        <tip>خودآزمایی دوستی با همسر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">درست</answer>
+			            <answer score="0">غلط</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>در کنار او می توانم خودم باشم و احتیاجی به نقش بازی کردن ندارم.</text>
+					</question>
+			        <tip>خودآزمایی دوستی با همسر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">درست</answer>
+			            <answer score="0">غلط</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>او شنونده خوبی است.</text>
+					</question>
+			        <tip>خودآزمایی دوستی با همسر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">درست</answer>
+			            <answer score="0">غلط</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>همسرم به هنگام سختی به کمک من می آید و مشتاق است برای من فداکاری کند.</text>
+					</question>
+			        <tip>خودآزمایی دوستی با همسر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">درست</answer>
+			            <answer score="0">غلط</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>او از عیوب من آگاه است و با این همه مراقب من است و به من اهمیت می دهد.</text>
+					</question>
+			        <tip>خودآزمایی دوستی با همسر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">درست</answer>
+			            <answer score="0">غلط</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>رابطه ما در دادن و گرفتن (داد و ستد) دارای تعادل است و به طور مساوی نسبت به یکدیگر باز و مراقب هستیم.</text>
+					</question>
+			        <tip>خودآزمایی دوستی با همسر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">درست</answer>
+			            <answer score="0">غلط</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text> در صورت لزوم می توانم میان خودم و او مرزهایی بگذارم و او نیز به این مرزها احترام می گذارد.</text>
+					</question>
+			        <tip>خودآزمایی دوستی با همسر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">درست</answer>
+			            <answer score="0">غلط</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>هیچ موضوعی در مکالمات ما مشمول محدودیت نیست.</text>
+					</question>
+			        <tip>خودآزمایی دوستی با همسر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">درست</answer>
+			            <answer score="0">غلط</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>همیشه می توانم روی همسرم حساب کنم.</text>
+					</question>
+			        <tip>خودآزمایی دوستی با همسر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">درست</answer>
+			            <answer score="0">غلط</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>		
+	
+		<level id="24" name="چقدر در زندگی مشترک موفق هستید؟" maxAnswer="4" mostSelected="false" type="2" sub="0">
+			<scorings>
+				<scoring minVal="5" maxVal="8" selectedAnswer="1">ابتدا باید به این سؤال پاسخ دهید: آیا معنا و مفهوم واقعی زندگی مشترک و ارتباط دوجانبه را به درستی درک کرده اید؟ اگر پاسخ تان به این سؤال منفی است (که حتماً همین طور است، چون امتیازات شما نمایانگر آن است) قبل از تصمیم گیری برای ازدواج، بایستی به زندگی مشترک آرام و پر از تفاهم زوج های اطرافتان دقیق شوید و راهکارهای مدبرانه آنها را فرا بگیرید. متأسفانه، از قدرت تصمیم گیری بالایی برخوردار نیستید و حرفهای دیگران به سرعت و به سهولت رویتان اثر می کنند، بدون این که پیرامون آنها بیندیشید و بعد از کمی جرح و تعدیل در آنها، اقدام کنید. زندگی مشترک به سان خیابانی دو طرفه است که باید حق و حقوق طرفین در آن، به طور یکسان و مساوی رعایت شود، وگرنه مشکلات و موانعی بر سر راهتان قد علم می کنند که حل و رفع آنها غیر ممکن است.</scoring>
+				<scoring minVal="9" maxVal="12" selectedAnswer="1">شما فردی سرسخت و خود رأی هستید و بر اعتقادات و باورهای ریشه دار و عمیق تان به شدت اصرار می ورزید و مایلید آنها را در زندگی مشترکتان اعمال کنید. این به شرطی خوب است که ابتدا، بتوانید به تفاهمی با همسرتان در این زمینه، دست یابید و بعد از گذشت چند سال از زندگی مشترکتان و شناخت هر چه بیشتر با یکدیگر، با هم فکری همسرتان آنها را با در نظر گرفتن وضعیت ارتباطتتان، به کار گیرید. متأسفانه در هنگام مواجهه با مشکلات و موانع، به سرعت دست و پایتان را گم می کنید و قادر نیستید بدون گرفتن کمک فکری از اطرافیانتان به رفع و حل آنها بپردازید.
+بهتر است در این طور مواقع، ابتدا به غور و بررسی پیرامون مشکل پیش آمده بپردازید و با گرفتن کمک فکری و معنوی از همسرتان، بدون دخالت دادن اطرافیان، مشکلات را حل کنید.</scoring>
+				<scoring minVal="13" maxVal="16" selectedAnswer="1">شما از روحیه ای فداکار و ایثارگر برخوردارید، ولی مایلید همسرتان نیز، به موقع، شما را درک کند و از خودگذشتگی نشان دهد. ممکن است، در هنگام مواجهه با مشکلات، ابتدا، کمی خودتان را ببازید و دچار حالت سردرگمی و بلاتکلیفی شوید، ولی خیلی زود به خودتان می آیید و اوضاع را به بهترین نحو، سروسامان می دهید. متأسفانه، در هنگام پذیرفتن اشتباهات و خطاهایتان، کمی سرسخت و لجوجانه عمل می کنید، ولی با کمی تأمل و سبک و سنگین کردن جوانب امر، قادرید به راهکارهایی مناسب دست یابید و بر موانع و مشکلات فایق آیید.</scoring>
+				<scoring minVal="17" maxVal="20" selectedAnswer="1">به شما تبریک می گوییم! شما به خوبی از نقاط ضعف و قوت شخصیت خودتان آگاهید و معنا و مفهم واقعی زندگی مشترک و همسرداری را کاملاً و به خوبی درک کرده اید. شما می دانید که هر ارتباط مشترکی، از فراز و نشیب های خاصی برخوردار است و قادرید خودتان را با آنها هماهنگ و سازگار کنید و مشکلات و موانع را از سر راه بردارید. در هنگام مواجهه با یک اختلاف نظر یا اختلاف سلیقه با همسرتان، ابتدا خود را به جای او می گذارید و از دریچه دید او به مسایل می نگرید، اشتباهات خود را به راحتی می پذیرید و در صورت لزوم حاضرید مصالحه و گذشت کنید. قطعاً با این روحیه ایثار و همدلی که شما دارید، حتی قادرید کوه را از جای خود بلند کنید و از یک زندگی مشترک پر از صلح و صفا و آرامش برخوردار باشید.</scoring>
+			</scorings>
+			<score>0</score>
+			<intros>
+				<intro>با پاسخ دادن به این پرسشها، درخواهید یافت که اعتقادات و باورهای بنیادی تان در رابطه با یک ارتباط عمیق و ریشه دار چیست.</intro>
+				<intro>هنگام پاسخ دادن به این پرسشها، اولین فکری که به ذهن تان می رسد، در نظر بگیرید و براساس آن به این سؤالات پاسخ دهید</intro>				
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>به نظر شما، بهترین شیوه برای این که اطمینان یابید که طرف مقابل تان کاملاً برازنده و مناسب حال شما است. چیست؟</text>
+					</question>
+			        <tip>چقدر در زندگی مشترک موفق هستید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="3">این که خواسته ها و سلایق تان در زندگی، عیناً مثل هم هستند</answer>
+			            <answer score="2">این که شما در این ارتباط، همیشه شاد و راضی هستید و هیچ اختلاف نظر و مشکلی بین تان وجود ندارد</answer>
+			            <answer score="4">این که به اتفاق هم با مشکلات مواجه می شوید و مبارزه می کنید و روز به روز بیشتر به یکدیگر نزدیک می شوید</answer>
+			            <answer score="1">این که والدین و خانواده تان، او را تأیید می کنند</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text> به نظر شما. زوج ها از چه طریق قادرند به بهترین نحو، مشکلات و مسایل مهم زندگی مشترکشان را حل و برطرف کنند؟</text>
+					</question>
+			        <tip>چقدر در زندگی مشترک موفق هستید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="3">این که ابتدا مشخص کنند که چه کسی در اشتباه است و حق با کدام یک است</answer>
+			            <answer score="2">حتی درصورتی ناراحتی و نارضایتی شدید، بایستی مدام و همواره در مورد آنها با یکدیگر صحبت و تبادل نظر کنند</answer>
+			            <answer score="1">آنها را به حال خود رها کنند و منتظر بمانند تا اوضاع خود به خود بهبود یابد</answer>
+			            <answer score="4">تمام حواس و توجه خود را روی آنها متمرکز کنند و گوش دل و جان به حرف ها و پیشنهادهای یکدیگر بدهند</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text> واژه ماه عسل دوره و مرحله ای از زندگی مشترک زوج ها محسوب می شود که:</text>
+					</question>
+			        <tip>چقدر در زندگی مشترک موفق هستید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">باعث می شود اطمینان پیدا کنیم که همسرمان کاملاً برازنده و مناسب حال ما است</answer>
+			            <answer score="4">فرصتی در اختیارمان قرار می دهد تا دریابیم که آینده زندگی مشترکمان به چه شکلی پیش خواهد رفت</answer>
+			            <answer score="1">تا حدی مسخره و بچه گانه است و نمی توانیم طی آن دوره زندگی طبیعی خودمان را ادامه دهیم</answer>
+			            <answer score="3">اگر واقعاً همسرمان نیمه گمشده و برازنده ما باشد، این دوره می تواند تا ابد به همان شکل ادامه داشته باشد</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>درزندگی مشترک زوجها، ممکن است تفاوت ها، اختلاف نظرها و مشکلاتی قد علم کنند. این ها:</text>
+					</question>
+			        <tip>چقدر در زندگی مشترک موفق هستید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">نمایانگر و علامتی دال بر این حقیقت هستند که لازم است تغییر و تحولاتی در همسرتان به وجود آورید</answer>
+			            <answer score="3">دلایل و عللی هستند که باعث می شوند گذشت و سازش خود را به یکدیگر نشان دهید و در جهت بهبود ارتباطتان بیشتر بکوشید</answer>
+			            <answer score="1">به منزله علایم هشدار دهنده ای هستند که ثابت می کنند همسرتان مناسب حال و برازنده شما نیست و به دردتان نمی خورد</answer>
+			            <answer score="4">به منزله علایم و نشانه هایی هستند که به ما می گویند زمان آن فرا رسیده است که چیزهایی جدیدی یاد بگیریم و به مرحله رشد و شکوفایی دست پیدا کنیم</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>زوجهایی که همیشه رضایت خاطر، خرسندی، خشنودی و شادمانی شان را با یکدیگر تقسیم می کنند با زوجهایی متفاوت هستند که دائماً ابراز نارضایتی و ناراحتی می کنند و دلشان با یکدیگر نیست. به نظر شما، تفاوت اصلی آنها در چیست؟</text>
+					</question>
+			        <tip>چقدر در زندگی مشترک موفق هستید؟</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="2">زوجهای گروه اول، هرگز عصبانی نمی شوند، جروبحث به راه نمی اندازند و دعوا مرافعه نمی کنند و همواره خونسردی و آرامش خود را حفظ می کنند و خویشتن دار هستند</answer>
+			            <answer score="3">زوجهای گروه اول به خراب شدن اوضاع دامن نمی زنند و در واقع در زندگی شان، موش نمی دوانند</answer>
+			            <answer score="1">زوجهای گروه اول مسایل و مشکلات، تفاوت ها و اختلاف نظرهای کمتری دارند، در نتیجه بیشتر فرصت پیدا می کنند که به یکدیگر برسند و از زندگی شان لذت واقعی ببرند</answer>
+			            <answer score="4">زوج های گروه اول، برای حل و رفع مسایل و مشکلات موجود در زندگی مشترکشان، از ابزار، تجهیزات، شگردها، راهکارها و تدابیر زیرکانه تر و بهتری برخوردارند</answer>
+			        </answers>
+			    </exercise>				
+		    </exercises>
+		</level>
+	
+
+	
+		<level id="30" name="آزمون 1: واقع گرا" maxAnswer="2" mostSelected="false" type="3" sub="1">
+			<scorings>
+				<scoring minVal="0" maxVal="11" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت دارای 11 پرسش می باشد که علاقه شما را نسبت به فعالیت های مختلف می سنجد. اگر شما به فعالیتی علاقه دارید هر چند که تاکنون آن را انجام نداده باشید می توانید جواب بله را انتخاب کنید و در صورت علاقه مند نبودن جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نصب وسايل الكترونيكي </text>
+					</question>
+			        <tip>فعالیت ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>تعمير اتومبيل</text>
+					</question>
+			        <tip>فعالیت ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>ساختن اشيا  چوبي</text>
+					</question>
+			        <tip>فعالیت ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>راندن كاميون و تراكتور</text>
+					</question>
+			        <tip>فعالیت ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>استفاده از ابزار ماشيني يا فلزي</text>
+					</question>
+			        <tip>فعالیت ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>تغيير ابتكاري موتور اتومبيل و موتورسيكلت </text>
+					</question>
+			        <tip>فعالیت ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>گذراندن دوره كارگاه </text>
+					</question>
+			        <tip>فعالیت ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>گذراندن دوره طراحي مكانيكي</text>
+					</question>
+			        <tip>فعالیت ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>گذراندن دوره درودگري ( كارهاي چوبي )</text>
+					</question>
+			        <tip>فعالیت ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>گذراندن دوره خياطي</text>
+					</question>
+			        <tip>فعالیت ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>گذراندن دوره اتو مكانيكي</text>
+					</question>
+			        <tip>فعالیت ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="31" name="آزمون 2: اجتماعی" maxAnswer="2" mostSelected="false" type="3" sub="1">
+			<scorings>
+				<scoring minVal="0" maxVal="11" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت دارای 11 پرسش می باشد که علاقه شما را نسبت به فعالیت های مختلف می سنجد. اگر شما به فعالیتی علاقه دارید هر چند که تاکنون آن را انجام نداده باشید می توانید جواب بله را انتخاب کنید و در صورت علاقه مند نبودن جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نامه نگاري با دوستان </text>
+					</question>
+			        <tip>فعالیت ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>شركت در برنامه هاي مذهبي</text>
+					</question>
+			        <tip>فعالیت ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>عضويت در انجمن ها و مراكز فرهنگي و اجتماعي </text>
+					</question>
+			        <tip>فعالیت ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كمك به حل مشكلات شخصي ديگران </text>
+					</question>
+			        <tip>فعالیت ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مراقبت از كودكان </text>
+					</question>
+			        <tip>فعالیت ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>شركت در ميهمانيها ومراسم جشن و سرور</text>
+					</question>
+			        <tip>فعالیت ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>بيان مطالب شنيدني و لطيفه در جمع دوستان</text>
+					</question>
+			        <tip>فعالیت ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مطالعه كتابهاي روانشناسي</text>
+					</question>
+			        <tip>فعالیت ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>حضور در جلسات و سمينارها</text>
+					</question>
+			        <tip>فعالیت ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>شركت در كلاسهاي ورزشي</text>
+					</question>
+			        <tip>فعالیت ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>پيدا كردن دوستان و افراد جديد</text>
+					</question>
+			        <tip>فعالیت ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="32" name="آزمون 3: جستجوگر" maxAnswer="2" mostSelected="false" type="3" sub="1">
+			<scorings>
+				<scoring minVal="0" maxVal="11" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت دارای 11 پرسش می باشد که علاقه شما را نسبت به فعالیت های مختلف می سنجد. اگر شما به فعالیتی علاقه دارید هر چند که تاکنون آن را انجام نداده باشید می توانید جواب بله را انتخاب کنید و در صورت علاقه مند نبودن جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>خواندن كتابها يا مجلات علمي </text>
+					</question>
+			        <tip>فعالیت ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كار در آزمايشگاه </text>
+					</question>
+			        <tip>فعالیت ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كار برروي يك پروژه علمي </text>
+					</question>
+			        <tip>فعالیت ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>ساختن مدلهايي از هواپيما ( ماكت )</text>
+					</question>
+			        <tip>فعالیت ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كار با وسايل و مواد شيميايي</text>
+					</question>
+			        <tip>فعالیت ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مطالعه آزاد درباره موضوعات خاص </text>
+					</question>
+			        <tip>فعالیت ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				ر
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>حل معماهاي رياضي و شطرنج</text>
+					</question>
+			        <tip>فعالیت ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>گذراندن دوره فيزيك</text>
+					</question>
+			        <tip>فعالیت ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>گذراندن دوره شيمي</text>
+					</question>
+			        <tip>فعالیت ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>گذراندن دوره هندسه يا مثلثات </text>
+					</question>
+			        <tip>فعالیت ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>گذراندن دوره زيست شناسي</text>
+					</question>
+			        <tip>فعالیت ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="33" name="آزمون 4: متهور" maxAnswer="2" mostSelected="false" type="3" sub="1">
+			<scorings>
+				<scoring minVal="0" maxVal="11" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت دارای 11 پرسش می باشد که علاقه شما را نسبت به فعالیت های مختلف می سنجد. اگر شما به فعالیتی علاقه دارید هر چند که تاکنون آن را انجام نداده باشید می توانید جواب بله را انتخاب کنید و در صورت علاقه مند نبودن جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>تاثير گذاشتن روي ديگران </text>
+					</question>
+			        <tip>فعالیت ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>فروشندگي اجناس </text>
+					</question>
+			        <tip>فعالیت ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>بحث درباره مسائل سياسي</text>
+					</question>
+			        <tip>فعالیت ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كار كردن در مغازه يا فروشگاه شخصي</text>
+					</question>
+			        <tip>فعالیت ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>شركت فعال در سمينارها </text>
+					</question>
+			        <tip>فعالیت ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>سخنراني</text>
+					</question>
+			        <tip>فعالیت ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>خدمت به عنوان مدير يك گروه</text>
+					</question>
+			        <tip>فعالیت ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>سرپرستي و نظارت بر كار ديگران </text>
+					</question>
+			        <tip>فعالیت ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>ملاقات با شخصيت هاي مهم </text>
+					</question>
+			        <tip>فعالیت ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>رهبري يك گروه براي رسيدن به هدف </text>
+					</question>
+			        <tip>فعالیت ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مشاركت در فعاليت هاي سياسي</text>
+					</question>
+			        <tip>فعالیت ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="34" name="آزمون 5: هنری" maxAnswer="2" mostSelected="false" type="3" sub="1">
+			<scorings>
+				<scoring minVal="0" maxVal="11" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت دارای 11 پرسش می باشد که علاقه شما را نسبت به فعالیت های مختلف می سنجد. اگر شما به فعالیتی علاقه دارید هر چند که تاکنون آن را انجام نداده باشید می توانید جواب بله را انتخاب کنید و در صورت علاقه مند نبودن جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>طراحي ، ترسيم ، نقاشي</text>
+					</question>
+			        <tip>فعالیت ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>بازيگري تئاتر يا سينما</text>
+					</question>
+			        <tip>فعالیت ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>طراحي داخل ساختمان يا دكوراسيون </text>
+					</question>
+			        <tip>فعالیت ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نوازندگي در گروه موسيقي و سرود</text>
+					</question>
+			        <tip>فعالیت ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نوازندگي يكي از آلات موسيقي</text>
+					</question>
+			        <tip>فعالیت ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>رفتن به برنامه هاي اجراي موسيقي </text>
+					</question>
+			        <tip>فعالیت ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>خواندن داستانهاي معروف </text>
+					</question>
+			        <tip>فعالیت ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نقاشي از روي مدل يا عكس</text>
+					</question>
+			        <tip>فعالیت ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نقد نمايشنامه </text>
+					</question>
+			        <tip>فعالیت ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>خواندن شعر يا سرودن شعر </text>
+					</question>
+			        <tip>فعالیت ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>گذراندن دوره هنري</text>
+					</question>
+			        <tip>فعالیت ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="35" name="آزمون 6: قرار دادی" maxAnswer="2" mostSelected="false" type="3" sub="1">
+			<scorings>
+				<scoring minVal="0" maxVal="11" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت دارای 11 پرسش می باشد که علاقه شما را نسبت به فعالیت های مختلف می سنجد. اگر شما به فعالیتی علاقه دارید هر چند که تاکنون آن را انجام نداده باشید می توانید جواب بله را انتخاب کنید و در صورت علاقه مند نبودن جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>دقت در تميز نگهداشتن كتابها و لوازم التحرير خود </text>
+					</question>
+			        <tip>فعالیت ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>ماشين نويسي اوراق يا نامه ها براي خود وديگران </text>
+					</question>
+			        <tip>فعالیت ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>حسابداري</text>
+					</question>
+			        <tip>فعالیت ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كار باانواع ماشينهاي اداري ( حساب ، كامپيوتر و غيره )</text>
+					</question>
+			        <tip>فعالیت ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>ثبت و نگهداري اسناد هزينه ها و درآمد </text>
+					</question>
+			        <tip>فعالیت ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>گذراندن دوره ماشين نويسي</text>
+					</question>
+			        <tip>فعالیت ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>گذراندن دوره بازرگاني </text>
+					</question>
+			        <tip>فعالیت ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>گذراندن دوره دفترداري</text>
+					</question>
+			        <tip>فعالیت ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>گذراندن دوره حسابداري مالي </text>
+					</question>
+			        <tip>فعالیت ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>بايگاني نامه ها ، گزارشها ، سوابق و غيره</text>
+					</question>
+			        <tip>فعالیت ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نوشتن نامه هاي اداري و رسمي</text>
+					</question>
+			        <tip>فعالیت ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+	
+	
+		<level id="36" name="آزمون 1: واقع گرا" maxAnswer="2" mostSelected="false" type="3" sub="2">
+			<scorings>
+				<scoring minVal="0" maxVal="11" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت شامل 11 سوال می باشدکه تجربه کسب شده شما را می سنجد. در این قسمت اگر شما موضوعی را تجربه کرده باشید هر چند به صورت محدود و جزیی جواب بله و اگر تجربه نکرده باشید حتی اگر به آن علاقه داشته باشید جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>از ابزار هاي برقي كارگاه نجاري مانند اره ، ماشين تراش ياماشين سنباده استفاده كرده ام .</text>
+					</question>
+			        <tip>تجربه ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كار كردن  با ولت متر را مي دانم .</text>
+					</question>
+			        <tip>تجربه ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم كاربراتوررا تنظيم كنم .</text>
+					</question>
+			        <tip>تجربه ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>با ابزار هاي برقي مانند : مته ، آسياب ، خرد كن و چرخ خياطي كار كرده ام .</text>
+					</question>
+			        <tip>تجربه ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كار جلا زدن و لكه زدايي مبلمان يا كارهاي چوبي را مي توانم انجام دهم .</text>
+					</question>
+			        <tip>تجربه ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم نقشه ساختمان يا طرح ماشين را بخوانم .</text>
+					</question>
+			        <tip>تجربه ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>تعميرات ساده وسايل برقي را مي توانم انجام دهم .</text>
+					</question>
+			        <tip>تجربه ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم وسايل چوبي ( صندلي ، ميز و ... ) راتعمير كنم .</text>
+					</question>
+			        <tip>تجربه ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>رسم هاي فني را مي توانم بكشم .</text>
+					</question>
+			        <tip>تجربه ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم تعميرات ساده تلويزيون را انجام دهم.</text>
+					</question>
+			        <tip>تجربه ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>تعميرات ساده لوله كشي را مي توانم انجام دهم.</text>
+					</question>
+			        <tip>تجربه ها - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="37" name="آزمون 2: اجتماعی" maxAnswer="2" mostSelected="false" type="3" sub="2">
+			<scorings>
+				<scoring minVal="0" maxVal="11" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت شامل 11 سوال می باشدکه تجربه کسب شده شما را می سنجد. در این قسمت اگر شما موضوعی را تجربه کرده باشید هر چند به صورت محدود و جزیی جواب بله و اگر تجربه نکرده باشید حتی اگر به آن علاقه داشته باشید جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم بخوبي مطالب را براي ديگران توضيح دهم .</text>
+					</question>
+			        <tip>تجربه ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>در امور خيريه با جمع آوري كمكهاي مردمي شركت كرده ام .</text>
+					</question>
+			        <tip>تجربه ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>با ديگران به خوبي كار وتشريك مساعي مي كنم .</text>
+					</question>
+			        <tip>تجربه ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>در سر گرم كردن افراد بزرگتر از خود مهارت دارم .</text>
+					</question>
+			        <tip>تجربه ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم ميزبان خوبي باشم .</text>
+					</question>
+			        <tip>تجربه ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>به راحتي مي توانم به كودكان آموزش دهم  .</text>
+					</question>
+			        <tip>تجربه ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم براي سرگرمي ديگران در يك مهماني برنامه ريزي كنم.</text>
+					</question>
+			        <tip>تجربه ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>بخوبي مي توانم به افراد مضطرب يا داراي مشكل كمك كنم .</text>
+					</question>
+			        <tip>تجربه ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>داوطلبانه در بيمارستان ، كلينيك يا مراكز امداد رساني ( هلال احمرو ... ) كار كرده ام .</text>
+					</question>
+			        <tip>تجربه ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>براي امور خيريه مربوط به مدرسه يا مسجد مي توانم برنامه ريزي كنم .</text>
+					</question>
+			        <tip>تجربه ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>درباره شخصيت افراد به خوبي مي توانم قضاوت كنم .</text>
+					</question>
+			        <tip>تجربه ها - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="38" name="آزمون 3: جستجوگر" maxAnswer="2" mostSelected="false" type="3" sub="2">
+			<scorings>
+				<scoring minVal="0" maxVal="11" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت شامل 11 سوال می باشدکه تجربه کسب شده شما را می سنجد. در این قسمت اگر شما موضوعی را تجربه کرده باشید هر چند به صورت محدود و جزیی جواب بله و اگر تجربه نکرده باشید حتی اگر به آن علاقه داشته باشید جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>طرز كار لامپ خلا ( لوله خالي از هوا ) را مي دانم .</text>
+					</question>
+			        <tip>تجربه ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم سه غذا راكه از لحاظ مواد پروتئيني غني هستند را نام ببرم .</text>
+					</question>
+			        <tip>تجربه ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مفهوم نيمه عمر عنصر راديواكتيو را مي دانم .</text>
+					</question>
+			        <tip>تجربه ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم جدو ل مندليف را توضيح دهم .</text>
+					</question>
+			        <tip>تجربه ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم از خط كش محاسبه براي ضريب يا تقسيم استفاده كنم .</text>
+					</question>
+			        <tip>تجربه ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>از ميكروسكوپ مي توانم استفاده كنم .</text>
+					</question>
+			        <tip>تجربه ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>				
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>سه نوع صورت فلكي ستارگان را مي توانم شناسايي كنم .</text>
+					</question>
+			        <tip>تجربه ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>چگونگي عملكرد گلبول هاي سفيد خون را مي توانم توضيح دهم .</text>
+					</question>
+			        <tip>تجربه ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>فرمول هاي ساده شيمي را مي توانم تفسير كنم .</text>
+					</question>
+			        <tip>تجربه ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي دانم كه چرا ماهواره ها به زمين نمي افتند .</text>
+					</question>
+			        <tip>تجربه ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>در سمينار يا مسابقه علمي شركت كرده ام .</text>
+					</question>
+			        <tip>تجربه ها - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="39" name="آزمون 4: متهور" maxAnswer="2" mostSelected="false" type="3" sub="2">
+			<scorings>
+				<scoring minVal="0" maxVal="11" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت شامل 11 سوال می باشدکه تجربه کسب شده شما را می سنجد. در این قسمت اگر شما موضوعی را تجربه کرده باشید هر چند به صورت محدود و جزیی جواب بله و اگر تجربه نکرده باشید حتی اگر به آن علاقه داشته باشید جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>در مدرسه به عنوان نماينده انتخاب شدم .</text>
+					</question>
+			        <tip>تجربه ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم كار ديگران را سرپرستي كنم .</text>
+					</question>
+			        <tip>تجربه ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>اشتياق و انرژي فوق العاده اي در انجام كار ها دارم .</text>
+					</question>
+			        <tip>تجربه ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>به خوبي مي توانم مردم را به انجام كار هاي مورد علاقه خودم وادارم .</text>
+					</question>
+			        <tip>تجربه ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>در فروشندگي مهارت دارم .</text>
+					</question>
+			        <tip>تجربه ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>بعنوان نماينده يك گروه در ارائه پيشنهادات ويا شكايات به مقام بالاتر انجام وظيفه كرده ام .</text>
+					</question>
+			        <tip>تجربه ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>در كار فروشندگي يا رهبري گروه پاداش گرفته ام .</text>
+					</question>
+			        <tip>تجربه ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>باشگاه ، گروه يا دسته اي را سازمان داده ام .</text>
+					</question>
+			        <tip>تجربه ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>اقدام به ايجاد كسب و كار نموده ام .</text>
+					</question>
+			        <tip>تجربه ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي دانم چگونه سر دسته يا نماينده موفقي باشم .</text>
+					</question>
+			        <tip>تجربه ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مباحثه گر خوبي هستم .</text>
+					</question>
+			        <tip>تجربه ها - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="40" name="آزمون 5: هنری" maxAnswer="2" mostSelected="false" type="3" sub="2">
+			<scorings>
+				<scoring minVal="0" maxVal="11" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت شامل 11 سوال می باشدکه تجربه کسب شده شما را می سنجد. در این قسمت اگر شما موضوعی را تجربه کرده باشید هر چند به صورت محدود و جزیی جواب بله و اگر تجربه نکرده باشید حتی اگر به آن علاقه داشته باشید جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم در نمايشنامه نقشي را بازي كنم .</text>
+					</question>
+			        <tip>تجربه ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم شعر يا نوشته اي را دكلمه كنم .</text>
+					</question>
+			        <tip>تجربه ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم در نمايش عروسكي بازي كنم. </text>
+					</question>
+			        <tip>تجربه ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم افراد را طوري نقاشي كنم كه قابل شناسايي باشند .</text>
+					</question>
+			        <tip>تجربه ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم نقاشي يا مجسمه سازي كنم .</text>
+					</question>
+			        <tip>تجربه ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم سفالگري كنم .</text>
+					</question>
+			        <tip>تجربه ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>طراحي لباس ، پوستر يا وسايل چوبي را مي توانم انجام دهم .</text>
+					</question>
+			        <tip>تجربه ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم به خوبي شعر بگويم يا داستان بنويسم .</text>
+					</question>
+			        <tip>تجربه ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم يك آلت موسيقي را بنوازم .</text>
+					</question>
+			        <tip>تجربه ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>در سرودهاي 2 تا 4 نفره مي توانم شركت كنم .</text>
+					</question>
+			        <tip>تجربه ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم يكي ازآلات موسيقي را در يك جمع رسمي بنوازم .</text>
+					</question>
+			        <tip>تجربه ها - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="41" name="آزمون 6: قرار دادی" maxAnswer="2" mostSelected="false" type="3" sub="2">
+			<scorings>
+				<scoring minVal="0" maxVal="11" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت شامل 11 سوال می باشدکه تجربه کسب شده شما را می سنجد. در این قسمت اگر شما موضوعی را تجربه کرده باشید هر چند به صورت محدود و جزیی جواب بله و اگر تجربه نکرده باشید حتی اگر به آن علاقه داشته باشید جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>در هر دقيقه مي توانم چهل كلمه تايپ كنم .</text>
+					</question>
+			        <tip>تجربه ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم با دستگاه فتوكپي يا ماشين جمع بندي قيمت كالا كار كنم .</text>
+					</question>
+			        <tip>تجربه ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم تند نويسي كنم .</text>
+					</question>
+			        <tip>تجربه ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم نامه ها و ساير اوراق را بايگاني كنم .</text>
+					</question>
+			        <tip>تجربه ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>در امور اداري كار كرده ام .</text>
+					</question>
+			        <tip>تجربه ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم زمان بندي مشخصي براي انجام كار هايم داشته باشم .</text>
+					</question>
+			        <tip>تجربه ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم مقدار زيادي از كار هاي دفتري رادر مدت كوتاهي انجام دهم .</text>
+					</question>
+			        <tip>تجربه ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>از ماشين حساب مي توانم استفاده كنم .</text>
+					</question>
+			        <tip>تجربه ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم از كامپيوتر استفاده كنم .</text>
+					</question>
+			        <tip>تجربه ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم بدهي ها وطلب ها ( ترازنامه ها ) رادر دفتر كل وارد كنم .</text>
+					</question>
+			        <tip>تجربه ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مي توانم گزارشهاي دقيق پرداختها و فروشها را نگهداري و تنظيم كنم .</text>
+					</question>
+			        <tip>تجربه ها - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+	
+	
+		<level id="42" name="آزمون 1: واقع گرا" maxAnswer="2" mostSelected="false" type="3" sub="3">
+			<scorings>
+				<scoring minVal="0" maxVal="14" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت شامل 14 شغل مطرح شده است بدین معنی که اگر شما به شغلی علاقه دارید حتی اگر قصد انتخاب آنرا برای آینده ندارید جواب بله و اگر هیچ علاقه ای به آن دارید جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مكانيك هواپيما </text>
+					</question>
+			        <tip>مشاغل - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>کارگر پمپ بنزین</text>
+					</question>
+			        <tip>مشاغل - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مكانيك اتومبيل </text>
+					</question>
+			        <tip>مشاغل - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نجار </text>
+					</question>
+			        <tip>مشاغل - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>راننده خاك برداري برقي ، جرثقيل </text>
+					</question>
+			        <tip>مشاغل - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نقشه بردار </text>
+					</question>
+			        <tip>مشاغل - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>بازرس ساختمان </text>
+					</question>
+			        <tip>مشاغل - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مهندس مخابرات </text>
+					</question>
+			        <tip>مشاغل - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>جوشكار </text>
+					</question>
+			        <tip>مشاغل - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>پرورش دهنده گلها و گياهان</text>
+					</question>
+			        <tip>مشاغل - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>راننده تاكسي سرويس ( آژانس )</text>
+					</question>
+			        <tip>مشاغل - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مهندس لوكوموتيو </text>
+					</question>
+			        <tip>مشاغل - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>خياط </text>
+					</question>
+			        <tip>مشاغل - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>برقكار </text>
+					</question>
+			        <tip>مشاغل - واقع گرا</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="43" name="آزمون 2: اجتماعی" maxAnswer="2" mostSelected="false" type="3" sub="3">
+			<scorings>
+				<scoring minVal="0" maxVal="14" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت شامل 14 شغل مطرح شده است بدین معنی که اگر شما به شغلی علاقه دارید حتی اگر قصد انتخاب آنرا برای آینده ندارید جواب بله و اگر هیچ علاقه ای به آن دارید جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>جامعه شناس </text>
+					</question>
+			        <tip>مشاغل - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>دبير دبيرستان </text>
+					</question>
+			        <tip>مشاغل - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>متخصص اصلا ح و تربيت </text>
+					</question>
+			        <tip>مشاغل - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>گفتار درمانگر </text>
+					</question>
+			        <tip>مشاغل - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مشاور ازدواج </text>
+					</question>
+			        <tip>مشاغل - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مدير مدرسه </text>
+					</question>
+			        <tip>مشاغل - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>سرپرست خوابگاه </text>
+					</question>
+			        <tip>مشاغل - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>روانشناس</text>
+					</question>
+			        <tip>مشاغل - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>دبير علوم اجتماعي </text>
+					</question>
+			        <tip>مشاغل - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مدير امور خيريه </text>
+					</question>
+			        <tip>مشاغل - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مربي ورزش </text>
+					</question>
+			        <tip>مشاغل - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مشاور</text>
+					</question>
+			        <tip>مشاغل - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>دستيار امور روانپزشكي </text>
+					</question>
+			        <tip>مشاغل - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>راهنما و مشاور شغلي </text>
+					</question>
+			        <tip>مشاغل - اجتماعی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="44" name="آزمون 3: جستجوگر" maxAnswer="2" mostSelected="false" type="3" sub="3">
+			<scorings>
+				<scoring minVal="0" maxVal="14" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت شامل 14 شغل مطرح شده است بدین معنی که اگر شما به شغلی علاقه دارید حتی اگر قصد انتخاب آنرا برای آینده ندارید جواب بله و اگر هیچ علاقه ای به آن دارید جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>متخصص هواشناسي </text>
+					</question>
+			        <tip>مشاغل - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>زيست شناس </text>
+					</question>
+			        <tip>مشاغل - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>ستاره شناس ( منجم )</text>
+					</question>
+			        <tip>مشاغل - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>تكنسين آزمايشگاه پزشكي </text>
+					</question>
+			        <tip>مشاغل - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مردم شناس </text>
+					</question>
+			        <tip>مشاغل - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>دامپزشك</text>
+					</question>
+			        <tip>مشاغل - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>				
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>شيميدان </text>
+					</question>
+			        <tip>مشاغل - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>پژوهشگر ( محقق )</text>
+					</question>
+			        <tip>مشاغل - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نويسنده مقالات علمي</text>
+					</question>
+			        <tip>مشاغل - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>سردبير يك مجله علمي </text>
+					</question>
+			        <tip>مشاغل - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>زمين شناس </text>
+					</question>
+			        <tip>مشاغل - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>گياه شناس</text>
+					</question>
+			        <tip>مشاغل - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كارشناس تحقيقات علمي </text>
+					</question>
+			        <tip>مشاغل - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>فيزيكدان </text>
+					</question>
+			        <tip>مشاغل - جستجوگر</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="45" name="آزمون 4: متهور" maxAnswer="2" mostSelected="false" type="3" sub="3">
+			<scorings>
+				<scoring minVal="0" maxVal="14" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت شامل 14 شغل مطرح شده است بدین معنی که اگر شما به شغلی علاقه دارید حتی اگر قصد انتخاب آنرا برای آینده ندارید جواب بله و اگر هیچ علاقه ای به آن دارید جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>معامله گر ، واسطه گر امور تجاري</text>
+					</question>
+			        <tip>مشاغل - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مامور خريد </text>
+					</question>
+			        <tip>مشاغل - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مدير اجرايي آگهي و مسئول تبليغات </text>
+					</question>
+			        <tip>مشاغل - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نماينده فروش كارخانه توليدي</text>
+					</question>
+			        <tip>مشاغل - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>توليد كننده برنامه هاي تلويزيوني</text>
+					</question>
+			        <tip>مشاغل - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مدير هتل</text>
+					</question>
+			        <tip>مشاغل - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مدير شركت هاي بازرگاني </text>
+					</question>
+			        <tip>مشاغل - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مدير رستوران </text>
+					</question>
+			        <tip>مشاغل - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مدير مراسم وتشريفات </text>
+					</question>
+			        <tip>مشاغل - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>فروشنده </text>
+					</question>
+			        <tip>مشاغل - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>واسطه گر معاملات ملكي يا اتومبيل </text>
+					</question>
+			        <tip>مشاغل - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مدير تبليغات يا مدير روابط عمومي </text>
+					</question>
+			        <tip>مشاغل - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مؤسس باشگاه ورزشي </text>
+					</question>
+			        <tip>مشاغل - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مدير فروش</text>
+					</question>
+			        <tip>مشاغل - متهور</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="46" name="آزمون 5: هنری" maxAnswer="2" mostSelected="false" type="3" sub="3">
+			<scorings>
+				<scoring minVal="0" maxVal="14" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت شامل 14 شغل مطرح شده است بدین معنی که اگر شما به شغلی علاقه دارید حتی اگر قصد انتخاب آنرا برای آینده ندارید جواب بله و اگر هیچ علاقه ای به آن دارید جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>شاعر </text>
+					</question>
+			        <tip>مشاغل - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>رهبر اركستر</text>
+					</question>
+			        <tip>مشاغل - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>موسيقيدان </text>
+					</question>
+			        <tip>مشاغل - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نويسنده </text>
+					</question>
+			        <tip>مشاغل - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>هنر مند آگهي هاي تبليغاتي </text>
+					</question>
+			        <tip>مشاغل - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نويسنده ادبيات كودكان </text>
+					</question>
+			        <tip>مشاغل - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>بازيگر سينما يا تئاتر</text>
+					</question>
+			        <tip>مشاغل - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>خبرنگار </text>
+					</question>
+			        <tip>مشاغل - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>صورتگر ( نقاش )</text>
+					</question>
+			        <tip>مشاغل - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>خواننده سرود </text>
+					</question>
+			        <tip>مشاغل - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>آهنگساز</text>
+					</question>
+			        <tip>مشاغل - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مجسمه ساز </text>
+					</question>
+			        <tip>مشاغل - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>نمايشنامه نويس </text>
+					</question>
+			        <tip>مشاغل - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>فيلم ساز </text>
+					</question>
+			        <tip>مشاغل - هنری</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+		
+		<level id="47" name="آزمون 6: قرار دادی" maxAnswer="2" mostSelected="false" type="3" sub="3">
+			<scorings>
+				<scoring minVal="0" maxVal="14" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>این قسمت شامل 14 شغل مطرح شده است بدین معنی که اگر شما به شغلی علاقه دارید حتی اگر قصد انتخاب آنرا برای آینده ندارید جواب بله و اگر هیچ علاقه ای به آن دارید جواب خیر را انتخاب کنید.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>دفتر دار</text>
+					</question>
+			        <tip>مشاغل - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>معلم درس ماشين نويسي </text>
+					</question>
+			        <tip>مشاغل - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مسئول برنامه هاي بودجه ( ذي حساب )</text>
+					</question>
+			        <tip>مشاغل - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>حسابدار تحصيل كرده </text>
+					</question>
+			        <tip>مشاغل - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>بازرسي مالي اداري </text>
+					</question>
+			        <tip>مشاغل - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>تند نويس دادگاه </text>
+					</question>
+			        <tip>مشاغل - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>تحويلدار بانك </text>
+					</question>
+			        <tip>مشاغل - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كارشناس ماليات </text>
+					</question>
+			        <tip>مشاغل - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>ناظر صورت برداري از موجودي  </text>
+					</question>
+			        <tip>مشاغل - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>اپراتور كامپيوتر</text>
+					</question>
+			        <tip>مشاغل - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>ارزياب هزينه ها </text>
+					</question>
+			        <tip>مشاغل - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كارشناس امور مالي </text>
+					</question>
+			        <tip>مشاغل - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>كارمند امور مالي </text>
+					</question>
+			        <tip>مشاغل - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>بازرس بانك </text>
+					</question>
+			        <tip>مشاغل - قرار دادی</tip>
+					<score>0</score>
+			        <answers>
+			            <answer score="1">بله</answer>
+			            <answer score="0">خیر</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+
+		
+		<level id="48" name="خود سنجی 1 : استعداد و توانایی ها" maxAnswer="7" mostSelected="false" type="3" sub="4">
+			<scorings>
+				<scoring minVal="1" maxVal="42" selectedAnswer="1">این بخش آزمون با موفقیت به پایین رسید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>در این بخش از افراد خواسته می شود تا خود را در مقایسه با همسالان خود ، نه افراد متخصص و بزرگتر یا کوچکتراز خود از نظر استعداد ها و توانایی ها ، درجه بندی و نمره گذاری کنند. حداقل نمره 1 و حداکثر 7 است.</intro>
+				<intro>به طور مثال اگر شما استعداد و توانایی هنری خود را در مقایسه با همسال هایتان بسیار بالا می بینید نمره 7 و چنانچه بسیار پایین می بینید نمره 1 برای خود در نظر بگیرید.</intro>
+				<intro> باید توجه داشت نمره هر استعداد و توانایی نباید با سایر استعداد ها و توانایی ها یکسان و یا تکراری باشد.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>توانايي مكانيكي </text>
+					</question>
+			        <tip>خود سنجی 1 : استعداد و توانایی ها</tip>
+					<score>0</score>
+			        <answers>
+						<answer score="7">7</answer>
+						<answer score="6">6</answer>
+						<answer score="5">5</answer>
+						<answer score="4">4</answer>
+						<answer score="3">3</answer>
+						<answer score="2">2</answer>
+						<answer score="1">1</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>برقراری ارتباط و انتقال مطالب</text>
+					</question>
+			        <tip>خود سنجی 1 : استعداد و توانایی ها</tip>
+					<score>0</score>
+			        <answers>
+						<answer score="7">7</answer>
+						<answer score="6">6</answer>
+						<answer score="5">5</answer>
+						<answer score="4">4</answer>
+						<answer score="3">3</answer>
+						<answer score="2">2</answer>
+						<answer score="1">1</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>توانايي علمي</text>
+					</question>
+			        <tip>خود سنجی 1 : استعداد و توانایی ها</tip>
+					<score>0</score>
+			        <answers>
+						<answer score="7">7</answer>
+						<answer score="6">6</answer>
+						<answer score="5">5</answer>
+						<answer score="4">4</answer>
+						<answer score="3">3</answer>
+						<answer score="2">2</answer>
+						<answer score="1">1</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>توانایی رهبری و مدیریتی</text>
+					</question>
+			        <tip>خود سنجی 1 : استعداد و توانایی ها</tip>
+					<score>0</score>
+			        <answers>
+						<answer score="7">7</answer>
+						<answer score="6">6</answer>
+						<answer score="5">5</answer>
+						<answer score="4">4</answer>
+						<answer score="3">3</answer>
+						<answer score="2">2</answer>
+						<answer score="1">1</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>توانایی هنری</text>
+					</question>
+			        <tip>خود سنجی 1 : استعداد و توانایی ها</tip>
+					<score>0</score>
+			        <answers>
+						<answer score="7">7</answer>
+						<answer score="6">6</answer>
+						<answer score="5">5</answer>
+						<answer score="4">4</answer>
+						<answer score="3">3</answer>
+						<answer score="2">2</answer>
+						<answer score="1">1</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>توانایی کار های اداری و دفتری</text>
+					</question>
+			        <tip>خود سنجی 1 : استعداد و توانایی ها</tip>
+					<score>0</score>
+			        <answers>
+						<answer score="7">7</answer>
+						<answer score="6">6</answer>
+						<answer score="5">5</answer>
+						<answer score="4">4</answer>
+						<answer score="3">3</answer>
+						<answer score="2">2</answer>
+						<answer score="1">1</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>
+	
+		<level id="49" name="خود سنجی 2 : مهارتها" maxAnswer="7" mostSelected="false" type="3" sub="4">
+			<scorings>
+				<scoring minVal="1" maxVal="42" selectedAnswer="1">آزمون شما با موفقیت به پایین رسید. به قسمت نتیجه مراجعه کنید.</scoring>
+			</scorings>
+			<score>-1</score>
+			<intros>
+				<intro>در این بخش از افراد خواسته می شود تا خود را در مقایسه با همسالان خود ، نه افراد متخصص و بزرگتر یا کوچکتراز خود از نظر مهارت ها ، درجه بندی و نمره گذاری کنند. حداقل نمره 1 و حداکثر 7 است.</intro>
+				<intro>به طور مثال اگر شما مهارت موسیقی خود را در مقایسه با همسال هایتان بسیار بالا می بینید نمره 7 و چنانچه بسیار پایین می بینید نمره 1 برای خود در نظر بگیرید.</intro>
+				<intro> باید توجه داشت نمره هر مهارت نباید با سایر مهارت ها یکسان و یا تکراری باشد.</intro>
+			</intros>
+		    <exercises>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مهارت هاي دستي ( استفاده از ابزار )</text>
+					</question>
+			        <tip>خود سنجی 2 : مهارتها</tip>
+					<score>0</score>
+			        <answers>
+						<answer score="7">7</answer>
+						<answer score="6">6</answer>
+						<answer score="5">5</answer>
+						<answer score="4">4</answer>
+						<answer score="3">3</answer>
+						<answer score="2">2</answer>
+						<answer score="1">1</answer>
+			        </answers>
+			    </exercise>
+			    <exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>تدریس</text>
+					</question>
+			        <tip>خود سنجی 2 : مهارتها</tip>
+					<score>0</score>
+			        <answers>
+						<answer score="7">7</answer>
+						<answer score="6">6</answer>
+						<answer score="5">5</answer>
+						<answer score="4">4</answer>
+						<answer score="3">3</answer>
+						<answer score="2">2</answer>
+						<answer score="1">1</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مهارت هاي رياضي يا علوم اجتماعي </text>
+					</question>
+			        <tip>خود سنجی 2 : مهارتها</tip>
+					<score>0</score>
+			        <answers>
+						<answer score="7">7</answer>
+						<answer score="6">6</answer>
+						<answer score="5">5</answer>
+						<answer score="4">4</answer>
+						<answer score="3">3</answer>
+						<answer score="2">2</answer>
+						<answer score="1">1</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>فروشندگی و یا اداره دیگران</text>
+					</question>
+			        <tip>خود سنجی 2 : مهارتها</tip>
+					<score>0</score>
+			        <answers>
+						<answer score="7">7</answer>
+						<answer score="6">6</answer>
+						<answer score="5">5</answer>
+						<answer score="4">4</answer>
+						<answer score="3">3</answer>
+						<answer score="2">2</answer>
+						<answer score="1">1</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مهارت هاي نقاشي يا خط يا موسيقي </text>
+					</question>
+			        <tip>خود سنجی 2 : مهارتها</tip>
+					<score>0</score>
+			        <answers>
+						<answer score="7">7</answer>
+						<answer score="6">6</answer>
+						<answer score="5">5</answer>
+						<answer score="4">4</answer>
+						<answer score="3">3</answer>
+						<answer score="2">2</answer>
+						<answer score="1">1</answer>
+			        </answers>
+			    </exercise>
+				<exercise questionType="TEXT" answerType="TEXT">
+			        <question>
+						<text>مهارت هاي مالي و اداري </text>
+					</question>
+			        <tip>خود سنجی 2 : مهارتها</tip>
+					<score>0</score>
+			        <answers>
+						<answer score="7">7</answer>
+						<answer score="6">6</answer>
+						<answer score="5">5</answer>
+						<answer score="4">4</answer>
+						<answer score="3">3</answer>
+						<answer score="2">2</answer>
+						<answer score="1">1</answer>
+			        </answers>
+			    </exercise>
+		    </exercises>
+		</level>		
+		
 	</levels>
 </quiz>

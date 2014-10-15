@@ -48,13 +48,16 @@ import com.nakhl.behtarinentekhab.R;
 import com.nakhl.behtarinentekhab.model.dao.AnswerDao;
 import com.nakhl.behtarinentekhab.model.dao.ExerciseDao;
 import com.nakhl.behtarinentekhab.model.dao.IntroDao;
+import com.nakhl.behtarinentekhab.model.dao.JobDao;
 import com.nakhl.behtarinentekhab.model.dao.LevelDao;
 import com.nakhl.behtarinentekhab.model.dao.QuestionDao;
 import com.nakhl.behtarinentekhab.model.dao.ScoringDao;
 import com.nakhl.behtarinentekhab.model.entity.Answer;
 import com.nakhl.behtarinentekhab.model.entity.Exercise;
 import com.nakhl.behtarinentekhab.model.entity.Intro;
+import com.nakhl.behtarinentekhab.model.entity.Job;
 import com.nakhl.behtarinentekhab.model.entity.Level;
+import com.nakhl.behtarinentekhab.model.entity.Model1;
 import com.nakhl.behtarinentekhab.model.entity.Question;
 import com.nakhl.behtarinentekhab.model.entity.Quiz;
 import com.nakhl.behtarinentekhab.model.entity.Scoring;
@@ -81,6 +84,9 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 
 	private Context applicationContext;
 
+	@Inject
+	private JobDao jobDao;
+	
 	@Inject
 	private LevelDao levelDao;
 
@@ -154,8 +160,15 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 			
 			levelDao.create(level);
 		}
-	}
-
+		
+		Model1 model1 = new XmlDataLoader(applicationContext).loadXml_Model1();
+		// Children first than parents.
+		for (Job job : model1.getJobs()) {			
+			
+			jobDao.create(job);
+		}
+	}	
+	
 	private void createDataBase(ConnectionSource cs) throws java.sql.SQLException {
 		TableUtils.createTable(cs, Level.class);
 		TableUtils.createTable(cs, Exercise.class);
@@ -163,6 +176,7 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 		TableUtils.createTable(cs, Answer.class);
 		TableUtils.createTable(cs, Scoring.class);
 		TableUtils.createTable(cs, Intro.class);
+		TableUtils.createTable(cs, Job.class);
 	}
 
 	@Override

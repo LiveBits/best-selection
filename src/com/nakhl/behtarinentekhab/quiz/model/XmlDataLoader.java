@@ -32,11 +32,12 @@ import android.content.Context;
 import android.content.res.Resources;
 
 import com.nakhl.behtarinentekhab.R;
+import com.nakhl.behtarinentekhab.model.entity.Model1;
 import com.nakhl.behtarinentekhab.model.entity.Quiz;
 
 /**
  * 
- * @author Maciej Laskowski
+ * @author Ahmad khalilfar
  *
  */
 public class XmlDataLoader {
@@ -74,6 +75,32 @@ public class XmlDataLoader {
 		return serializer.read(Quiz.class, source);
 	}
 
+	/**
+	 * Loads XML with Model and returns {@link Model1} object.
+	 * 
+	 * @return Model1 object
+	 * @throws Exception
+	 *             when deserialization fails
+	 */
+	public Model1 loadXml_Model1() throws Exception {
+		Resources resources = context.getResources();
+		String languageCode = getLanguageCode(resources);
+		// Get XML name using reflection
+		Field field = null;
+		String prefix = context.getString(R.string.xml_model1_prefix);
+		try {
+			field = R.raw.class.getField(prefix + languageCode);
+		} catch (NoSuchFieldException e) {
+			// If there is no language available use default
+			field = R.raw.class.getField(prefix + context.getString(R.string.default_language));
+		}
+		// Create InputSream from XML resource
+		InputStream source = resources.openRawResource(field.getInt(null));
+		// Parse XML
+		Serializer serializer = new Persister();
+		return serializer.read(Model1.class, source);
+	}
+	
 	private String getLanguageCode(Resources resources) {
 		Locale locale = resources.getConfiguration().locale;
 		String code = locale.getLanguage();

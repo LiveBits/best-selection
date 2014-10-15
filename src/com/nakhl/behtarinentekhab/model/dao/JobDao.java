@@ -36,17 +36,18 @@ import com.j256.ormlite.stmt.PreparedQuery;
 import com.j256.ormlite.support.ConnectionSource;
 import com.j256.ormlite.table.DatabaseTableConfig;
 import com.nakhl.behtarinentekhab.R;
+import com.nakhl.behtarinentekhab.model.entity.Job;
 import com.nakhl.behtarinentekhab.model.entity.Level;
 import com.nakhl.behtarinentekhab.quiz.model.DatabaseHelper;
 
 /**
- * Data Access Object for entity {@link Level}.
+ * Data Access Object for entity {@link Job}.
  * 
- * @author Maciej Laskowski
+ * @author Ahmad khalilfar
  * 
  */
 @Singleton
-public class LevelDao extends BaseDaoImpl<Level, Integer> {
+public class JobDao extends BaseDaoImpl<Job, Integer> {
 
 	/** Application name. */
 	@InjectResource(R.string.app_name)
@@ -56,22 +57,22 @@ public class LevelDao extends BaseDaoImpl<Level, Integer> {
 	@InjectResource(R.string.error)
 	private String errorString;
 
-	public LevelDao() throws SQLException {
-		super(DatabaseHelper.getConnectionSrc(), Level.class);
+	public JobDao() throws SQLException {
+		super(DatabaseHelper.getConnectionSrc(), Job.class);
 		this.initialize();
 	}
 
-	public LevelDao(ConnectionSource connectionSource, Class<Level> dataClass)
+	public JobDao(ConnectionSource connectionSource, Class<Job> dataClass)
 			throws SQLException {
 		super(connectionSource, dataClass);
 	}
 
-	public LevelDao(Class<Level> dataClass) throws SQLException {
+	public JobDao(Class<Job> dataClass) throws SQLException {
 		super(dataClass);
 	}
 
-	public LevelDao(ConnectionSource connectionSource,
-			DatabaseTableConfig<Level> tableConfig) throws SQLException {
+	public JobDao(ConnectionSource connectionSource,
+			DatabaseTableConfig<Job> tableConfig) throws SQLException {
 		super(connectionSource, tableConfig);
 	}
 
@@ -81,7 +82,7 @@ public class LevelDao extends BaseDaoImpl<Level, Integer> {
 	 * @see com.j256.ormlite.dao.BaseDaoImpl#queryForId(java.lang.Object)
 	 */
 	@Override
-	public Level queryForId(Integer id) {
+	public Job queryForId(Integer id) {
 		try {
 			return super.queryForId(id);
 		} catch (SQLException e) {
@@ -96,7 +97,7 @@ public class LevelDao extends BaseDaoImpl<Level, Integer> {
 	 * @see com.j256.ormlite.dao.BaseDaoImpl#update(java.lang.Object)
 	 */
 	@Override
-	public int update(Level arg0) {
+	public int update(Job arg0) {
 		try {
 			return super.update(arg0);
 		} catch (SQLException e) {
@@ -111,7 +112,7 @@ public class LevelDao extends BaseDaoImpl<Level, Integer> {
 	 * @see com.j256.ormlite.dao.BaseDaoImpl#queryForAll()
 	 */
 	@Override
-	public List<Level> queryForAll() {
+	public List<Job> queryForAll() {
 		try {
 			return super.queryForAll();
 		} catch (SQLException e) {
@@ -121,7 +122,7 @@ public class LevelDao extends BaseDaoImpl<Level, Integer> {
 	}
 
 	@Override
-	public List<Level> queryForEq(String fieldName, Object value)
+	public List<Job> queryForEq(String fieldName, Object value)
 			throws SQLException {
 		try {
 			return super.queryForEq(fieldName, value);
@@ -129,24 +130,6 @@ public class LevelDao extends BaseDaoImpl<Level, Integer> {
 			Log.e(applicationName, errorString, e);
 			return null;
 		}
-	}	
-	
-	@Override
-	public List<Level> queryForFieldValues(Map<String, Object> fieldValues)
-			throws SQLException {
-		try {
-			return super.queryForFieldValues(fieldValues);
-		} catch (SQLException e) {
-			Log.e(applicationName, errorString, e);
-			return null;
-		}
-	}
-	
-	@Override
-	public List<Level> query(PreparedQuery<Level> preparedQuery)
-			throws SQLException {
-		// TODO Auto-generated method stub
-		return super.query(preparedQuery);
 	}
 
 }

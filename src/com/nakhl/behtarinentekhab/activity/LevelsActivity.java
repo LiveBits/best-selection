@@ -22,10 +22,14 @@
 
 package com.nakhl.behtarinentekhab.activity;
 
+import java.sql.SQLException;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -33,6 +37,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import com.google.inject.Inject;
+import com.j256.ormlite.stmt.PreparedQuery;
 import com.nakhl.behtarinentekhab.R;
 import com.nakhl.behtarinentekhab.adapter.LevelsAdapter;
 import com.nakhl.behtarinentekhab.model.dao.LevelDao;
@@ -52,6 +57,8 @@ public class LevelsActivity extends FullScreenActivity {
 
 	LinearLayout listContainer, satContainer;
 
+	int type, sub;
+
 	/*
 	 * (non-Javadoc)
 	 * 
@@ -61,11 +68,28 @@ public class LevelsActivity extends FullScreenActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_levels);
-		List<Level> levels = lvlDao.queryForAll();
+		List<Level> levels = null;
+
+		// Get type and sub from Bundle
+		Bundle b = getIntent().getExtras();
+		type = b.getInt("type");
+		sub = b.getInt("sub");
+
+		Map<String, Object> args = new HashMap<String, Object>();
+		args.put("type", (Object) type);
+		args.put("sub", (Object) sub);
+
+		try {
+			levels = lvlDao.queryForFieldValues(args);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 		LevelsAdapter adapter = new LevelsAdapter(this, R.layout.list_item_row,
 				levels);
 		listContainer = (LinearLayout) findViewById(R.id.listLevelsContainer);
-		
+
 		ListView listView = (ListView) listContainer
 				.findViewById(R.id.listLevels);
 		listView.setAdapter(adapter);
@@ -78,11 +102,29 @@ public class LevelsActivity extends FullScreenActivity {
 	 */
 	@Override
 	public void onBackPressed() {
-		Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-		intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-		startActivity(intent);
+		if (type != 3)// not job
+		{
+			Intent intent = new Intent(getApplicationContext(),
+					CategoriesActivity.class);
+			intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+			startActivity(intent);
+		} else // is job
+		{
+			if (sub >= 1 && sub <= 4) //model 1 
+			{
+				
+				Intent intent = new Intent(getApplicationContext(),
+						Model1LevelsActivity.class);
+				intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+				startActivity(intent);
+			}
+			else //model2
+			{
+				
+			}
+		}
 	}
-	
+
 	/* Menu */
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -94,12 +136,14 @@ public class LevelsActivity extends FullScreenActivity {
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		if (item.getItemId() == R.id.action_settings) {
-			//Intent intent = new Intent(MainActivity.this, AboutActivity.class);
-			//startActivity(intent);
+			// Intent intent = new Intent(MainActivity.this,
+			// AboutActivity.class);
+			// startActivity(intent);
 		}
 		if (item.getItemId() == R.id.action_about) {
-			//Intent intent = new Intent(MainActivity.this, NotificationConfig.class);
-			//startActivity(intent);
+			// Intent intent = new Intent(MainActivity.this,
+			// NotificationConfig.class);
+			// startActivity(intent);
 		}
 		return super.onOptionsItemSelected(item);
 	}

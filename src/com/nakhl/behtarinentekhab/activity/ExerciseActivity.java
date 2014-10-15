@@ -144,7 +144,11 @@ public class ExerciseActivity extends FullScreenActivity {
 
 	/** Level id flag. */
 	private static final String LEVEL_ID = "level_id";
+	private static final String LEVEL_TYPE = "level_type";
+	private static final String LEVEL_SUB = "level_sub";
 
+	int type, sub, counter;
+	
 	/** Back pressed flag. */
 	private static final String BACK_PRESSED = "back_pressed";
 
@@ -163,6 +167,11 @@ public class ExerciseActivity extends FullScreenActivity {
 		// Get levelId from Bundle
 		Bundle b = getIntent().getExtras();
 		int levelId = b.getInt(LEVEL_ID);
+		type = b.getInt(LEVEL_TYPE);
+		sub = b.getInt(LEVEL_SUB);
+		counter = b.getInt("counter");
+		counter++;
+		
 		int previousExerciseId = b.getInt(PREVIOUS_EXERCISE_ID);
 		boolean backPressed = b.getBoolean(BACK_PRESSED);
 
@@ -173,6 +182,9 @@ public class ExerciseActivity extends FullScreenActivity {
 			Bundle bundle = new Bundle();
 			bundle.putInt("score", level.getScore());
 			bundle.putInt("level_id", level.getId());
+			bundle.putInt("type", type);
+			bundle.putInt("sub", sub);
+			
 			Intent intent = new Intent(getApplicationContext(),
 					ScoreActivity.class);
 			intent.putExtras(bundle);
@@ -182,7 +194,7 @@ public class ExerciseActivity extends FullScreenActivity {
 		//scoring = level.getScoring();
 		score = level.getScore();
 		
-		buttonProgress.setText(exercise.getId()+ " / " + level.getExercises().size());
+		buttonProgress.setText(counter + " / " + level.getExercises().size());
 		
 		tvQuestion.setMovementMethod(new ScrollingMovementMethod());
 		
@@ -456,8 +468,14 @@ public class ExerciseActivity extends FullScreenActivity {
 	 */
 	@Override
 	public void onBackPressed() {
+		Bundle b = new Bundle();
+		b.putInt("type", type);
+		b.putInt("sub", sub);
+		
 		Intent intent = new Intent(getApplicationContext(),
 				LevelsActivity.class);
+		intent.putExtras(b);
+		
 		intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		startActivity(intent);
 	}
@@ -473,6 +491,10 @@ public class ExerciseActivity extends FullScreenActivity {
 			bundle = new Bundle();
 		}
 		bundle.putInt(LEVEL_ID, level.getId());
+		bundle.putInt(LEVEL_TYPE, type);
+		bundle.putInt(LEVEL_SUB, sub);
+		bundle.putInt("counter", counter);
+		
 		Intent intent = new Intent(getApplicationContext(),
 				ExerciseActivity.class);
 		intent.putExtras(bundle);

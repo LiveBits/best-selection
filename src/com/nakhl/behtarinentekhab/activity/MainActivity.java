@@ -59,6 +59,10 @@ public class MainActivity extends FullScreenActivity {
 	@InjectView(R.id.buttonAbout)
 	private Button buttonAbout;
 
+	/** About button. */
+	@InjectView(R.id.buttonSetting)
+	private Button buttonSettings;
+	
 	/** Exit button */
 	@InjectView(R.id.buttonExit)
 	private Button buttonExit;
@@ -107,7 +111,7 @@ public class MainActivity extends FullScreenActivity {
 			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(getApplicationContext(),
-						LevelsActivity.class);
+						CategoriesActivity.class);
 				startActivity(intent);
 			}
 		});
@@ -123,14 +127,14 @@ public class MainActivity extends FullScreenActivity {
 			}
 		});
 
-		// More games
-		buttonMoreGames.setOnClickListener(new OnClickListener() {
+		// Setting
+		buttonSettings.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
-				Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri
-						.parse(getString(R.string.check_more_games_url)));
-				startActivity(browserIntent);
+				Intent intent = new Intent(MainActivity.this,
+						UserSettingsActivity.class);
+				startActivity(intent);
 			}
 		});
 

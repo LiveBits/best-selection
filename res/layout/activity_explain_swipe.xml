@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TabHost01"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/textViewExplain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/entekhab_textview"
+                android:scrollbars="vertical"
+                android:text="@string/explain_text_dlg"
+                android:textDirection="rtl" />
+
+            <TextView
+                android:id="@+id/textViewStructure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/entekhab_textview"
+                android:scrollbars="vertical"
+                android:text="@string/explain_text_dlg"
+                android:textDirection="rtl" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/buttonOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/ok_button_dlg" />
+    </LinearLayout>
+
+</TabHost>

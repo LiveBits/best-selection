@@ -47,10 +47,6 @@ public class IntroActivity extends FullScreenActivity {
 	/** Next button. */
 	@InjectView(R.id.buttonNext)
 	private Button buttonNext;
-	
-	/** Back button. */
-	@InjectView(R.id.buttonBack)
-	private Button buttonBack;
 
 	/** Application name. */
 	@InjectResource(R.string.app_name)
@@ -60,10 +56,12 @@ public class IntroActivity extends FullScreenActivity {
 	@InjectResource(R.string.error)
 	private String errorString;
 	
-	int levelId;
+	int levelId, type, sub;
 	
 	/** Level id flag. */
 	private static final String LEVEL_ID = "level_id";
+	private static final String LEVEL_TYPE = "level_type";
+	private static final String LEVEL_SUB = "level_sub";
 
 	/** Back pressed flag. */
 	private static final String BACK_PRESSED = "back_pressed";
@@ -82,6 +80,8 @@ public class IntroActivity extends FullScreenActivity {
 		// Get levelId from Bundle
 		Bundle b = getIntent().getExtras();
 		levelId = b.getInt(LEVEL_ID);
+		type = b.getInt(LEVEL_TYPE);
+		sub = b.getInt(LEVEL_SUB);
 
 		level = lvlDao.queryForId(levelId);
 		
@@ -128,30 +128,22 @@ public class IntroActivity extends FullScreenActivity {
 	 * Initialize buttons.
 	 */
 	private void initButtons() {
-		// Next exercise
+		// Next
 		buttonNext.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
 				Bundle bundle = new Bundle();
 				bundle.putInt(LEVEL_ID, levelId);
+				bundle.putInt(LEVEL_TYPE, type);
+				bundle.putInt(LEVEL_SUB, sub);
+				bundle.putInt("counter", 0);
+				
 				Intent intent = new Intent(getApplicationContext(),
 						ExerciseActivity.class);
 				intent.putExtras(bundle);
 				startActivity(intent);
 			}
-		});
-
-		// Back
-		buttonBack.setOnClickListener(new OnClickListener() {
-
-			@Override
-			public void onClick(View v) {
-				Intent intent = new Intent(getApplicationContext(), LevelsActivity.class);
-				intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-				startActivity(intent);
-			}
-
 		});
 	}
 
@@ -162,8 +154,14 @@ public class IntroActivity extends FullScreenActivity {
 	 */
 	@Override
 	public void onBackPressed() {
+		Bundle b = new Bundle();
+		b.putInt("type", type);
+		b.putInt("sub", sub);
+		
 		Intent intent = new Intent(getApplicationContext(),
 				LevelsActivity.class);
+		intent.putExtras(b);
+		
 		intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		startActivity(intent);
 	}

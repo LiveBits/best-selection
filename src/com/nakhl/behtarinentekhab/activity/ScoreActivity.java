@@ -61,6 +61,8 @@ public class ScoreActivity extends FullScreenActivity {
 	private ExerciseDao exerciseDao;
 
 	private Level level;
+	
+	private int type, sub;
 
 	private int ans1 = 0, ans2 = 0, ans3 = 0, ans4 = 0, ans5 = 0;
 
@@ -75,6 +77,9 @@ public class ScoreActivity extends FullScreenActivity {
 	private void displayScore() {
 		Bundle b = getIntent().getExtras();
 		int score = b.getInt("score");
+		type = b.getInt("type");
+		sub = b.getInt("sub");
+		
 		level = levelDao.queryForId(b.getInt("level_id"));
 
 		String value = "";
@@ -182,8 +187,14 @@ public class ScoreActivity extends FullScreenActivity {
 
 	@Override
 	public void onBackPressed() {
+		Bundle b = new Bundle();
+		b.putInt("type", type);
+		b.putInt("sub", sub);
+		
 		Intent intent = new Intent(getApplicationContext(),
 				LevelsActivity.class);
+		intent.putExtras(b);
+		
 		intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		startActivity(intent);
 	}
@@ -203,6 +214,9 @@ public class ScoreActivity extends FullScreenActivity {
 				levelDao.update(level);
 				Bundle bundle = new Bundle();
 				bundle.putInt("level_id", level.getId());
+				bundle.putInt("level_type", type);
+				bundle.putInt("level_sub", sub);
+				bundle.putInt("counter", 0);
 				Intent intent = new Intent(getApplicationContext(),
 						ExerciseActivity.class);
 				intent.putExtras(bundle);

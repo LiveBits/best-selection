@@ -73,6 +73,16 @@ public class Level {
 	@DatabaseField(canBeNull = true)
 	private boolean mostSelected;
 	
+	/** Level type. */
+	@Attribute
+	@DatabaseField(canBeNull = false)
+	private int type;
+	
+	/** Level is sub level. */
+	@Attribute
+	@DatabaseField(canBeNull = true)
+	private int sub;
+	
 	/** Scoring element. */
 //	@Element
 //	@DatabaseField(foreign = true, canBeNull = false, foreignAutoRefresh = true, columnName = SCORING_ID_FIELD_NAME)
@@ -132,6 +142,22 @@ public class Level {
 
 	public void setMostSelected(Boolean mostSelected) {
 		this.mostSelected = mostSelected;
+	}
+	
+	public int getType() {
+		return type;
+	}
+
+	public void setType(int type) {
+		this.type = type;
+	}
+	
+	public int getSub() {
+		return sub;
+	}
+
+	public void setSub(int sub) {
+		this.sub = sub;
 	}
 	
 	public Collection<Exercise> getExercises() {
@@ -237,7 +263,7 @@ public class Level {
 
 	@Override
 	public String toString() {
-		return "Level [id=" + id + ", name=" + name + ", maxAnswer=" + maxAnswer + ", mostSelected=" + mostSelected + ", scorings=" + scorings + ", intros=" + intros + ", exercises=" + exercises
+		return "Level [id=" + id + ", name=" + name + ", maxAnswer=" + maxAnswer + ", mostSelected=" + mostSelected + ", type=" + type + ", sub=" + sub + ", scorings=" + scorings + ", intros=" + intros + ", exercises=" + exercises
 				+ ", unlocked=" + unlocked + "]";
 	}
 

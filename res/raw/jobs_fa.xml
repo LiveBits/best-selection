@@ -1,0 +1,511 @@
+<model1>
+
+    <jobs>
+        <job id="1" letter1="v" letter2="j" letter3="h" edu="5">معمار نما</job>
+		<job id="2" letter1="v" letter2="j" letter3="h" edu="4">طراح نقشه كش (معمار)</job>
+		<job id="3" letter1="v" letter2="j" letter3="h" edu="4">تكنسين دندانساز</job>
+		<job id="4" letter1="v" letter2="j" letter3="h" edu="4">تكنسين رونوشت بردار</job>
+		<job id="5" letter1="v" letter2="j" letter3="a" edu="6">مدير مرتع و چراگاه</job>
+		<job id="6" letter1="v" letter2="j" letter3="a" edu="5">مهندس بازرگاني</job>
+		<job id="7" letter1="v" letter2="j" letter3="a" edu="5">جنگلبان</job>
+		<job id="8" letter1="v" letter2="j" letter3="a" edu="5">معلم هنرهاي صنعتي</job>
+		<job id="9" letter1="v" letter2="j" letter3="a" edu="4">برقکار</job>
+		<job id="10" letter1="v" letter2="j" letter3="a" edu="5">شیشه بر</job>
+		<job id="11" letter1="v" letter2="j" letter3="a" edu="4">جواهر فروش</job>
+		<job id="12" letter1="v" letter2="j" letter3="a" edu="4">تعمیر کار دستگاه بافندگی</job>
+		<job id="13" letter1="v" letter2="j" letter3="a" edu="4">ناظر آسياب</job>
+		<job id="14" letter1="v" letter2="j" letter3="a" edu="4">مكانيك موتورخانه</job>
+		<job id="15" letter1="v" letter2="j" letter3="a" edu="4">اپراتور كارخانه برق</job>
+		<job id="16" letter1="v" letter2="j" letter3="a" edu="4">ابزار ساز</job>
+		<job id="17" letter1="v" letter2="j" letter3="a" edu="3">نانوا</job>
+		<job id="18" letter1="v" letter2="j" letter3="a" edu="3">آشپز</job>
+		<job id="19" letter1="v" letter2="j" letter3="h" edu="3">كارگر پمپ بنزين</job>
+		<job id="20" letter1="v" letter2="j" letter3="h" edu="3">سرويسكار تاسيسات حرارتي</job>
+		<job id="21" letter1="v" letter2="j" letter3="h" edu="3">عينك ساز</job>
+		<job id="22" letter1="v" letter2="j" letter3="h" edu="3">جوشکار</job>
+		<job id="23" letter1="v" letter2="j" letter3="h" edu="2">اپراتور ماشين چاپ</job>
+		<job id="24" letter1="v" letter2="j" letter3="m" edu="6">مهندس وسايل خودرو</job>
+		<job id="25" letter1="v" letter2="j" letter3="m" edu="6">مهندس مكانيك</job>
+		<job id="26" letter1="v" letter2="j" letter3="m" edu="6">مهندس نفت</job>
+		<job id="27" letter1="v" letter2="j" letter3="m" edu="5">اپراتور بي سيم خطوط هوايي</job>
+		<job id="28" letter1="v" letter2="j" letter3="m" edu="5">مهندس ناظر ساختمان</job>
+		<job id="29" letter1="v" letter2="j" letter3="m" edu="5">تکنسین مهندسی صنایع</job>
+		<job id="30" letter1="v" letter2="j" letter3="m" edu="5">تکنسین مهندسی مکانیک</job>		
+		<job id="33" letter1="v" letter2="j" letter3="m" edu="5">مهندس معدن</job>
+		<job id="34" letter1="v" letter2="j" letter3="m" edu="4">تعمير كار تاسيسات حرارتي و برودتي</job>
+		<job id="35" letter1="v" letter2="j" letter3="m" edu="4">مراقب پرواز</job>
+		<job id="36" letter1="v" letter2="j" letter3="m" edu="4">مكانيك هواپيما</job>
+		<job id="37" letter1="v" letter2="j" letter3="m" edu="4">مكانيك اتومبيل</job>
+		<job id="38" letter1="v" letter2="j" letter3="m" edu="4">ارزياب خدمات تعمير اتومبيل</job>
+		<job id="39" letter1="v" letter2="j" letter3="m" edu="4">سازنده ديگ بخار</job>
+		<job id="40" letter1="v" letter2="j" letter3="m" edu="4">مكانيك ماشينهاي ديزل</job>
+		<job id="41" letter1="v" letter2="j" letter3="m" edu="4">نقشه كش نقشه هاي تفصيلي</job>
+		<job id="42" letter1="v" letter2="j" letter3="m" edu="4">تكنسين الكترونيك</job>
+		<job id="43" letter1="v" letter2="j" letter3="m" edu="4">آبكار فلزات</job>
+		<job id="44" letter1="v" letter2="j" letter3="m" edu="4">مكانيك وسايل كشاورزي</job>
+		<job id="45" letter1="v" letter2="j" letter3="m" edu="4">كشاورز</job>
+		<job id="46" letter1="v" letter2="j" letter3="m" edu="4">مهندس كشاورزي</job>
+		<job id="47" letter1="v" letter2="j" letter3="m" edu="4">مهندس پرواز</job>
+		<job id="48" letter1="v" letter2="j" letter3="m" edu="4">سرپرست تعميرگاه</job>
+		<job id="49" letter1="v" letter2="j" letter3="m" edu="4">تعمير كار خطوط راه آهن</job>
+		<job id="50" letter1="v" letter2="j" letter3="m" edu="4">تعويض كننده دستگاه بافندگي</job>
+		<job id="51" letter1="v" letter2="j" letter3="m" edu="4">ماشين كار</job>
+		<job id="52" letter1="v" letter2="j" letter3="m" edu="4">تعمير كار ماشين</job>
+		<job id="53" letter1="v" letter2="j" letter3="m" edu="4">كارگر تعميرات مكانيكي</job>
+		<job id="54" letter1="v" letter2="j" letter3="m" edu="4">آسياب ساز</job>
+		<job id="55" letter1="v" letter2="j" letter3="m" edu="4">لوله باز كن</job>
+		<job id="56" letter1="v" letter2="j" letter3="m" edu="4">تعمير كار راديو</job>
+		<job id="57" letter1="v" letter2="j" letter3="m" edu="4">كارگر فلز كار</job>
+		<job id="58" letter1="v" letter2="j" letter3="m" edu="4">كمك مكانيك كشتي</job>
+		<job id="59" letter1="v" letter2="j" letter3="m" edu="4">تعمير كار ساعت</job>
+		<job id="60" letter1="v" letter2="j" letter3="m" edu="4">تعمير كار بدنه اتومبيل (صافكار)</job>
+		<job id="61" letter1="v" letter2="j" letter3="m" edu="3">اپراتور مخازن كمپرسور</job>
+		<job id="62" letter1="v" letter2="j" letter3="m" edu="3">گراور ساز (ماشيني)</job>
+		<job id="63" letter1="v" letter2="j" letter3="m" edu="3">اپراتور كوره آهنگري</job>
+		<job id="64" letter1="v" letter2="j" letter3="m" edu="3">مبل ساز</job>
+		<job id="65" letter1="v" letter2="j" letter3="m" edu="3">اپراتور ماشينهاي سنگين</job>
+		<job id="66" letter1="v" letter2="j" letter3="m" edu="3">سقف ساز</job>
+		<job id="67" letter1="v" letter2="j" letter3="m" edu="2">چوب بر</job>
+		<job id="68" letter1="v" letter2="j" letter3="m" edu="2">اپراتور ماشين</job>
+		<job id="69" letter1="v" letter2="j" letter3="m" edu="2">سازنده سرويس خواب بچه</job>
+		<job id="70" letter1="v" letter2="j" letter3="g" edu="4">تكنسين وسايل اتوماتيك</job>
+		<job id="71" letter1="v" letter2="j" letter3="g" edu="4">كارگر قطعات يدكي خودرو</job>
+		<job id="72" letter1="v" letter2="j" letter3="g" edu="4">مكانيك آسانسور</job>
+		<job id="73" letter1="v" letter2="j" letter3="g" edu="4">بازرس بارهاي سنگين</job>
+		<job id="74" letter1="v" letter2="j" letter3="g" edu="4">قفل ساز</job>
+		<job id="75" letter1="v" letter2="j" letter3="g" edu="4">اپراتور راكتور هسته اي</job>
+		<job id="76" letter1="v" letter2="j" letter3="g" edu="4">مدير شيرخوارگاه</job>
+		<job id="77" letter1="v" letter2="j" letter3="g" edu="4">تنظيم كننده پيانو</job>
+		<job id="78" letter1="v" letter2="j" letter3="g" edu="4">اپراتور پالايشگاه</job>
+		<job id="79" letter1="v" letter2="j" letter3="g" edu="4">سنگ تراش</job>
+		<job id="80" letter1="v" letter2="j" letter3="g" edu="4">پرورش دهنده درخت</job>
+		<job id="81" letter1="v" letter2="j" letter3="g" edu="4">تراشكار</job>
+		<job id="82" letter1="v" letter2="j" letter3="g" edu="3">مونتاژكار</job>
+		<job id="83" letter1="v" letter2="j" letter3="g" edu="3">مته كار</job>
+		<job id="84" letter1="v" letter2="j" letter3="g" edu="3">كارگر خشكشويي</job>
+		<job id="85" letter1="v" letter2="j" letter3="g" edu="3">بازرس صنايع سنگين</job>
+		<job id="86" letter1="v" letter2="j" letter3="g" edu="3">ناشر</job>
+		<job id="87" letter1="v" letter2="j" letter3="g" edu="3">مامور حضور و غياب</job>
+		<job id="88" letter1="v" letter2="j" letter3="g" edu="3">حفار چاه نفت</job>
+		<job id="89" letter1="v" letter2="j" letter3="g" edu="3">مامور تخليه و بارگيري</job>
+		<job id="90" letter1="v" letter2="j" letter3="g" edu="3">تعمير كار كفش</job>
+		<job id="91" letter1="v" letter2="j" letter3="g" edu="3">كارگر اسكلت فلزي</job>
+		<job id="92" letter1="v" letter2="j" letter3="g" edu="3">لاستيك ساز</job>
+		<job id="93" letter1="v" letter2="j" letter3="g" edu="2">نگهبان محوطه</job>
+		<job id="94" letter1="v" letter2="j" letter3="g" edu="2">درشكه چي</job>
+		<job id="95" letter1="v" letter2="j" letter3="g" edu="2">كارگر لباسشويي</job>
+		<job id="96" letter1="v" letter2="h" letter3="j" edu="4">تايپيست</job>
+		<job id="97" letter1="v" letter2="h" letter3="j" edu="3">صحاف</job>
+		<job id="98" letter1="v" letter2="a" letter3="m" edu="4">آهنگر</job>
+		<job id="99" letter1="v" letter2="a" letter3="m" edu="4">ریخته گر</job>
+		<job id="100" letter1="v" letter2="a" letter3="m" edu="4">لوكوموتيو ران</job>
+		<job id="101" letter1="v" letter2="a" letter3="m" edu="4">لوله كش</job>
+		<job id="102" letter1="v" letter2="a" letter3="m" edu="4">مدير راه آهن</job>
+		<job id="103" letter1="v" letter2="a" letter3="m" edu="3">راننده تاكسي</job>
+		<job id="104" letter1="v" letter2="a" letter3="m" edu="3">قصاب</job>
+		<job id="105" letter1="v" letter2="a" letter3="m" edu="3">اپراتور وسايل زغال سنگي</job>
+		<job id="106" letter1="v" letter2="a" letter3="m" edu="3">راننده</job>
+		<job id="107" letter1="v" letter2="a" letter3="m" edu="3">مامور آتش نشاني</job>
+		<job id="108" letter1="v" letter2="a" letter3="m" edu="4">اپراتور اتوبوسهاي برقي</job>
+		<job id="109" letter1="v" letter2="a" letter3="m" edu="5">پيشخدمت رستوران</job>
+		<job id="110" letter1="v" letter2="a" letter3="m" edu="5">نگهبان پاركينگ</job>
+		<job id="111" letter1="v" letter2="a" letter3="m" edu="2">نوشابه فروش</job>
+		<job id="112" letter1="v" letter2="a" letter3="m" edu="1">كارگر انبار</job>
+		<job id="113" letter1="v" letter2="a" letter3="g" edu="3">مسئول سم پاشي</job>
+		<job id="114" letter1="v" letter2="a" letter3="g" edu="2">متصدي آسانسور</job>
+		<job id="115" letter1="v" letter2="a" letter3="g" edu="2">انباردار</job>
+		<job id="116" letter1="v" letter2="a" letter3="g" edu="1">كمك آشپز</job>
+		<job id="117" letter1="v" letter2="a" letter3="g" edu="5">مربي كشاورزي حرفه اي</job>
+		<job id="118" letter1="v" letter2="a" letter3="g" edu="4">تعمير كار وسايل برقي خانگي</job>
+		<job id="119" letter1="v" letter2="a" letter3="g" edu="3">نساج</job>
+		<job id="120" letter1="v" letter2="a" letter3="g" edu="2">بافنده لباس</job>
+		<job id="121" letter1="v" letter2="m" letter3="g" edu="4">سرپرست تصفيه خانه گاز</job>
+		<job id="122" letter1="v" letter2="m" letter3="j" edu="4">نا خداي كشتي ، ملوان</job>
+		<job id="123" letter1="v" letter2="m" letter3="j" edu="4">سرپرست فروشگاه</job>
+		<job id="124" letter1="v" letter2="m" letter3="j" edu="4">سرپرست ماشين چاپ</job>
+		<job id="125" letter1="v" letter2="m" letter3="a" edu="5">سرپرست امور صيد وشكار</job>
+		<job id="126" letter1="v" letter2="m" letter3="a" edu="4">دامدار</job>
+		<job id="127" letter1="v" letter2="m" letter3="a" edu="4">مهندس لوكوموتيو</job>
+		<job id="128" letter1="v" letter2="m" letter3="a" edu="3">جعبه ساز</job>
+		<job id="129" letter1="v" letter2="m" letter3="a" edu="3">راننده قطار مسافربري</job>
+		<job id="130" letter1="v" letter2="m" letter3="a" edu="3">كارگر ساختماني</job>
+		<job id="131" letter1="v" letter2="m" letter3="a" edu="2">ماهيگير</job>
+		<job id="132" letter1="v" letter2="m" letter3="a" edu="2">ريل گذار (قطار)</job>
+		<job id="133" letter1="v" letter2="g" letter3="j" edu="5">نقشه بردار</job>
+		<job id="134" letter1="v" letter2="g" letter3="j" edu="4">نجار</job>
+		<job id="135" letter1="v" letter2="g" letter3="j" edu="4">مكانيك ابزار و آلات موسيقي</job>
+		<job id="136" letter1="v" letter2="g" letter3="j" edu="4">آپاراتچي</job>
+		<job id="137" letter1="v" letter2="g" letter3="j" edu="4">تعمير كار ماشينهاي اداري</job>
+		<job id="138" letter1="v" letter2="g" letter3="j" edu="4">سوزنبان</job>
+		<job id="139" letter1="v" letter2="g" letter3="j" edu="3">نقاش ساختمان</job>
+		<job id="140" letter1="v" letter2="g" letter3="j" edu="3">دستيار نقشه بردار</job>
+		<job id="141" letter1="v" letter2="g" letter3="a" edu="4">خز فروش</job>
+		<job id="142" letter1="v" letter2="g" letter3="a" edu="4">خياط (ضخيم دوز)</job>
+		<job id="143" letter1="v" letter2="g" letter3="a" edu="4">تعمير كار تلفن</job>
+		<job id="144" letter1="v" letter2="g" letter3="a" edu="3">راننده اتوبوس</job>
+		<job id="145" letter1="v" letter2="g" letter3="a" edu="3">اپراتور بازيافت كارخانه تبديل فاضلاب به كود</job>
+		<job id="146" letter1="v" letter2="g" letter3="a" edu="3">كارگر انفجار معدن</job>
+		<job id="147" letter1="v" letter2="g" letter3="a" edu="3">بنا</job>
+		<job id="148" letter1="v" letter2="g" letter3="a" edu="3">سيمانكار</job>
+		<job id="149" letter1="v" letter2="g" letter3="a" edu="3">خياط (نازك دوز)</job>
+		<job id="150" letter1="v" letter2="g" letter3="a" edu="3">كارگذار كوره</job>
+		<job id="151" letter1="v" letter2="g" letter3="a" edu="3">برشكار لباس</job>
+		<job id="152" letter1="v" letter2="g" letter3="a" edu="3">پستچي</job>
+		<job id="153" letter1="v" letter2="g" letter3="a" edu="3">خواننده كنتور</job>
+		<job id="154" letter1="v" letter2="g" letter3="a" edu="3">معدن چي</job>
+		<job id="155" letter1="v" letter2="g" letter3="a" edu="3">نصاب كاغذ ديواري</job>
+		<job id="156" letter1="v" letter2="g" letter3="a" edu="3">اندودگر(سفت كار)</job>
+		<job id="157" letter1="v" letter2="g" letter3="a" edu="3">قايقران (ملاح)</job>
+		<job id="158" letter1="v" letter2="g" letter3="a" edu="3">كاشي كار</job>
+		<job id="159" letter1="v" letter2="g" letter3="a" edu="3">اپراتور كاميونهاي صنعتي</job>
+		<job id="160" letter1="v" letter2="g" letter3="a" edu="2">ريسنده</job>
+		<job id="161" letter1="v" letter2="g" letter3="m" edu="3">اپراتور جرثقيل</job>
+		<job id="162" letter1="v" letter2="g" letter3="m" edu="3">بازرس الوار (چوب بري)</job>
+		<job id="163" letter1="v" letter2="g" letter3="m" edu="3">اپراتور تراكتور</job>
+		<job id="164" letter1="v" letter2="g" letter3="m" edu="3">راننده وسايل نقليه سنگين (كاميون،تريلي،تراكتور)</job>
+		<job id="165" letter1="v" letter2="g" letter3="m" edu="3">راننده كاميونهاي سبك</job>
+		<job id="166" letter1="v" letter2="g" letter3="m" edu="3">اپراتور ليفتراك</job>
+		
+		<job id="167" letter1="j" letter2="h" letter3="a" edu="6">اقتصاد دان</job>
+		<job id="168" letter1="j" letter2="h" letter3="a" edu="6">رياضيدان ، آماردان</job>
+		<job id="169" letter1="j" letter2="h" letter3="a" edu="5">تحليل گر امور تجاري</job>
+		<job id="170" letter1="j" letter2="h" letter3="v" edu="6">مردم شناس</job>
+		<job id="171" letter1="j" letter2="h" letter3="v" edu="6">منجم</job>
+		<job id="172" letter1="j" letter2="h" letter3="v" edu="6">شيميدان</job>
+		<job id="173" letter1="j" letter2="h" letter3="v" edu="6">متخصص تشخيص طبي (مرض شناسي)</job>
+		<job id="174" letter1="j" letter2="h" letter3="v" edu="6">فيزيكدان</job>
+		<job id="175" letter1="j" letter2="a" letter3="g" edu="5">معلم رياضيات</job>
+		<job id="176" letter1="j" letter2="a" letter3="g" edu="5">طراح توليد</job>
+		<job id="177" letter1="j" letter2="a" letter3="g" edu="4">دستيار آزمايشگاه پزشكي</job>
+		<job id="178" letter1="j" letter2="a" letter3="g" edu="4">تعمير كار راديو و تلويزيون</job>
+		<job id="179" letter1="j" letter2="a" letter3="v" edu="6">زيست شناس</job>
+		<job id="180" letter1="j" letter2="a" letter3="v" edu="6">دندانپزشك</job>
+		<job id="181" letter1="j" letter2="a" letter3="v" edu="6">متخصص بيماريهاي استخوان</job>
+		<job id="182" letter1="j" letter2="a" letter3="v" edu="6">متخصص بهداشت</job>
+		<job id="183" letter1="j" letter2="a" letter3="v" edu="5">متخصص فيزيوتراپ</job>
+		<job id="184" letter1="j" letter2="a" letter3="v" edu="5">معلم علوم طبيعي</job>
+		<job id="185" letter1="j" letter2="a" letter3="v" edu="5">متخصص دستگاههاي سنجش بينايي</job>
+		<job id="186" letter1="j" letter2="a" letter3="h" edu="6">روانشناس تجربي</job>
+		<job id="187" letter1="j" letter2="a" letter3="h" edu="6">پزشك</job>
+		<job id="188" letter1="j" letter2="a" letter3="h" edu="6">روانپزشك</job>
+		<job id="189" letter1="j" letter2="a" letter3="h" edu="5">تكنولولوژيست پزشكي</job>
+		<job id="190" letter1="j" letter2="a" letter3="h" edu="5">پرستار كار آزموده</job>
+		<job id="191" letter1="j" letter2="a" letter3="h" edu="5">دستيار پزشك</job>
+		<job id="192" letter1="j" letter2="m" letter3="a" edu="6">ميكروب شناس</job>
+		<job id="193" letter1="j" letter2="m" letter3="a" edu="6">فيزيولوژيست</job>
+		<job id="194" letter1="j" letter2="m" letter3="a" edu="5">داروساز</job>
+		<job id="195" letter1="j" letter2="m" letter3="g" edu="5">كارشناس آمار</job>
+		<job id="196" letter1="j" letter2="g" letter3="v" edu="5">تكنسين كنترل كيفيت و درجه بندي اجناس</job>
+		<job id="197" letter1="j" letter2="g" letter3="v" edu="4">اپراتور كامپيوتر</job>
+		<job id="198" letter1="j" letter2="g" letter3="v" edu="4">تكنسين راديو اكتيو</job>
+		<job id="199" letter1="j" letter2="g" letter3="v" edu="4">دستيار امور تحقيقي</job>
+		<job id="200" letter1="j" letter2="v" letter3="h" edu="6">زمين شناس</job>
+		<job id="201" letter1="j" letter2="v" letter3="h" edu="6">جراح</job>
+		<job id="202" letter1="j" letter2="v" letter3="h" edu="6">برنامه ريز شهري (طراح)</job>
+		<job id="203" letter1="j" letter2="v" letter3="h" edu="5">متخصص آثار جوي</job>
+		<job id="204" letter1="j" letter2="v" letter3="h" edu="5">هواشناس</job>
+		<job id="205" letter1="j" letter2="v" letter3="a" edu="6">متخصص كشاورزي (خاك شناسي)</job>
+		<job id="206" letter1="j" letter2="v" letter3="a" edu="6">دانشمند حيوان شناس</job>
+		<job id="207" letter1="j" letter2="v" letter3="a" edu="6">بيوشيميست</job>
+		<job id="208" letter1="j" letter2="v" letter3="a" edu="6">گياه شناس</job>
+		<job id="209" letter1="j" letter2="v" letter3="a" edu="6">تكنولوژيست مواد لبني</job>
+		<job id="210" letter1="j" letter2="v" letter3="a" edu="6">تحليل گر محيط</job>
+		<job id="211" letter1="j" letter2="v" letter3="a" edu="6">متخصص ژنتيك</job>
+		<job id="212" letter1="j" letter2="v" letter3="a" edu="6">متخصص پرورش گياه</job>
+		<job id="213" letter1="j" letter2="v" letter3="a" edu="6">اقيانوس شناس</job>
+		<job id="214" letter1="j" letter2="v" letter3="a" edu="6">متخصص حفاظت خاك</job>
+		<job id="215" letter1="j" letter2="v" letter3="a" edu="6">جانور شناس</job>
+		<job id="216" letter1="j" letter2="v" letter3="a" edu="5">جغرافيدان</job>
+		<job id="217" letter1="j" letter2="v" letter3="a" edu="5">تكنسين انتقال حرارت (شوفاژ كار)</job>
+		<job id="218" letter1="j" letter2="v" letter3="a" edu="5">دامپزشك</job>
+		<job id="219" letter1="j" letter2="v" letter3="a" edu="4">تكنسين الكترو كارديو گرافي (نوار قلب)</job>
+		<job id="220" letter1="j" letter2="v" letter3="a" edu="4">تكنسين اشعه ايكس</job>
+		<job id="221" letter1="j" letter2="v" letter3="m" edu="6">سرپرست مهندسي (مديريت مهندسي)</job>
+		<job id="222" letter1="j" letter2="v" letter3="m" edu="6">مهندس هواپيما</job>
+		<job id="223" letter1="j" letter2="v" letter3="m" edu="6">مهندس شيمي</job>
+		<job id="224" letter1="j" letter2="v" letter3="m" edu="6">مهندس راه و ساختمان</job>
+		<job id="225" letter1="j" letter2="v" letter3="m" edu="6">مهندس برق</job>
+		<job id="226" letter1="j" letter2="v" letter3="m" edu="6">مهندس</job>
+		<job id="227" letter1="j" letter2="v" letter3="m" edu="6">متالورژيست (مهندس مواد)</job>
+		<job id="228" letter1="j" letter2="v" letter3="m" edu="5">تكنسين آزمايشگاه شيمي</job>
+		<job id="229" letter1="j" letter2="v" letter3="m" edu="4">دستيار آزمايشگاه متالورژي</job>
+		<job id="230" letter1="j" letter2="v" letter3="g" edu="5">هدايت كننده هواپيما</job>
+		<job id="231" letter1="j" letter2="v" letter3="g" edu="5">خلبان هواپيما</job>
+		<job id="232" letter1="j" letter2="v" letter3="g" edu="5">برنامه نويس كامپيوتر</job>
+		<job id="233" letter1="j" letter2="v" letter3="g" edu="5">تكنسين امور مهندسي</job>
+		<job id="234" letter1="j" letter2="v" letter3="g" edu="5">قالب ساز</job>
+		<job id="235" letter1="j" letter2="v" letter3="g" edu="4">طراح ابزار</job>
+		<job id="236" letter1="j" letter2="v" letter3="g" edu="4">تعمير كار وسايل موسيقي</job>
+		<job id="237" letter1="j" letter2="v" letter3="g" edu="4">آزمايشگر آزمايشگاه</job>
+		<job id="238" letter1="j" letter2="v" letter3="g" edu="4">آزمايشگر لوازم برقي</job>
+		
+		<job id="239" letter1="h" letter2="a" letter3="j" edu="5">هنر پيشه</job>
+		<job id="240" letter1="h" letter2="a" letter3="j" edu="5">عروسك گردان نمايش عروسكي</job>
+		<job id="241" letter1="h" letter2="a" letter3="j" edu="5">مربي تئاتر</job>
+		<job id="242" letter1="h" letter2="a" letter3="j" edu="5">معلم تئاتر</job>
+		<job id="243" letter1="h" letter2="a" letter3="j" edu="5">معلم زبان انگليسي</job>
+		<job id="244" letter1="h" letter2="a" letter3="j" edu="5">مترجم زبان خارجي</job>
+		<job id="245" letter1="h" letter2="a" letter3="j" edu="5">گزارشگر</job>
+		<job id="246" letter1="h" letter2="a" letter3="j" edu="6">فيلسوف</job>
+		<job id="247" letter1="h" letter2="a" letter3="j" edu="6">نویسنده</job>
+		<job id="248" letter1="h" letter2="a" letter3="j" edu="5">نويسنده امور تبليغي</job>
+		<job id="249" letter1="h" letter2="a" letter3="j" edu="5">هنرمند</job>
+		<job id="250" letter1="h" letter2="a" letter3="j" edu="5">معلم هنر</job>
+		<job id="251" letter1="h" letter2="a" letter3="j" edu="5">هنرمند امور تبليغي – تجاري</job>
+		<job id="252" letter1="h" letter2="a" letter3="j" edu="5">معلم ادبيات</job>
+		<job id="253" letter1="h" letter2="a" letter3="j" edu="5">موسيقيدان</job>
+		<job id="254" letter1="h" letter2="a" letter3="j" edu="5">معلم موسيقي</job>
+		<job id="255" letter1="h" letter2="a" letter3="j" edu="5">رهبر اركستر</job>
+		<job id="256" letter1="h" letter2="a" letter3="j" edu="5">نويسنده امور فني</job>
+		<job id="257" letter1="h" letter2="m" letter3="a" edu="5">رئيس حسابداري</job>
+		<job id="258" letter1="h" letter2="m" letter3="a" edu="5">مدير تبليغات</job>
+		<job id="259" letter1="h" letter2="m" letter3="a" edu="5">مجري برنامه سرگرم كننده (شومن)</job>
+		<job id="260" letter1="h" letter2="m" letter3="a" edu="5">نماينده روابط عمومي</job>
+		<job id="261" letter1="h" letter2="m" letter3="a" edu="3">هنرمند آگهيهاي تبليغاتي</job>
+		<job id="262" letter1="h" letter2="j" letter3="a" edu="6">نمايشنامه نويس</job>
+		<job id="263" letter1="h" letter2="j" letter3="a" edu="6">ویراستار</job>
+		<job id="264" letter1="h" letter2="j" letter3="a" edu="5">منتقد (بازنگر)</job>
+		<job id="265" letter1="h" letter2="j" letter3="a" edu="5">هنرمند مد (روز)</job>
+		<job id="266" letter1="h" letter2="j" letter3="a" edu="5">طراح مبلمان</job>
+		<job id="267" letter1="h" letter2="j" letter3="a" edu="5">دكوراتور تزئينات داخلي</job>
+		<job id="268" letter1="h" letter2="j" letter3="a" edu="5">طراح بسته بندي</job>
+		<job id="269" letter1="h" letter2="j" letter3="a" edu="5">طراح جواهر</job>
+		<job id="270" letter1="h" letter2="j" letter3="a" edu="4">طراح لباس</job>
+		<job id="271" letter1="h" letter2="j" letter3="v" edu="4">دكوراتور</job>
+		<job id="272" letter1="h" letter2="j" letter3="v" edu="6">آرشيتكت</job>
+		<job id="273" letter1="h" letter2="j" letter3="v" edu="4">عكاس</job>
+		<job id="274" letter1="h" letter2="j" letter3="v" edu="4">حكاك (چاپ عكس روي سنگ)</job>
+		<job id="275" letter1="h" letter2="j" letter3="v" edu="4">نويسنده تابلو</job>
+		<job id="276" letter1="h" letter2="j" letter3="v" edu="3">رتوشگر عكس</job>
+		
+		<job id="277" letter1="a" letter2="m" letter3="g" edu="6">مدير خدمات اجتماعي</job>
+		<job id="278" letter1="a" letter2="m" letter3="g" edu="5">نماينده تجارتي اتحاديه كارگري</job>
+		<job id="279" letter1="a" letter2="m" letter3="g" edu="5">مدير عامل اتاق بازرگاني</job>
+		<job id="280" letter1="a" letter2="m" letter3="g" edu="5">سرپرست خوابگاه</job>
+		<job id="281" letter1="a" letter2="m" letter3="g" edu="5">مصاحبه گر شغلي (جهت استخدام)</job>
+		<job id="282" letter1="a" letter2="m" letter3="g" edu="5">مسئول مراسم تشييع جنازه و تدفين</job>
+		<job id="283" letter1="a" letter2="m" letter3="g" edu="5">مدير هتل</job>
+		<job id="284" letter1="a" letter2="m" letter3="g" edu="5">تحليل گر مشاغل</job>
+		<job id="285" letter1="a" letter2="m" letter3="g" edu="5">مدير امور ورزشي انجمن مذهبي جوانان</job>
+		<job id="286" letter1="a" letter2="m" letter3="g" edu="5">منشي انجمن مذهبي جوانان</job>
+		<job id="287" letter1="a" letter2="m" letter3="g" edu="4">سرپرست اردو</job>
+		<job id="288" letter1="a" letter2="m" letter3="g" edu="4">سرپرست خدمات غذايي</job>
+		<job id="289" letter1="a" letter2="m" letter3="g" edu="4">سرپرست امور خدمات رفاهي</job>
+		<job id="290" letter1="a" letter2="m" letter3="g" edu="3">متصدي بار</job>
+		<job id="291" letter1="a" letter2="m" letter3="g" edu="3">مهمانخانه دار</job>
+		<job id="292" letter1="a" letter2="m" letter3="g" edu="3">مدير ساندويچ فروشي</job>
+		<job id="293" letter1="a" letter2="m" letter3="v" edu="5">كارشناس تعيين خسارت</job>
+		<job id="294" letter1="a" letter2="m" letter3="v" edu="6">مدير بيمارستان</job>
+		<job id="295" letter1="a" letter2="m" letter3="v" edu="6">رئيس موسسه آموزشي</job>
+		<job id="296" letter1="a" letter2="m" letter3="v" edu="5">تاريخدان (مورخ)</job>
+		<job id="297" letter1="a" letter2="m" letter3="v" edu="5">معلم تاريخ</job>
+		<job id="298" letter1="a" letter2="m" letter3="v" edu="5">مدير خدمات خانگي</job>
+		<job id="299" letter1="a" letter2="m" letter3="v" edu="5">مدير امور آموزشي و پرورشي</job>
+		<job id="300" letter1="a" letter2="m" letter3="v" edu="5">مربي پرورشي (معلم آموزش ضمن خدمت)</job>
+		<job id="301" letter1="a" letter2="m" letter3="h" edu="5">مدير تفريحات سالم</job>
+		<job id="302" letter1="a" letter2="m" letter3="h" edu="5">سرپرست امور استخدامي</job>
+		<job id="303" letter1="a" letter2="m" letter3="h" edu="5">كارمند وزارت امور خارجه (كارگذار خدمات خارجي)</job>
+		<job id="304" letter1="a" letter2="m" letter3="h" edu="5">سرپرست امور تفريحات سالم</job>
+		<job id="305" letter1="a" letter2="m" letter3="h" edu="5">سرپرست خدمات داوطلبانه</job>
+		<job id="306" letter1="a" letter2="g" letter3="m" edu="5">مدير اجرايي كارگران خدمات خانگي</job>
+		<job id="307" letter1="a" letter2="g" letter3="m" edu="5">هماهنگ كننده توليدات</job>
+		<job id="308" letter1="a" letter2="g" letter3="m" edu="5">مسئول خدمات بهداشت عمومي</job>
+		<job id="309" letter1="a" letter2="g" letter3="m" edu="5">مدير تئاتر</job>
+		<job id="310" letter1="a" letter2="g" letter3="m" edu="4">مامور تداركات و پذيرايي</job>
+		<job id="311" letter1="a" letter2="g" letter3="m" edu="4">كارمند رسيدگي به حسابهاي بستانكاري و اعتباري</job>
+		<job id="312" letter1="a" letter2="g" letter3="m" edu="4">سرپرست چايخانه ، قهوه خانه</job>
+		<job id="313" letter1="a" letter2="g" letter3="m" edu="4">صاحب رستوران</job>
+		<job id="314" letter1="a" letter2="g" letter3="m" edu="4">نماينده فروش بليط</job>
+		<job id="315" letter1="a" letter2="g" letter3="m" edu="2">پيشخدمت هتل</job>
+		<job id="316" letter1="a" letter2="v" letter3="j" edu="5">مروج (كشاورزي)</job>
+		<job id="317" letter1="a" letter2="v" letter3="m" edu="5">مربي ورزش</job>
+		<job id="318" letter1="a" letter2="v" letter3="m" edu="5">مدير ساختمان</job>
+		<job id="319" letter1="a" letter2="v" letter3="m" edu="5">معلم ورزش</job>
+		<job id="320" letter1="a" letter2="v" letter3="m" edu="4">مربي سر خانه كودكان</job>
+		<job id="321" letter1="a" letter2="v" letter3="m" edu="4">معلم رانندگي</job>
+		<job id="322" letter1="a" letter2="v" letter3="m" edu="4">سرايدار</job>
+		<job id="323" letter1="a" letter2="v" letter3="m" edu="4">كار درمانگر</job>
+		<job id="324" letter1="a" letter2="v" letter3="m" edu="3">كارآگاه</job>
+		<job id="325" letter1="a" letter2="v" letter3="m" edu="3">سرپرست سازمان خانواده هاي بي سرپرست</job>
+		<job id="326" letter1="a" letter2="v" letter3="m" edu="3">ورزشكار حرفه اي</job>
+		<job id="327" letter1="a" letter2="v" letter3="m" edu="3">افسر پليس</job>
+		<job id="328" letter1="a" letter2="v" letter3="g" edu="3">آرايشگر مردانه</job>
+		<job id="329" letter1="a" letter2="v" letter3="g" edu="3">خدمتكار بيمارستان</job>
+		<job id="330" letter1="a" letter2="j" letter3="h" edu="6">روان شناس مشاوره باليني</job>
+		<job id="331" letter1="a" letter2="j" letter3="h" edu="6">استاد دانشگاه</job>
+		<job id="332" letter1="a" letter2="j" letter3="h" edu="6">متخصص امور سياسي</job>
+		<job id="333" letter1="a" letter2="j" letter3="h" edu="6">جامعه شناس</job>
+		<job id="334" letter1="a" letter2="j" letter3="h" edu="6">دانشمند علوم اجتماعي</job>
+		<job id="335" letter1="a" letter2="j" letter3="h" edu="5">معلم آموزش بزرگسالان</job>
+		<job id="336" letter1="a" letter2="j" letter3="h" edu="5">گرداننده و رهبر گروه</job>
+		<job id="337" letter1="a" letter2="j" letter3="h" edu="5">پرستار عمومي</job>
+		<job id="338" letter1="a" letter2="j" letter3="h" edu="5">درمانگر توانبخشي</job>
+		<job id="339" letter1="a" letter2="j" letter3="h" edu="5">مشاور مدرسه</job>
+		<job id="340" letter1="a" letter2="j" letter3="j" edu="6">مدد كار اجتماعي</job>
+		<job id="341" letter1="a" letter2="j" letter3="m" edu="4">مدير مدرسه</job>
+		<job id="342" letter1="a" letter2="j" letter3="m" edu="4">بازرس گمرك</job>
+		<job id="343" letter1="a" letter2="j" letter3="m" edu="4">سرپرست امور تغذيه و رژيم</job>
+		<job id="344" letter1="a" letter2="j" letter3="m" edu="4">بازرس كيفيت بيمه</job>
+		<job id="345" letter1="a" letter2="j" letter3="g" edu="6">ناظم مدرسه</job>
+		<job id="346" letter1="a" letter2="j" letter3="g" edu="5">بازرس مواد غذايي و دارويي</job>
+		<job id="347" letter1="a" letter2="j" letter3="g" edu="5">مامور اخذ التزام در دادسرا</job>
+		<job id="348" letter1="a" letter2="j" letter3="v" edu="5">معلم علوم اجتماعي</job>
+		<job id="349" letter1="a" letter2="j" letter3="v" edu="5">پزشك متخصص امراض پا</job>
+		<job id="350" letter1="a" letter2="j" letter3="v" edu="4">درمانگر تنفسي</job>
+		<job id="351" letter1="a" letter2="j" letter3="v" edu="4">فيزيوتراپ</job>
+		<job id="352" letter1="a" letter2="j" letter3="v" edu="4">تكنسين جراحي</job>
+		<job id="353" letter1="a" letter2="j" letter3="v" edu="4">درمانگر</job>
+		<job id="354" letter1="a" letter2="h" letter3="m" edu="5">مشاور</job>
+		<job id="355" letter1="a" letter2="h" letter3="m" edu="5">معلم دبستان</job>
+		<job id="356" letter1="a" letter2="h" letter3="m" edu="5">معلم زبان خارجي</job>
+		<job id="357" letter1="a" letter2="h" letter3="m" edu="5">دبير دبيرستان</job>
+		<job id="358" letter1="a" letter2="h" letter3="m" edu="5">معلم اقتصاد خانواده</job>
+		<job id="359" letter1="a" letter2="h" letter3="m" edu="5">اقتصاد دان خانواده</job>
+		<job id="360" letter1="a" letter2="h" letter3="m" edu="5">خانه دار</job>
+		<job id="361" letter1="a" letter2="h" letter3="m" edu="5">معلم كودكستان</job>
+		<job id="362" letter1="a" letter2="h" letter3="m" edu="5">مربي</job>
+		<job id="363" letter1="a" letter2="h" letter3="m" edu="5">معلم</job>
+		<job id="364" letter1="a" letter2="h" letter3="m" edu="5">مشاور امور توانبخشي</job>
+		<job id="365" letter1="a" letter2="h" letter3="m" edu="3">كمك معلم</job>
+		<job id="366" letter1="a" letter2="h" letter3="m" edu="3">دستيار خدمات اجتماعي</job>
+		<job id="367" letter1="a" letter2="h" letter3="g" edu="5">متخصص زيبايي</job>
+		<job id="368" letter1="a" letter2="h" letter3="g" edu="4">متخصص برق (آرايش)</job>
+		<job id="369" letter1="a" letter2="h" letter3="g" edu="5">آرايشگر صورت</job>
+		<job id="370" letter1="a" letter2="h" letter3="g" edu="5">آرايشگر مو</job>
+		<job id="371" letter1="a" letter2="h" letter3="g" edu="4">دستيار فيزيوتراپ (زيبايي)</job>
+		<job id="372" letter1="a" letter2="h" letter3="g" edu="5">آرايشگر ناخن</job>
+		<job id="373" letter1="a" letter2="h" letter3="j" edu="6">روحاني ، كشيش</job>
+		<job id="374" letter1="a" letter2="h" letter3="j" edu="6">كتابدار</job>
+		<job id="375" letter1="a" letter2="h" letter3="j" edu="5">معلم آموزش ويژه (كودكان استثنايي)</job>
+		<job id="376" letter1="a" letter2="h" letter3="j" edu="5">گفتار درمانگر</job>
+		<job id="377" letter1="a" letter2="h" letter3="j" edu="4">كمك دندانساز</job>
+		<job id="378" letter1="a" letter2="h" letter3="j" edu="4">پرستار تجربي (بهيار)</job>
+		<job id="379" letter1="a" letter2="h" letter3="j" edu="4">كتابدار پرونده هاي پزشكي</job>
+		<job id="380" letter1="a" letter2="h" letter3="j" edu="4">بهداشتكار دندان</job>
+		
+		<job id="381" letter1="m" letter2="g" letter3="j" edu="5">رئيس بانك</job>
+		<job id="382" letter1="m" letter2="g" letter3="a" edu="5">تحليلگر حسابهاي بستانكاري و اعتباري</job>
+		<job id="383" letter1="m" letter2="g" letter3="a" edu="5">بيمه گر</job>
+		<job id="384" letter1="m" letter2="g" letter3="a" edu="5">دلال غله</job>
+		<job id="385" letter1="m" letter2="g" letter3="a" edu="5">ارزياب املاك</job>
+		<job id="386" letter1="m" letter2="g" letter3="a" edu="4">نماينده خريد</job>
+		<job id="387" letter1="m" letter2="g" letter3="a" edu="4">مسئول خدمات رفاهي مشتريان</job>
+		<job id="388" letter1="m" letter2="g" letter3="a" edu="4">گل فروش جزء (خرده فروش)</job>
+		<job id="389" letter1="m" letter2="g" letter3="a" edu="4">دلال مبلمان و لوازم منزل</job>
+		<job id="390" letter1="m" letter2="g" letter3="a" edu="4">مدير خدمات تداركاتي</job>
+		<job id="391" letter1="m" letter2="g" letter3="a" edu="4">نماينده فروش املاك</job>
+		<job id="392" letter1="m" letter2="g" letter3="a" edu="4">نماينده فروش وسايل كشاورزي</job>
+		<job id="393" letter1="m" letter2="g" letter3="a" edu="4">سرپرست فروش بليط</job>
+		<job id="394" letter1="m" letter2="g" letter3="a" edu="3">مامور وصول (جمع كننده صورتحساب)</job>
+		<job id="395" letter1="m" letter2="v" letter3="j" edu="4">مقاطعه كار (پيمانكار)</job>
+		<job id="396" letter1="m" letter2="v" letter3="j" edu="4">سرپرست مزرعه (امور كشاورزي)</job>
+		<job id="397" letter1="m" letter2="v" letter3="j" edu="6">مهندس صنايع</job>
+		<job id="398" letter1="m" letter2="v" letter3="a" edu="5">مدير انبار</job>
+		<job id="399" letter1="m" letter2="v" letter3="g" edu="4">رئيس اداره پست</job>
+		<job id="400" letter1="m" letter2="j" letter3="a" edu="4">مهندس فروش</job>
+		<job id="401" letter1="m" letter2="h" letter3="v" edu="5">گوينده راديو و تلويزيون</job>
+		<job id="402" letter1="m" letter2="a" letter3="g" edu="5">معاون اداري</job>
+		<job id="403" letter1="m" letter2="a" letter3="g" edu="5">مدير شعبه</job>
+		<job id="404" letter1="m" letter2="a" letter3="g" edu="5">مدير بازرگاني</job>
+		<job id="405" letter1="m" letter2="a" letter3="g" edu="5">سرپرست امور شهري</job>
+		<job id="406" letter1="m" letter2="a" letter3="g" edu="5">مدير ، روابط صنعتي</job>
+		<job id="407" letter1="m" letter2="a" letter3="g" edu="5">مدير كاريابي</job>
+		<job id="408" letter1="m" letter2="a" letter3="g" edu="5">كارمند عاليرتبه دولت</job>
+		<job id="409" letter1="m" letter2="a" letter3="g" edu="5">نماينده كارگران</job>
+		<job id="410" letter1="m" letter2="a" letter3="g" edu="5">سرپرست ، مدير</job>
+		<job id="411" letter1="m" letter2="a" letter3="g" edu="5">مدير شركت بيمه</job>
+		<job id="412" letter1="m" letter2="a" letter3="g" edu="5">مدير رستوران ، كافه</job>
+		<job id="413" letter1="m" letter2="a" letter3="g" edu="5">رئيس اداره</job>
+		<job id="414" letter1="m" letter2="a" letter3="g" edu="5">مدير اجرايي</job>
+		<job id="415" letter1="m" letter2="a" letter3="g" edu="5">سرپرست امور كارمندي (رئيس كارگزيني)</job>
+		<job id="416" letter1="m" letter2="a" letter3="g" edu="5">سرپرست امور استخدامي</job>
+		<job id="417" letter1="m" letter2="a" letter3="g" edu="5">مدير توليد</job>
+		<job id="418" letter1="m" letter2="a" letter3="g" edu="5">پرداخت كننده حقوق و مزايا (سرپرست امور مالي)</job>
+		<job id="419" letter1="m" letter2="a" letter3="g" edu="5">مدير فروش</job>
+		<job id="420" letter1="m" letter2="a" letter3="g" edu="5">مسئول رسيدگي به ترافيك</job>
+		<job id="421" letter1="m" letter2="a" letter3="g" edu="4">مدير منازل آپارتماني</job>
+		<job id="422" letter1="m" letter2="a" letter3="g" edu="4">بازرس بيمه</job>
+		<job id="423" letter1="m" letter2="a" letter3="g" edu="3">راهنما (نشان دهنده ، توضيح دهنده)</job>
+		<job id="424" letter1="m" letter2="a" letter3="g" edu="3">مسئول مخابرات</job>
+		<job id="425" letter1="m" letter2="a" letter3="g" edu="3">دفتر دار هتل</job>
+		<job id="426" letter1="m" letter2="a" letter3="g" edu="3">دستفروش</job>
+		<job id="427" letter1="m" letter2="a" letter3="g" edu="3">كارمند فروش</job>
+		<job id="428" letter1="m" letter2="a" letter3="g" edu="3">فروشنده</job>
+		<job id="429" letter1="m" letter2="a" letter3="v" edu="4">فروشنده اتومبيل</job>
+		<job id="430" letter1="m" letter2="a" letter3="v" edu="4">نماينده فروش وسايل ورزشي</job>
+		<job id="431" letter1="m" letter2="a" letter3="j" edu="3">راننده جاده</job>
+		<job id="432" letter1="m" letter2="a" letter3="j" edu="5">مدير رفاه اجتماعي</job>
+		<job id="433" letter1="m" letter2="a" letter3="j" edu="5">تحليلگر سيستمهاي EDP (جریان اطلاعاتی الکترونیکی)</job>
+		<job id="434" letter1="m" letter2="a" letter3="j" edu="5">عمده فروش</job>
+		<job id="435" letter1="m" letter2="a" letter3="j" edu="4">مجري قانون برخورداري از امكانات مساوي</job>
+		<job id="436" letter1="m" letter2="a" letter3="j" edu="4">مدير فروشگاه كادوئي</job>
+		<job id="437" letter1="m" letter2="a" letter3="j" edu="4">خواربار فروش</job>
+		<job id="438" letter1="m" letter2="a" letter3="j" edu="4">نماينده فروش بيمه عمر</job>
+		<job id="439" letter1="m" letter2="a" letter3="j" edu="4">مدير تعميرگاه اتومبيل</job>
+		<job id="440" letter1="m" letter2="a" letter3="j" edu="4">نماينده كارخانه دارها (صنايع)</job>
+		<job id="441" letter1="m" letter2="a" letter3="j" edu="4">تاجر جزء (خرده فروش)</job>
+		<job id="442" letter1="m" letter2="a" letter3="j" edu="4">مدير فروشگاه كفش</job>
+		<job id="443" letter1="m" letter2="a" letter3="h" edu="6">وكيل ، قاضي ، دادستان</job>
+		<job id="444" letter1="m" letter2="a" letter3="h" edu="5">سياستمدار</job>
+		<job id="445" letter1="m" letter2="a" letter3="h" edu="5">عامل فروش سهام شركتها</job>
+		<job id="446" letter1="m" letter2="a" letter3="h" edu="4">هماهنگ كننده مد</job>
+		<job id="447" letter1="m" letter2="a" letter3="h" edu="4">فروشنده لوازم عكاسي</job>
+		<job id="448" letter1="m" letter2="a" letter3="h" edu="4">راهنماي سفر</job>
+		<job id="449" letter1="m" letter2="a" letter3="h" edu="3">مهماندار هواپيما</job>
+		<job id="450" letter1="m" letter2="a" letter3="h" edu="3">فروشنده لوازم و آلات موسيقي</job>
+		
+		<job id="451" letter1="g" letter2="v" letter3="j" edu="4">كارمند ثبت اوقات (وقت نگه دار)</job>
+		<job id="452" letter1="g" letter2="v" letter3="j" edu="4">اپراتور ماشين حروفچيني (لينوتايپ)</job>
+		<job id="453" letter1="g" letter2="v" letter3="j" edu="3">قبض نويس (نويسنده صورت حسابها)</job>
+		<job id="454" letter1="g" letter2="v" letter3="j" edu="3">اپراتور ماشين پانچ</job>
+		<job id="455" letter1="g" letter2="v" letter3="j" edu="3">اپراتور ماشينهاي جدول بندي (نوعي ماشين تحرير)</job>
+		<job id="456" letter1="g" letter2="v" letter3="j" edu="3">اپراتور دستگاههاي فتوكپي و تكثير</job>
+		<job id="457" letter1="g" letter2="v" letter3="a" edu="3">كارمند بايگاني</job>
+		<job id="458" letter1="g" letter2="v" letter3="m" edu="3">مونتاژ گر موتورهاي الكتريكي</job>
+		<job id="459" letter1="g" letter2="v" letter3="m" edu="3">اپراتور چرخ خياطي</job>
+		<job id="460" letter1="g" letter2="j" letter3="a" edu="5">حسابدار تحصيلكرده رسمي</job>
+		<job id="461" letter1="g" letter2="j" letter3="a" edu="5">تحليل گر زمان كار</job>
+		<job id="462" letter1="g" letter2="j" letter3="a" edu="4">كارمند امور كارتهاي اعتباري</job>
+		<job id="463" letter1="g" letter2="j" letter3="a" edu="4">ارزياب</job>
+		<job id="464" letter1="g" letter2="j" letter3="a" edu="4">كارمند پست</job>
+		<job id="465" letter1="g" letter2="j" letter3="a" edu="4">اپراتور ماشين حساب</job>
+		<job id="466" letter1="g" letter2="j" letter3="a" edu="4">كارمند تجارت خارجي</job>
+		<job id="467" letter1="g" letter2="j" letter3="a" edu="3">كارمند رسيدگي به چكها</job>
+		<job id="468" letter1="g" letter2="j" letter3="a" edu="3">كارمند حسابداري</job>
+		<job id="469" letter1="g" letter2="j" letter3="a" edu="3">اپراتور ماشينهاي سريع چاپ</job>
+		<job id="470" letter1="g" letter2="j" letter3="a" edu="3">اپراتور ماشين حساب</job>
+		<job id="471" letter1="g" letter2="j" letter3="m" edu="4">كارمند اداري</job>
+		<job id="472" letter1="g" letter2="j" letter3="m" edu="4">متصدي حقوق</job>
+		<job id="473" letter1="g" letter2="j" letter3="m" edu="3">مصحح (چاپخانه)</job>
+		<job id="474" letter1="g" letter2="j" letter3="m" edu="3">اپراتور ماشين جمع بندي (صندوق دار)</job>
+		<job id="475" letter1="g" letter2="j" letter3="m" edu="3">اپراتور ماشين تحرير تلگرافي (مورس)</job>
+		<job id="476" letter1="g" letter2="a" letter3="m" edu="5">معلم درس بازرگاني</job>
+		<job id="477" letter1="g" letter2="a" letter3="m" edu="4">كارمند اداره كارگزيني</job>
+		<job id="478" letter1="g" letter2="a" letter3="m" edu="4">رابط فروش</job>
+		<job id="479" letter1="g" letter2="a" letter3="m" edu="4">كارمند شركت مسافرتي</job>
+		<job id="480" letter1="g" letter2="a" letter3="m" edu="3">مسئول قسمت پذيرش</job>
+		<job id="481" letter1="g" letter2="a" letter3="m" edu="3">ماشين نويس</job>
+		<job id="482" letter1="g" letter2="a" letter3="m" edu="3">اپراتور تلفن</job>
+		<job id="483" letter1="g" letter2="a" letter3="m" edu="3">تحويلدار بانك</job>
+		<job id="484" letter1="g" letter2="a" letter3="v" edu="4">متصدي آژانس رزرو</job>
+		<job id="485" letter1="g" letter2="a" letter3="v" edu="3">كنترل كننده ترافيك</job>
+		<job id="486" letter1="g" letter2="a" letter3="v" edu="2">نامه رسان اداره</job>
+		<job id="487" letter1="g" letter2="a" letter3="j" edu="4">دفتر دار</job>
+		<job id="488" letter1="g" letter2="a" letter3="j" edu="4">صندوق دار</job>
+		<job id="489" letter1="g" letter2="a" letter3="h" edu="4">معاون كتابخانه</job>
+		<job id="490" letter1="g" letter2="a" letter3="h" edu="4">منشي مطب (امور پزشكي)</job>
+		<job id="491" letter1="g" letter2="a" letter3="h" edu="4">كارمند حواله و سفارشات</job>
+		<job id="492" letter1="g" letter2="a" letter3="h" edu="4">منشي</job>
+		<job id="493" letter1="g" letter2="a" letter3="h" edu="4">كارمند امور اجتماعي</job>
+		<job id="494" letter1="g" letter2="a" letter3="h" edu="4">سرپرست بخش مكاتبات</job>
+		<job id="495" letter1="g" letter2="m" letter3="v" edu="4">كارمند داده پردازي</job>
+		<job id="496" letter1="g" letter2="m" letter3="v" edu="4">كارمند قسمت ارسال و مراسلات</job>
+		<job id="497" letter1="g" letter2="m" letter3="j" edu="5">تحليل گر امور اداري</job>
+		<job id="498" letter1="g" letter2="m" letter3="a" edu="5">حسابدار</job>
+		<job id="499" letter1="g" letter2="m" letter3="a" edu="5">مدير اعتبارات</job>
+		<job id="500" letter1="g" letter2="m" letter3="a" edu="3">كارمند عمومي</job>
+		<job id="501" letter1="g" letter2="m" letter3="a" edu="3">گزارشگر دادگاه</job>
+		<job id="502" letter1="g" letter2="m" letter3="a" edu="3">تند نويس</job>
+	</jobs>
+
+</model1>

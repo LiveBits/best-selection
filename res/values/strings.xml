@@ -6,7 +6,19 @@
     <string name="error">ERROR</string>
     <string name="default_language">fa</string>
     <string name="xml_prefix">q_</string>
+    <string name="xml_model1_prefix">jobs_</string>
     <string name="start_quiz">Start game</string>
+    <string name="self_cat">Self</string>
+    <string name="marry_cat">Marriage</string>
+    <string name="job_cat">Job</string>
+    <string name="job_model1">Halland model</string>
+    <string name="job_model2">MITB model</string>
+    <string name="job_model1_activities">Activities</string>
+    <string name="job_model1_expriences">Expriences</string>
+    <string name="job_model1_jobs">Jobs</string>
+    <string name="job_model1_self_det">Self det.</string>
+    <string name="job_model1_explain">Explain</string>
+    <string name="job_model1_result">Result</string>
     <string name="about_app">about_app</string>
     <string name="app_setting">setting</string>
     <string name="check_more_games">Check more games</string>
@@ -22,6 +34,7 @@
     <string name="score">Your score for this level is:</string>
     <string name="back">Back</string>
     <string name="next">Next</string>
+    <string name="start_test">Start test</string>
     <string name="tip">Tip</string>
     <string name="lock">Lock</string>
     <string name="answer">Answer</string>
@@ -39,6 +52,17 @@
     <string name="pref_font_size">اندازه ی قلم</string>
     <string name="pref_wallpaper">تنظیمات پس زمینه</string>
     <string name="pref_wallpaper_name">پس زمینه</string>
+    <string name="explain_text_dlg">Explain text</string>
+    <string name="ok_button_dlg">Ok</string>
+    
+    <string name="model1_result_title">تیپ شخصیتی شما</string>
+    <string name="model1_result_letter1">تیپ اول</string>
+    <string name="model1_result_letter2">تیپ دوم</string>
+    <string name="model1_result_letter3">تیپ سوم</string>
+    <string name="model1_education">تحصیلات</string>
+    <string name="model1_result_priority">مشاغل مناسب برای شما بر حسب اولویت (از زیاد به کم)</string>
+    <string name="model1_result_jobs">لیست مشاغل</string>    
+    
     <!-- Do not change during translation -->
     <string name="exercise_answers_buttons_weight">6</string>
 

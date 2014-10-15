@@ -20,7 +20,8 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:contentDescription="@string/lock"
-        android:src="@drawable/closed" />
+        android:src="@drawable/closed"
+        android:visibility="invisible" />
 
     <ProgressBar
         android:id="@+id/progressBarLevel"

@@ -12,6 +12,8 @@ public final class R {
         public static final int splash_fading=0x7f040000;
     }
     public static final class array {
+        public static final int accordion_sections=0x7f070004;
+        public static final int accordion_visibility=0x7f070005;
         public static final int educations=0x7f070003;
         public static final int fontNames=0x7f070000;
         public static final int fontSizes=0x7f070001;
@@ -26,12 +28,65 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int buttonBarStyle=0x7f010000;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int custom_font=0x7f010008;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int header_layout_fold_button_id=0x7f010006;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int header_layout_id=0x7f010005;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int header_layout_label_id=0x7f010007;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int icon_label=0x7f010003;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int icon_resource=0x7f010002;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int icon_resource_off=0x7f010004;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int section_bottom=0x7f01000c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int section_container=0x7f01000a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int section_container_parent=0x7f01000b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int section_headers=0x7f010009;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int section_visibility=0x7f01000d;
     }
     public static final class color {
         public static final int app_background=0x7f080001;
         public static final int black=0x7f08000d;
         public static final int black_overlay=0x7f080000;
         public static final int blue=0x7f08000c;
+        public static final int border_color=0x7f08000e;
         /**  #a1e86d 
          */
         public static final int button_ans_border=0x7f080009;
@@ -55,9 +110,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          */
         public static final int button_pressed=0x7f080003;
         public static final int green=0x7f08000b;
+        public static final int header_border_shadow=0x7f080010;
+        public static final int header_color=0x7f08000f;
         /**  #ABABAB 
          */
         public static final int red=0x7f08000a;
+        public static final int section_color=0x7f080011;
     }
     public static final class dimen {
         /** 
@@ -85,89 +143,130 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int button_pressed=0x7f020009;
         public static final int button_tip=0x7f02000a;
         public static final int closed=0x7f02000b;
-        public static final int entekhab_textview=0x7f02000c;
-        public static final int ic_launcher=0x7f02000d;
-        public static final int main=0x7f02000e;
-        public static final int nakhl_logo=0x7f02000f;
-        public static final int open=0x7f020010;
-        public static final int poland=0x7f020011;
-        public static final int tip=0x7f020012;
-        public static final int tip_button=0x7f020013;
+        public static final int down=0x7f02000c;
+        public static final int entekhab_textview=0x7f02000d;
+        public static final int footer_bg=0x7f02000e;
+        public static final int footer_border=0x7f02000f;
+        public static final int footer_solid=0x7f020010;
+        public static final int header_bg=0x7f020011;
+        public static final int header_border=0x7f020012;
+        public static final int header_solid=0x7f020013;
+        public static final int header_solid_inner=0x7f020014;
+        public static final int header_solid_outer=0x7f020015;
+        public static final int ic_launcher=0x7f020016;
+        public static final int main=0x7f020017;
+        public static final int nakhl_logo=0x7f020018;
+        public static final int open=0x7f020019;
+        public static final int poland=0x7f02001a;
+        public static final int section=0x7f02001b;
+        public static final int section_border=0x7f02001c;
+        public static final int section_solid=0x7f02001d;
+        public static final int tip=0x7f02001e;
+        public static final int tip_button=0x7f02001f;
+        public static final int up=0x7f020020;
     }
     public static final class id {
-        public static final int TabHost01=0x7f0e0021;
-        public static final int action_about=0x7f0e0048;
-        public static final int action_settings=0x7f0e0047;
-        public static final int buttonAbout=0x7f0e002b;
-        public static final int buttonActivities=0x7f0e0030;
-        public static final int buttonBack=0x7f0e001e;
-        public static final int buttonExit=0x7f0e002e;
-        public static final int buttonExplain=0x7f0e002f;
-        public static final int buttonExpriences=0x7f0e0031;
-        public static final int buttonJob=0x7f0e0007;
-        public static final int buttonJobs=0x7f0e0032;
-        public static final int buttonMarriage=0x7f0e0006;
-        public static final int buttonMoreGames=0x7f0e002d;
-        public static final int buttonNext=0x7f0e0020;
-        public static final int buttonOk=0x7f0e0024;
-        public static final int buttonProgress=0x7f0e001f;
-        public static final int buttonReset=0x7f0e0042;
-        public static final int buttonResult=0x7f0e0034;
-        public static final int buttonSelf=0x7f0e0005;
-        public static final int buttonSelfDet=0x7f0e0033;
-        public static final int buttonSetting=0x7f0e002c;
-        public static final int buttonStart=0x7f0e002a;
-        public static final int buttonType1=0x7f0e0026;
-        public static final int buttonType2=0x7f0e0027;
-        public static final int editTextTitle1=0x7f0e003c;
-        public static final int editTextTitle2=0x7f0e003b;
-        public static final int editTextTitle3=0x7f0e003a;
-        public static final int imageLevelLock=0x7f0e0045;
-        public static final int imageQuestion=0x7f0e0009;
-        public static final int imageView1=0x7f0e0000;
-        public static final int imgButtonAns0=0x7f0e0019;
-        public static final int imgButtonAns1=0x7f0e001a;
-        public static final int imgButtonAns2=0x7f0e001c;
-        public static final int imgButtonAns3=0x7f0e001d;
-        public static final int imgButtonTip=0x7f0e000b;
-        public static final int imgLogo=0x7f0e0043;
-        public static final int inputAnswer=0x7f0e000d;
-        public static final int layoutInputAnswer=0x7f0e000c;
-        public static final int listLevels=0x7f0e0029;
-        public static final int listLevelsContainer=0x7f0e0028;
-        public static final int placeholder1=0x7f0e0010;
-        public static final int placeholder_left=0x7f0e0003;
-        public static final int placeholder_right=0x7f0e0008;
-        public static final int progressBarLevel=0x7f0e0046;
-        public static final int scoreText=0x7f0e0041;
-        public static final int spinnerEducation=0x7f0e003e;
-        public static final int tableAnswerImageB=0x7f0e0017;
-        public static final int tableAnswerTextB=0x7f0e000e;
-        public static final int tableRow1=0x7f0e0018;
-        public static final int tableRow2=0x7f0e001b;
-        public static final int tableRowTitle=0x7f0e0036;
-        public static final int textIntro=0x7f0e0025;
-        public static final int textLevel=0x7f0e0044;
-        public static final int textQuestion=0x7f0e000a;
-        public static final int textView1=0x7f0e0004;
-        public static final int textViewEducation=0x7f0e003d;
-        public static final int textViewExplain=0x7f0e0022;
-        public static final int textViewJobs=0x7f0e0040;
-        public static final int textViewPriority=0x7f0e003f;
-        public static final int textViewResultTitle=0x7f0e0035;
-        public static final int textViewStructure=0x7f0e0023;
-        public static final int textViewTitle1=0x7f0e0039;
-        public static final int textViewTitle2=0x7f0e0038;
-        public static final int textViewTitle3=0x7f0e0037;
-        public static final int tvAbout=0x7f0e0002;
-        public static final int tvGroupLogo=0x7f0e0001;
-        public static final int txtButtonAns0=0x7f0e000f;
-        public static final int txtButtonAns1=0x7f0e0011;
-        public static final int txtButtonAns2=0x7f0e0012;
-        public static final int txtButtonAns3=0x7f0e0013;
-        public static final int txtButtonAns4=0x7f0e0014;
-        public static final int txtButtonAns5=0x7f0e0015;
-        public static final int txtButtonAns6=0x7f0e0016;
+        public static final int TabHost01=0x7f0e0025;
+        public static final int accord_element1=0x7f0e002a;
+        public static final int accord_element10=0x7f0e0033;
+        public static final int accord_element11=0x7f0e0034;
+        public static final int accord_element12=0x7f0e0035;
+        public static final int accord_element13=0x7f0e0036;
+        public static final int accord_element14=0x7f0e0037;
+        public static final int accord_element15=0x7f0e0038;
+        public static final int accord_element16=0x7f0e0039;
+        public static final int accord_element2=0x7f0e002b;
+        public static final int accord_element3=0x7f0e002c;
+        public static final int accord_element4=0x7f0e002d;
+        public static final int accord_element5=0x7f0e002e;
+        public static final int accord_element6=0x7f0e002f;
+        public static final int accord_element7=0x7f0e0030;
+        public static final int accord_element8=0x7f0e0031;
+        public static final int accord_element9=0x7f0e0032;
+        public static final int accordion_scroll=0x7f0e0028;
+        public static final int accordion_view=0x7f0e0029;
+        public static final int action_about=0x7f0e0064;
+        public static final int action_settings=0x7f0e0063;
+        public static final int buttonAbout=0x7f0e0042;
+        public static final int buttonActivities=0x7f0e0047;
+        public static final int buttonBack=0x7f0e0022;
+        public static final int buttonExit=0x7f0e0045;
+        public static final int buttonExplain=0x7f0e0046;
+        public static final int buttonExpriences=0x7f0e0048;
+        public static final int buttonJob=0x7f0e000b;
+        public static final int buttonJobs=0x7f0e0049;
+        public static final int buttonMarriage=0x7f0e000a;
+        public static final int buttonMoreGames=0x7f0e0044;
+        public static final int buttonNext=0x7f0e0024;
+        public static final int buttonOk=0x7f0e003a;
+        public static final int buttonOthers=0x7f0e003e;
+        public static final int buttonProgress=0x7f0e0023;
+        public static final int buttonReset=0x7f0e005e;
+        public static final int buttonResult=0x7f0e004b;
+        public static final int buttonSelf=0x7f0e0009;
+        public static final int buttonSelfDet=0x7f0e004a;
+        public static final int buttonSetting=0x7f0e0043;
+        public static final int buttonStart=0x7f0e0041;
+        public static final int buttonTests=0x7f0e0058;
+        public static final int buttonType1=0x7f0e003c;
+        public static final int buttonType2=0x7f0e003d;
+        public static final int editTextTitle1=0x7f0e0053;
+        public static final int editTextTitle2=0x7f0e0052;
+        public static final int editTextTitle3=0x7f0e0051;
+        public static final int foldButton=0x7f0e0001;
+        public static final int foldText=0x7f0e0002;
+        public static final int imageLevelLock=0x7f0e0061;
+        public static final int imageQuestion=0x7f0e000d;
+        public static final int imageView1=0x7f0e0004;
+        public static final int imgButtonAns0=0x7f0e001d;
+        public static final int imgButtonAns1=0x7f0e001e;
+        public static final int imgButtonAns2=0x7f0e0020;
+        public static final int imgButtonAns3=0x7f0e0021;
+        public static final int imgButtonTip=0x7f0e000f;
+        public static final int imgLogo=0x7f0e005f;
+        public static final int inputAnswer=0x7f0e0011;
+        public static final int layoutInputAnswer=0x7f0e0010;
+        public static final int listLevels=0x7f0e0040;
+        public static final int listLevelsContainer=0x7f0e003f;
+        public static final int mainlayout=0x7f0e0000;
+        public static final int placeholder1=0x7f0e0014;
+        public static final int placeholder_left=0x7f0e0007;
+        public static final int placeholder_right=0x7f0e000c;
+        public static final int progressBarLevel=0x7f0e0062;
+        public static final int scoreText=0x7f0e005d;
+        public static final int section_content=0x7f0e0003;
+        public static final int spinnerEducation=0x7f0e0055;
+        public static final int tableAnswerImageB=0x7f0e001b;
+        public static final int tableAnswerTextB=0x7f0e0012;
+        public static final int tableRow1=0x7f0e001c;
+        public static final int tableRow2=0x7f0e001f;
+        public static final int tableRowTitle=0x7f0e004d;
+        public static final int textIntro=0x7f0e003b;
+        public static final int textLevel=0x7f0e0060;
+        public static final int textQuestion=0x7f0e000e;
+        public static final int textView1=0x7f0e0008;
+        public static final int textViewEducation=0x7f0e0054;
+        public static final int textViewExplain=0x7f0e0026;
+        public static final int textViewJobs=0x7f0e0057;
+        public static final int textViewJobsTitle=0x7f0e005c;
+        public static final int textViewPriority=0x7f0e0056;
+        public static final int textViewResultTitle=0x7f0e004c;
+        public static final int textViewResultType=0x7f0e0059;
+        public static final int textViewRezaiat=0x7f0e005a;
+        public static final int textViewRezaiatActivities=0x7f0e005b;
+        public static final int textViewStructure=0x7f0e0027;
+        public static final int textViewTitle1=0x7f0e0050;
+        public static final int textViewTitle2=0x7f0e004f;
+        public static final int textViewTitle3=0x7f0e004e;
+        public static final int tvAbout=0x7f0e0006;
+        public static final int tvGroupLogo=0x7f0e0005;
+        public static final int txtButtonAns0=0x7f0e0013;
+        public static final int txtButtonAns1=0x7f0e0015;
+        public static final int txtButtonAns2=0x7f0e0016;
+        public static final int txtButtonAns3=0x7f0e0017;
+        public static final int txtButtonAns4=0x7f0e0018;
+        public static final int txtButtonAns5=0x7f0e0019;
+        public static final int txtButtonAns6=0x7f0e001a;
     }
     public static final class integer {
         /**  ORM configuration max eager level 
@@ -176,20 +275,25 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int max_eager_level=0x7f0a0000;
     }
     public static final class layout {
-        public static final int activity_about=0x7f030000;
-        public static final int activity_cats=0x7f030001;
-        public static final int activity_exercise=0x7f030002;
-        public static final int activity_explain_swipe=0x7f030003;
-        public static final int activity_intro=0x7f030004;
-        public static final int activity_jobs_cats=0x7f030005;
-        public static final int activity_levels=0x7f030006;
-        public static final int activity_main=0x7f030007;
-        public static final int activity_model1_levels=0x7f030008;
-        public static final int activity_model1_result=0x7f030009;
-        public static final int activity_score=0x7f03000a;
-        public static final int activity_splash=0x7f03000b;
-        public static final int custom_dialog=0x7f03000c;
-        public static final int list_item_row=0x7f03000d;
+        public static final int accordion_footer=0x7f030000;
+        public static final int accordion_header=0x7f030001;
+        public static final int accordion_section=0x7f030002;
+        public static final int activity_about=0x7f030003;
+        public static final int activity_cats=0x7f030004;
+        public static final int activity_exercise=0x7f030005;
+        public static final int activity_explain_swipe=0x7f030006;
+        public static final int activity_intro=0x7f030007;
+        public static final int activity_jobs_cats=0x7f030008;
+        public static final int activity_levels=0x7f030009;
+        public static final int activity_main=0x7f03000a;
+        public static final int activity_model1_levels=0x7f03000b;
+        public static final int activity_model1_result=0x7f03000c;
+        public static final int activity_model2_levels=0x7f03000d;
+        public static final int activity_model2_result=0x7f03000e;
+        public static final int activity_score=0x7f03000f;
+        public static final int activity_splash=0x7f030010;
+        public static final int custom_dialog=0x7f030011;
+        public static final int list_item_row=0x7f030012;
     }
     public static final class menu {
         public static final int levels=0x7f0d0000;
@@ -200,68 +304,74 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int q_fa=0x7f060001;
     }
     public static final class string {
-        public static final int about_app=0x7f0b0012;
-        public static final int action_about=0x7f0b001b;
-        public static final int action_settings=0x7f0b001a;
-        public static final int answer=0x7f0b0024;
+        public static final int about_app=0x7f0b0014;
+        public static final int action_about=0x7f0b001d;
+        public static final int action_settings=0x7f0b001c;
+        public static final int answer=0x7f0b0026;
         public static final int app_name=0x7f0b0000;
-        public static final int app_setting=0x7f0b0013;
-        public static final int back=0x7f0b001f;
-        public static final int check_more_games=0x7f0b0014;
-        public static final int check_more_games_url=0x7f0b0015;
+        public static final int app_setting=0x7f0b0015;
+        public static final int back=0x7f0b0021;
+        public static final int check_more_games=0x7f0b0016;
+        public static final int check_more_games_url=0x7f0b0017;
         public static final int default_language=0x7f0b0003;
         public static final int error=0x7f0b0002;
         /**  Do not change during translation 
  Do not change during translation 
          */
-        public static final int exercise_answers_buttons_weight=0x7f0b003c;
+        public static final int exercise_answers_buttons_weight=0x7f0b0042;
         public static final int exit=0x7f0b0001;
-        public static final int exit_dialog_header=0x7f0b0029;
-        public static final int exit_dialog_text=0x7f0b002a;
-        public static final int explain_text_dlg=0x7f0b0033;
-        public static final int intro=0x7f0b001d;
+        public static final int exit_dialog_header=0x7f0b002b;
+        public static final int exit_dialog_text=0x7f0b002c;
+        public static final int explain_text_dlg=0x7f0b0035;
+        public static final int intro=0x7f0b001f;
         public static final int job_cat=0x7f0b0009;
         public static final int job_model1=0x7f0b000a;
-        public static final int job_model1_activities=0x7f0b000c;
-        public static final int job_model1_explain=0x7f0b0010;
-        public static final int job_model1_expriences=0x7f0b000d;
-        public static final int job_model1_jobs=0x7f0b000e;
-        public static final int job_model1_result=0x7f0b0011;
-        public static final int job_model1_self_det=0x7f0b000f;
+        public static final int job_model1_activities=0x7f0b000d;
+        public static final int job_model1_explain=0x7f0b0011;
+        public static final int job_model1_expriences=0x7f0b000e;
+        public static final int job_model1_jobs=0x7f0b000f;
+        public static final int job_model1_result=0x7f0b0012;
+        public static final int job_model1_self_det=0x7f0b0010;
         public static final int job_model2=0x7f0b000b;
-        public static final int lock=0x7f0b0023;
-        public static final int logoText=0x7f0b002d;
+        public static final int job_model2_tests=0x7f0b0013;
+        public static final int job_others=0x7f0b000c;
+        public static final int lock=0x7f0b0025;
+        public static final int logoText=0x7f0b002f;
         public static final int marry_cat=0x7f0b0008;
-        public static final int model1_education=0x7f0b0039;
-        public static final int model1_result_jobs=0x7f0b003b;
-        public static final int model1_result_letter1=0x7f0b0036;
-        public static final int model1_result_letter2=0x7f0b0037;
-        public static final int model1_result_letter3=0x7f0b0038;
-        public static final int model1_result_priority=0x7f0b003a;
-        public static final int model1_result_title=0x7f0b0035;
-        public static final int negative_ans=0x7f0b002c;
-        public static final int next=0x7f0b0020;
-        public static final int ok_button_dlg=0x7f0b0034;
-        public static final int positive_ans=0x7f0b002b;
-        public static final int pref_font=0x7f0b002e;
-        public static final int pref_font_name=0x7f0b002f;
-        public static final int pref_font_size=0x7f0b0030;
-        public static final int pref_wallpaper=0x7f0b0031;
-        public static final int pref_wallpaper_name=0x7f0b0032;
-        public static final int question=0x7f0b001c;
-        public static final int question_image=0x7f0b0025;
-        public static final int rate_game=0x7f0b0016;
-        public static final int reset_level=0x7f0b0028;
-        public static final int score=0x7f0b001e;
+        public static final int model1_education=0x7f0b003c;
+        public static final int model1_result_jobs=0x7f0b003e;
+        public static final int model1_result_letter1=0x7f0b0039;
+        public static final int model1_result_letter2=0x7f0b003a;
+        public static final int model1_result_letter3=0x7f0b003b;
+        public static final int model1_result_priority=0x7f0b003d;
+        public static final int model1_result_title=0x7f0b0037;
+        public static final int model1_result_type=0x7f0b0038;
+        public static final int model2_jobs_title=0x7f0b0041;
+        public static final int model2_rezaiat=0x7f0b003f;
+        public static final int model2_rezaiat_activities=0x7f0b0040;
+        public static final int negative_ans=0x7f0b002e;
+        public static final int next=0x7f0b0022;
+        public static final int ok_button_dlg=0x7f0b0036;
+        public static final int positive_ans=0x7f0b002d;
+        public static final int pref_font=0x7f0b0030;
+        public static final int pref_font_name=0x7f0b0031;
+        public static final int pref_font_size=0x7f0b0032;
+        public static final int pref_wallpaper=0x7f0b0033;
+        public static final int pref_wallpaper_name=0x7f0b0034;
+        public static final int question=0x7f0b001e;
+        public static final int question_image=0x7f0b0027;
+        public static final int rate_game=0x7f0b0018;
+        public static final int reset_level=0x7f0b002a;
+        public static final int score=0x7f0b0020;
         public static final int self_cat=0x7f0b0007;
         public static final int start_quiz=0x7f0b0006;
-        public static final int start_test=0x7f0b0021;
-        public static final int tip=0x7f0b0022;
-        public static final int title_activity_intro=0x7f0b0019;
-        public static final int title_activity_levels=0x7f0b0018;
-        public static final int title_activity_question=0x7f0b0017;
-        public static final int title_activity_score=0x7f0b0026;
-        public static final int wrong_answer=0x7f0b0027;
+        public static final int start_test=0x7f0b0023;
+        public static final int tip=0x7f0b0024;
+        public static final int title_activity_intro=0x7f0b001b;
+        public static final int title_activity_levels=0x7f0b001a;
+        public static final int title_activity_question=0x7f0b0019;
+        public static final int title_activity_score=0x7f0b0028;
+        public static final int wrong_answer=0x7f0b0029;
         public static final int xml_model1_prefix=0x7f0b0005;
         public static final int xml_prefix=0x7f0b0004;
     }
@@ -334,5 +444,188 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name com.nakhl.behtarinentekhab:buttonBarStyle
         */
         public static final int ButtonBarContainerTheme_buttonBarStyle = 0;
+        /** Attributes that can be used with a accordion.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #accordion_custom_font com.nakhl.behtarinentekhab:custom_font}</code></td><td></td></tr>
+           <tr><td><code>{@link #accordion_header_layout_fold_button_id com.nakhl.behtarinentekhab:header_layout_fold_button_id}</code></td><td></td></tr>
+           <tr><td><code>{@link #accordion_header_layout_id com.nakhl.behtarinentekhab:header_layout_id}</code></td><td></td></tr>
+           <tr><td><code>{@link #accordion_header_layout_label_id com.nakhl.behtarinentekhab:header_layout_label_id}</code></td><td></td></tr>
+           <tr><td><code>{@link #accordion_section_bottom com.nakhl.behtarinentekhab:section_bottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #accordion_section_container com.nakhl.behtarinentekhab:section_container}</code></td><td></td></tr>
+           <tr><td><code>{@link #accordion_section_container_parent com.nakhl.behtarinentekhab:section_container_parent}</code></td><td></td></tr>
+           <tr><td><code>{@link #accordion_section_headers com.nakhl.behtarinentekhab:section_headers}</code></td><td></td></tr>
+           <tr><td><code>{@link #accordion_section_visibility com.nakhl.behtarinentekhab:section_visibility}</code></td><td></td></tr>
+           </table>
+           @see #accordion_custom_font
+           @see #accordion_header_layout_fold_button_id
+           @see #accordion_header_layout_id
+           @see #accordion_header_layout_label_id
+           @see #accordion_section_bottom
+           @see #accordion_section_container
+           @see #accordion_section_container_parent
+           @see #accordion_section_headers
+           @see #accordion_section_visibility
+         */
+        public static final int[] accordion = {
+            0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008,
+            0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c,
+            0x7f01000d
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.nakhl.behtarinentekhab.R.attr#custom_font}
+          attribute's value can be found in the {@link #accordion} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.nakhl.behtarinentekhab:custom_font
+        */
+        public static final int accordion_custom_font = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.nakhl.behtarinentekhab.R.attr#header_layout_fold_button_id}
+          attribute's value can be found in the {@link #accordion} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.nakhl.behtarinentekhab:header_layout_fold_button_id
+        */
+        public static final int accordion_header_layout_fold_button_id = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.nakhl.behtarinentekhab.R.attr#header_layout_id}
+          attribute's value can be found in the {@link #accordion} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.nakhl.behtarinentekhab:header_layout_id
+        */
+        public static final int accordion_header_layout_id = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.nakhl.behtarinentekhab.R.attr#header_layout_label_id}
+          attribute's value can be found in the {@link #accordion} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.nakhl.behtarinentekhab:header_layout_label_id
+        */
+        public static final int accordion_header_layout_label_id = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.nakhl.behtarinentekhab.R.attr#section_bottom}
+          attribute's value can be found in the {@link #accordion} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.nakhl.behtarinentekhab:section_bottom
+        */
+        public static final int accordion_section_bottom = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.nakhl.behtarinentekhab.R.attr#section_container}
+          attribute's value can be found in the {@link #accordion} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.nakhl.behtarinentekhab:section_container
+        */
+        public static final int accordion_section_container = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.nakhl.behtarinentekhab.R.attr#section_container_parent}
+          attribute's value can be found in the {@link #accordion} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.nakhl.behtarinentekhab:section_container_parent
+        */
+        public static final int accordion_section_container_parent = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.nakhl.behtarinentekhab.R.attr#section_headers}
+          attribute's value can be found in the {@link #accordion} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.nakhl.behtarinentekhab:section_headers
+        */
+        public static final int accordion_section_headers = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.nakhl.behtarinentekhab.R.attr#section_visibility}
+          attribute's value can be found in the {@link #accordion} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.nakhl.behtarinentekhab:section_visibility
+        */
+        public static final int accordion_section_visibility = 8;
+        /** Attributes that can be used with a image_labeled_button.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #image_labeled_button_icon_label com.nakhl.behtarinentekhab:icon_label}</code></td><td></td></tr>
+           <tr><td><code>{@link #image_labeled_button_icon_resource com.nakhl.behtarinentekhab:icon_resource}</code></td><td></td></tr>
+           </table>
+           @see #image_labeled_button_icon_label
+           @see #image_labeled_button_icon_resource
+         */
+        public static final int[] image_labeled_button = {
+            0x7f010002, 0x7f010003
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.nakhl.behtarinentekhab.R.attr#icon_label}
+          attribute's value can be found in the {@link #image_labeled_button} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.nakhl.behtarinentekhab:icon_label
+        */
+        public static final int image_labeled_button_icon_label = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.nakhl.behtarinentekhab.R.attr#icon_resource}
+          attribute's value can be found in the {@link #image_labeled_button} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.nakhl.behtarinentekhab:icon_resource
+        */
+        public static final int image_labeled_button_icon_resource = 0;
+        /** Attributes that can be used with a toggle_image_labeled_button.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #toggle_image_labeled_button_icon_resource_off com.nakhl.behtarinentekhab:icon_resource_off}</code></td><td></td></tr>
+           </table>
+           @see #toggle_image_labeled_button_icon_resource_off
+         */
+        public static final int[] toggle_image_labeled_button = {
+            0x7f010004
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.nakhl.behtarinentekhab.R.attr#icon_resource_off}
+          attribute's value can be found in the {@link #toggle_image_labeled_button} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.nakhl.behtarinentekhab:icon_resource_off
+        */
+        public static final int toggle_image_labeled_button_icon_resource_off = 0;
     };
 }

@@ -74,7 +74,6 @@ import com.nakhl.behtarinentekhab.utility.ImageUtility;
  * @author Maciej Laskowski
  * 
  */
-//test comment
 public class ExerciseActivity extends FullScreenActivity {
 
 	/** Exercise's level. */
@@ -93,7 +92,7 @@ public class ExerciseActivity extends FullScreenActivity {
 
 	/** Level score. */
 	private int score;
-	
+
 	/** Level scoring. */
 	private Scoring scoring;
 
@@ -111,7 +110,7 @@ public class ExerciseActivity extends FullScreenActivity {
 	/** Progress button. */
 	@InjectView(R.id.buttonProgress)
 	private Button buttonProgress;
-	
+
 	/** Back button. */
 	@InjectView(R.id.buttonBack)
 	private Button buttonBack;
@@ -119,7 +118,7 @@ public class ExerciseActivity extends FullScreenActivity {
 	/** Answer input field. */
 	@InjectView(R.id.inputAnswer)
 	private EditText inputAnswer;
-	
+
 	/** question textview field. */
 	@InjectView(R.id.textQuestion)
 	private TextView tvQuestion;
@@ -148,7 +147,7 @@ public class ExerciseActivity extends FullScreenActivity {
 	private static final String LEVEL_SUB = "level_sub";
 
 	int type, sub, counter;
-	
+
 	/** Back pressed flag. */
 	private static final String BACK_PRESSED = "back_pressed";
 
@@ -171,7 +170,7 @@ public class ExerciseActivity extends FullScreenActivity {
 		sub = b.getInt(LEVEL_SUB);
 		counter = b.getInt("counter");
 		counter++;
-		
+
 		int previousExerciseId = b.getInt(PREVIOUS_EXERCISE_ID);
 		boolean backPressed = b.getBoolean(BACK_PRESSED);
 
@@ -184,22 +183,22 @@ public class ExerciseActivity extends FullScreenActivity {
 			bundle.putInt("level_id", level.getId());
 			bundle.putInt("type", type);
 			bundle.putInt("sub", sub);
-			
+
 			Intent intent = new Intent(getApplicationContext(),
 					ScoreActivity.class);
 			intent.putExtras(bundle);
 			startActivity(intent);
 			return;
 		}
-		//scoring = level.getScoring();
+		// scoring = level.getScoring();
 		score = level.getScore();
-		
+
 		buttonProgress.setText(counter + " / " + level.getExercises().size());
-		
+
 		tvQuestion.setMovementMethod(new ScrollingMovementMethod());
-		
-		displayExercise(exercise);				
-		
+
+		displayExercise(exercise);
+
 	}
 
 	/**
@@ -325,10 +324,10 @@ public class ExerciseActivity extends FullScreenActivity {
 				Button button = (Button) findViewById(field.getInt(null));
 				button.setText(answeList.get(i).getValue());
 				button.setOnTouchListener(new AnswerListener());
-				
-				if(!answeList.get(i).isUnValid())//is valid answer
+
+				if (!answeList.get(i).isUnValid())// is valid answer
 					button.setVisibility(View.VISIBLE);
-				
+
 				answerViews.put(button, answeList.get(i).getValue());
 			}
 			break;
@@ -346,7 +345,7 @@ public class ExerciseActivity extends FullScreenActivity {
 	 * 
 	 * @return <i>true</i> if selected/typed answer is valid.
 	 */
-	private boolean validateAnswer() {		
+	private boolean validateAnswer() {
 		if (getPressedButton() == null) {
 			return false;
 		}
@@ -366,6 +365,23 @@ public class ExerciseActivity extends FullScreenActivity {
 			}
 		}
 		return 0;
+	}
+
+	public int getAnswerIndex() {
+
+		int index = 0;
+		View pressedButton = getPressedButton();
+		String ansString = answerViews.get(pressedButton);
+		for (Answer answer : exercise.getAnswers()) {
+			index++;
+			if (answer.getValue().toLowerCase(Locale.getDefault())
+					.equals(ansString.toLowerCase(Locale.getDefault()))) {
+
+				Log.d("ans index", index+"");
+				return index;
+			}
+		}
+		return index;
 	}
 
 	/**
@@ -390,6 +406,7 @@ public class ExerciseActivity extends FullScreenActivity {
 			// Correct answer
 			exercise.setSolved(true);
 			exercise.setScore(getAnswerScore());
+			exercise.setSelAns(getAnswerIndex());
 			exerciseDao.update(exercise);
 			level.setScore(level.getScore() + exercise.getScore());
 			lvlDao.update(level);
@@ -471,11 +488,11 @@ public class ExerciseActivity extends FullScreenActivity {
 		Bundle b = new Bundle();
 		b.putInt("type", type);
 		b.putInt("sub", sub);
-		
+
 		Intent intent = new Intent(getApplicationContext(),
 				LevelsActivity.class);
 		intent.putExtras(b);
-		
+
 		intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		startActivity(intent);
 	}
@@ -494,7 +511,7 @@ public class ExerciseActivity extends FullScreenActivity {
 		bundle.putInt(LEVEL_TYPE, type);
 		bundle.putInt(LEVEL_SUB, sub);
 		bundle.putInt("counter", counter);
-		
+
 		Intent intent = new Intent(getApplicationContext(),
 				ExerciseActivity.class);
 		intent.putExtras(bundle);

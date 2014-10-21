@@ -22,7 +22,13 @@
 
 package com.nakhl.behtarinentekhab.activity;
 
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 
 import roboguice.inject.InjectView;
 import android.R.integer;
@@ -48,7 +54,7 @@ import com.nakhl.behtarinentekhab.model.entity.Scoring;
  * 
  * @author Maciej Laskowski
  * 
- */ 
+ */
 public class ScoreActivity extends FullScreenActivity {
 
 	@InjectView(R.id.buttonReset)
@@ -61,10 +67,26 @@ public class ScoreActivity extends FullScreenActivity {
 	private ExerciseDao exerciseDao;
 
 	private Level level;
-	
+
 	private int type, sub;
 
 	private int ans1 = 0, ans2 = 0, ans3 = 0, ans4 = 0, ans5 = 0;
+
+	int[] e = new int[] { 1, 1, 1, 2, 2, 1, 1, 2, 2, 1, 1, 2, 2, 2, 1, 2, 2, 1,
+			1, 1, 1, 1, 1, 1, 1 };
+	int eScore, iScore;
+
+	int[] s = new int[] { 1, 2, 1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2,
+			2 };
+	int sScore, nScore;
+
+	int[] t = new int[] { 1, 2, 2, 2, 2, 2, 1, 1, 2, 1, 2, 1, 1, 1, 1, 2, 1, 2,
+			1, 2, 1, 2, 2, 2 };
+	int tScore, fScore;
+
+	int[] j = new int[] { 1, 1, 1, 1, 1, 1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
+			1 };
+	int jScore, pScore;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -79,105 +101,213 @@ public class ScoreActivity extends FullScreenActivity {
 		int score = b.getInt("score");
 		type = b.getInt("type");
 		sub = b.getInt("sub");
-		
+
 		level = levelDao.queryForId(b.getInt("level_id"));
 
 		String value = "";
 		TextView tv = (TextView) findViewById(R.id.scoreText);
 
-		if (level.getMostSelected()) {
-			if (level.getMaxAnswer() == 4) {
-				
+		if (type == 4) {
+
+			int levelId = b.getInt("level_id");
+
+			if (levelId == 60)// ie
+			{
+				int index = 0;
 				for (Exercise exercise : level.getExercises()) {
-					switch (exercise.getScore()) {
-					case 1:
-						ans1++;
-						break;
-					case 2:
-						ans2++;
-						break;
-					case 3:
-						ans3++;
-						break;
-					case 4:
-						ans4++;
-						break;
-					default:
-						break;
-					}
+					if (exercise.getSelAns() == e[index])
+						eScore += exercise.getScore();
+					else
+						iScore += exercise.getScore();
+					index++;
 				}
-				int max = Math.max(Math.max(ans1, ans2), Math.max(ans3, ans4));
-				int tmp = 0;
 
-				if (max == ans1)
-					tmp = 1;
-				else if (max == ans2)
-					tmp = 2;
-				else if (max == ans3)
-					tmp = 3;
-				else
-					tmp = 4;
+				Log.d("my tag", "i=" + iScore + " e=" + eScore + " index="
+						+ index);
 
-				for (Scoring myScore : level.getScorings()) {
-					int sel = myScore.getSelectedAnswer();
-					if (tmp == sel) {
-						value = myScore.getResult();
-						break;
-					}
+				Collection<Scoring> scoring = level.getScorings();
+				List<Scoring> scoringsList = new ArrayList<Scoring>(scoring);
+
+				if (iScore >= eScore) {
+					value = scoringsList.get(0).getResult();
+					level.setScore(0);
+					levelDao.update(level);
+				} else {
+					value = scoringsList.get(1).getResult();
+					level.setScore(1);
+					levelDao.update(level);
 				}
-			}else if (level.getMaxAnswer() == 4) {
-				
+			} else if (levelId == 61) {// ns
+
+				int index = 0;
 				for (Exercise exercise : level.getExercises()) {
-					switch (exercise.getScore()) {
-					case 1:
-						ans1++;
-						break;
-					case 2:
-						ans2++;
-						break;
-					case 3:
-						ans3++;
-						break;
-					case 4:
-						ans4++;
-						break;
-					case 5:
-						ans5++;
-						break;
-					default:
-						break;
-					}
+					if (exercise.getSelAns() == s[index])
+						sScore += exercise.getScore();
+					else
+						nScore += exercise.getScore();
+					index++;
 				}
-				int max = Math.max(Math.max(Math.max(ans1, ans2), Math.max(ans3, ans4)), ans5);
-				int tmp = 0;
 
-				if (max == ans1)
-					tmp = 1;
-				else if (max == ans2)
-					tmp = 2;
-				else if (max == ans3)
-					tmp = 3;
-				else if (max == ans4)
-					tmp = 4;
-				else
-					tmp = 5;
+				Log.d("my tag", "s=" + sScore + " n=" + nScore + " index="
+						+ index);
+				Collection<Scoring> scoring = level.getScorings();
+				List<Scoring> scoringsList = new ArrayList<Scoring>(scoring);
+				if (nScore >= sScore) {
+					value = scoringsList.get(0).getResult();
+					level.setScore(0);
+					levelDao.update(level);
+				} else {
+					level.setScore(1);
+					levelDao.update(level);
+					value = scoringsList.get(1).getResult();
+				}
+			} else if (levelId == 62) {// tf
 
-				for (Scoring myScore : level.getScorings()) {
-					int sel = myScore.getSelectedAnswer();
-					if (tmp == sel) {
-						value = myScore.getResult();
-						break;
-					}
+				int index = 0;
+				for (Exercise exercise : level.getExercises()) {
+					if (exercise.getSelAns() == t[index])
+						tScore += exercise.getScore();
+					else
+						fScore += exercise.getScore();
+					index++;
+				}
+
+				Log.d("my tag", "t=" + tScore + " f=" + fScore + " index="
+						+ index);
+				Collection<Scoring> scoring = level.getScorings();
+				List<Scoring> scoringsList = new ArrayList<Scoring>(scoring);
+				if (fScore >= tScore) {
+					level.setScore(0);
+					levelDao.update(level);
+					value = scoringsList.get(0).getResult();
+				} else {
+					level.setScore(1);
+					levelDao.update(level);
+					value = scoringsList.get(1).getResult();
+				}
+			} else if (levelId == 63) {// jp
+
+				int index = 0;
+				for (Exercise exercise : level.getExercises()) {
+					if (exercise.getSelAns() == j[index])
+						jScore += exercise.getScore();
+					else
+						pScore += exercise.getScore();
+					index++;
+				}
+
+				Log.d("my tag", "j=" + jScore + " p=" + pScore + " index="
+						+ index);
+				Collection<Scoring> scoring = level.getScorings();
+				List<Scoring> scoringsList = new ArrayList<Scoring>(scoring);
+				if (pScore >= jScore) {
+					value = scoringsList.get(0).getResult();
+					level.setScore(0);
+					levelDao.update(level);
+				} else {
+					level.setScore(1);
+					levelDao.update(level);
+					value = scoringsList.get(1).getResult();
 				}
 			}
-		} else {
 
-			for (Scoring myScore : level.getScorings()) {
-				int min = myScore.getMinVal();
-				int max = myScore.getMaxVal();
-				if (score >= min && score <= max) {
-					value = myScore.getResult();
-					break;
+		} else {
+			if (level.getMostSelected()) {
+				if (level.getMaxAnswer() == 4) {
+
+					for (Exercise exercise : level.getExercises()) {
+						switch (exercise.getScore()) {
+						case 1:
+							ans1++;
+							break;
+						case 2:
+							ans2++;
+							break;
+						case 3:
+							ans3++;
+							break;
+						case 4:
+							ans4++;
+							break;
+						default:
+							break;
+						}
+					}
+					int max = Math.max(Math.max(ans1, ans2),
+							Math.max(ans3, ans4));
+					int tmp = 0;
+
+					if (max == ans1)
+						tmp = 1;
+					else if (max == ans2)
+						tmp = 2;
+					else if (max == ans3)
+						tmp = 3;
+					else
+						tmp = 4;
+
+					for (Scoring myScore : level.getScorings()) {
+						int sel = myScore.getSelectedAnswer();
+						if (tmp == sel) {
+							value = myScore.getResult();
+							break;
+						}
+					}
+				} else if (level.getMaxAnswer() == 4) {
+
+					for (Exercise exercise : level.getExercises()) {
+						switch (exercise.getScore()) {
+						case 1:
+							ans1++;
+							break;
+						case 2:
+							ans2++;
+							break;
+						case 3:
+							ans3++;
+							break;
+						case 4:
+							ans4++;
+							break;
+						case 5:
+							ans5++;
+							break;
+						default:
+							break;
+						}
+					}
+					int max = Math.max(Math.max(Math.max(ans1, ans2),
+							Math.max(ans3, ans4)), ans5);
+					int tmp = 0;
+
+					if (max == ans1)
+						tmp = 1;
+					else if (max == ans2)
+						tmp = 2;
+					else if (max == ans3)
+						tmp = 3;
+					else if (max == ans4)
+						tmp = 4;
+					else
+						tmp = 5;
+
+					for (Scoring myScore : level.getScorings()) {
+						int sel = myScore.getSelectedAnswer();
+						if (tmp == sel) {
+							value = myScore.getResult();
+							break;
+						}
+					}
+				}
+			} else {
+
+				for (Scoring myScore : level.getScorings()) {
+					int min = myScore.getMinVal();
+					int max = myScore.getMaxVal();
+					if (score >= min && score <= max) {
+						value = myScore.getResult();
+						break;
+					}
 				}
 			}
 		}
@@ -190,11 +320,11 @@ public class ScoreActivity extends FullScreenActivity {
 		Bundle b = new Bundle();
 		b.putInt("type", type);
 		b.putInt("sub", sub);
-		
+
 		Intent intent = new Intent(getApplicationContext(),
 				LevelsActivity.class);
 		intent.putExtras(b);
-		
+
 		intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		startActivity(intent);
 	}
@@ -205,9 +335,9 @@ public class ScoreActivity extends FullScreenActivity {
 
 			@Override
 			public void onClick(View v) {
-				level.setScore(0);
+				level.setScore(-1);
 				for (Exercise exercise : level.getExercises()) {
-					exercise.setScore(0);
+					exercise.setScore(-1);
 					exercise.setSolved(false);
 					exerciseDao.update(exercise);
 				}

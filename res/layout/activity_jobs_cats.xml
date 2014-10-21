@@ -30,6 +30,7 @@
             android:layout_weight="4"
             android:gravity="center"
             android:text="@string/app_name"
+            android:visibility="gone"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <Button
@@ -49,6 +50,15 @@
             android:layout_weight="1"
             android:background="@drawable/button_main"
             android:text="@string/job_model2" />
+        
+        <Button
+            android:id="@+id/buttonOthers"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="@dimen/button_margin"
+            android:layout_weight="1"
+            android:background="@drawable/button_main"
+            android:text="@string/job_others" />
     </LinearLayout>
 
     <FrameLayout

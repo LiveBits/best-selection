@@ -83,7 +83,7 @@ public class LevelsActivity extends FullScreenActivity {
 			levels = lvlDao.queryForFieldValues(args);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			//e.printStackTrace();
 		}
 
 		LevelsAdapter adapter = new LevelsAdapter(this, R.layout.list_item_row,
@@ -102,26 +102,30 @@ public class LevelsActivity extends FullScreenActivity {
 	 */
 	@Override
 	public void onBackPressed() {
-		if (type != 3)// not job
+		if (type == 1 || type == 2)// not job
 		{
 			Intent intent = new Intent(getApplicationContext(),
 					CategoriesActivity.class);
 			intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 			startActivity(intent);
-		} else // is job
+		} else if (type == 3)// job - model1
 		{
-			if (sub >= 1 && sub <= 4) //model 1 
-			{
-				
-				Intent intent = new Intent(getApplicationContext(),
-						Model1LevelsActivity.class);
-				intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-				startActivity(intent);
-			}
-			else //model2
-			{
-				
-			}
+			Intent intent = new Intent(getApplicationContext(),
+					Model1LevelsActivity.class);
+			intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+			startActivity(intent);
+		} else if (type == 4)// job - model2
+		{
+			Intent intent = new Intent(getApplicationContext(),
+					Model2LevelsActivity.class);
+			intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+			startActivity(intent);
+		} else if (type == 5)// job - others
+		{
+			Intent intent = new Intent(getApplicationContext(),
+					JobsCategoriesActivity.class);
+			intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+			startActivity(intent);
 		}
 	}
 

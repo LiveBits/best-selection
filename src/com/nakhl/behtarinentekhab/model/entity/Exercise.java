@@ -37,9 +37,8 @@ import com.nakhl.behtarinentekhab.model.enums.AnswerType;
 import com.nakhl.behtarinentekhab.model.enums.QuestionType;
 
 /**
- * This class represents exercise in quiz. It contains
- * question and answers. It is XML element and DB entity in
- * one.
+ * This class represents exercise in quiz. It contains question and answers. It
+ * is XML element and DB entity in one.
  * 
  * @author Maciej Laskowski
  * 
@@ -65,15 +64,20 @@ public class Exercise {
 	@Element
 	@DatabaseField
 	private int score;
-	
+
+	/** Exercise selected answer. */
+	@Element
+	@DatabaseField
+	private int selectedAnswer;
+
 	/** Hint text. */
 	@Element
 	@DatabaseField
 	private String tip;
 
-//	/** Determines if tip was used for this exercise. */
-//	@DatabaseField
-//	private boolean tipUsed;
+	// /** Determines if tip was used for this exercise. */
+	// @DatabaseField
+	// private boolean tipUsed;
 
 	/** The level to which exercise belongs. */
 	@DatabaseField(foreign = true, foreignAutoRefresh = true, columnName = LEVEL_ID_FIELD_NAME)
@@ -114,7 +118,15 @@ public class Exercise {
 	public void setScore(int score) {
 		this.score = score;
 	}
-	
+
+	public int getSelAns() {
+		return selectedAnswer;
+	}
+
+	public void setSelAns(int selectedAnswer) {
+		this.selectedAnswer = selectedAnswer;
+	}
+
 	public boolean isSolved() {
 		return solved;
 	}
@@ -131,13 +143,13 @@ public class Exercise {
 		this.tip = tip;
 	}
 
-//	public boolean isTipUsed() {
-//		return tipUsed;
-//	}
-//
-//	public void setTipUsed(boolean tipUsed) {
-//		this.tipUsed = tipUsed;
-//	}
+	// public boolean isTipUsed() {
+	// return tipUsed;
+	// }
+	//
+	// public void setTipUsed(boolean tipUsed) {
+	// this.tipUsed = tipUsed;
+	// }
 
 	public Level getLevel() {
 		return level;
@@ -181,9 +193,10 @@ public class Exercise {
 
 	@Override
 	public String toString() {
-		return "Exercise [id=" + id + ", solved=" + solved + ", score=" + score + ", tip=" + tip
-				+ ", questionType=" + questionType + ", question=" + question + ", answerType=" + answerType
-				+ ", answers=" + answers + "]";
+		return "Exercise [id=" + id + ", solved=" + solved + ", score=" + score
+				+ ", selectedAnswer=" + selectedAnswer + ", tip=" + tip
+				+ ", questionType=" + questionType + ", question=" + question
+				+ ", answerType=" + answerType + ", answers=" + answers + "]";
 	}
 
 }

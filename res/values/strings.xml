@@ -8,17 +8,19 @@
     <string name="xml_prefix">q_</string>
     <string name="xml_model1_prefix">jobs_</string>
     <string name="start_quiz">Start game</string>
-    <string name="self_cat">Self</string>
+    <string name="self_cat">Personality</string>
     <string name="marry_cat">Marriage</string>
     <string name="job_cat">Job</string>
     <string name="job_model1">Halland model</string>
     <string name="job_model2">MITB model</string>
+    <string name="job_others">Others</string>
     <string name="job_model1_activities">Activities</string>
     <string name="job_model1_expriences">Expriences</string>
     <string name="job_model1_jobs">Jobs</string>
     <string name="job_model1_self_det">Self det.</string>
     <string name="job_model1_explain">Explain</string>
     <string name="job_model1_result">Result</string>
+    <string name="job_model2_tests">Tests</string>
     <string name="about_app">about_app</string>
     <string name="app_setting">setting</string>
     <string name="check_more_games">Check more games</string>
@@ -56,12 +58,16 @@
     <string name="ok_button_dlg">Ok</string>
     
     <string name="model1_result_title">تیپ شخصیتی شما</string>
+    <string name="model1_result_type">نوع شخصیت شما</string>
     <string name="model1_result_letter1">تیپ اول</string>
     <string name="model1_result_letter2">تیپ دوم</string>
     <string name="model1_result_letter3">تیپ سوم</string>
     <string name="model1_education">تحصیلات</string>
     <string name="model1_result_priority">مشاغل مناسب برای شما بر حسب اولویت (از زیاد به کم)</string>
-    <string name="model1_result_jobs">لیست مشاغل</string>    
+    <string name="model1_result_jobs">لیست مشاغل</string>
+    <string name="model2_rezaiat">فعالیت های لازم برای کسب رضایت شغلی</string>
+    <string name="model2_rezaiat_activities">فعالیت های لازم</string>
+    <string name="model2_jobs_title">مشاغل مناسب</string>    
     
     <!-- Do not change during translation -->
     <string name="exercise_answers_buttons_weight">6</string>

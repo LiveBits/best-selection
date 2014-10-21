@@ -24,14 +24,15 @@ import com.nakhl.behtarinentekhab.R;
  */
 public class JobsCategoriesActivity extends FullScreenActivity {
 
-	/** Start button. */
 	@InjectView(R.id.buttonType1)
 	private Button buttonType1;
 
-	/** More games button. */
 	@InjectView(R.id.buttonType2)
 	private Button buttonType2;
 
+	@InjectView(R.id.buttonOthers)
+	private Button buttonothers;
+	
 	/*
 	 * (non-Javadoc)
 	 * 
@@ -81,9 +82,26 @@ public class JobsCategoriesActivity extends FullScreenActivity {
 			public void onClick(View v) {
 				
 				Intent intent = new Intent(getApplicationContext(),
-						LevelsActivity.class);
+						Model2LevelsActivity.class);
 				
 				startActivity(intent);
+			}
+		});
+		
+		buttonothers.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				
+				Bundle b = new Bundle();
+				b.putInt("type", 5);
+				b.putInt("sub", 0);
+
+				Intent intent = new Intent(getApplicationContext(),
+						LevelsActivity.class);
+				intent.putExtras(b);
+
+				//startActivity(intent);
 			}
 		});
 

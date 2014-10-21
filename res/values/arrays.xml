@@ -30,4 +30,42 @@
         <item name="6">6: دوره دكتراي تخصصي و فوق دكترا و دوره هاي معادل</item>
         <item name="7">7: دوره هاي آموزشي غير رسمي</item>
     </string-array>
+    
+    <string-array name="accordion_sections">
+        <item>ESFJ (پشتیبانان)</item>
+        <item>ESTJ (سرپرست ها)</item>
+        <item>ISFJ (حامیان)</item>
+        <item>ISTJ (بازرسان)</item>
+        <item>ESTP (استدلالگران)</item>
+        <item>ESFP (مجریان)</item>
+        <item>ISFP (هنرمندان)</item>
+        <item>ISTP (صنعتگران)</item>
+        <item>ENTJ (ژنرال ها)</item>
+        <item>ENTP (مخترعان)</item>
+        <item>INTJ (استراتژیست ها)</item>
+        <item>INTP (مهندسین)</item>
+        <item>ENFP (قهرمانان)</item>
+        <item>ENFJ (معلمان)</item>
+        <item>INFJ (مشاوران)</item>
+        <item>INFP (شفادهندگان)</item>
+    </string-array>
+
+    <integer-array name="accordion_visibility">
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>        
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
 </resources>

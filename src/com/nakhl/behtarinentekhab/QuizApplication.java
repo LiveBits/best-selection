@@ -36,7 +36,7 @@ import android.content.Context;
  * 
  */
 //@ReportsCrashes(formKey = "", 
-//				mailTo = "mlaskowsk@gmail.com", 
+//				mailTo = "nakhl.dev.group@gmail.com", 
 //				customReportContent = { ReportField.ANDROID_VERSION, ReportField.BRAND, ReportField.PHONE_MODEL, ReportField.STACK_TRACE, ReportField.LOGCAT },
 //				logcatArguments = {"-t", "1000", "-v", "time"})
 public class QuizApplication extends Application {
